@@ -1,0 +1,76 @@
+# INPUT DATA:
+
+# TEST_1:
+Pichu
+Pichu
+Tyrogue
+Pichu
+Combee
+Marill
+Tyrogue
+
+# TEST_2:
+Tyrogue
+Pichu
+Combee
+
+# TEST_3:
+Combee
+Combee
+Marill
+Marill
+Pichu
+Pichu
+Tyrogue
+Tyrogue
+
+# TEST_4:
+Combee
+Pichu
+Tyrogue
+Marill
+Marill
+Marill
+Marill
+Marill
+Marill
+Marill
+
+# TEST_5:
+Combee
+Combee
+Combee
+Combee
+Combee
+Combee
+Combee
+Combee
+Combee
+Combee
+
+# TEST_6:
+Combee
+Pichu
+Tyrogue
+Marill
+Combee
+Pichu
+Tyrogue
+Marill
+Combee
+Pichu
+Tyrogue
+Marill
+Combee
+Pichu
+Tyrogue
+Marill
+Combee
+Pichu
+Tyrogue
+Marill
+Combee
+Pichu
+Tyrogue
+Marill
+

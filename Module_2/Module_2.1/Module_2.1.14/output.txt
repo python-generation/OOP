@@ -1,0 +1,71 @@
+# OUTPUT DATA:
+
+# TEST_1:
+True
+
+# TEST_2:
+True
+
+# TEST_3:
+False
+
+# TEST_4:
+False
+
+# TEST_5:
+False
+
+# TEST_6:
+False
+
+# TEST_7:
+False
+
+# TEST_8:
+False
+
+# TEST_9:
+True
+
+# TEST_10:
+True
+
+# TEST_11:
+False
+
+# TEST_12:
+True
+
+# TEST_13:
+False
+
+# TEST_14:
+False
+
+# TEST_15:
+False
+
+# TEST_16:
+False
+
+# TEST_17:
+False
+
+# TEST_18:
+False
+
+# TEST_19:
+False
+
+# TEST_20:
+False
+
+# TEST_21:
+True
+
+# TEST_22:
+False
+
+# TEST_23:
+False
+

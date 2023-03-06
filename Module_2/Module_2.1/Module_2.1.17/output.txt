@@ -1,0 +1,29 @@
+# OUTPUT DATA:
+
+# TEST_1:
+40
+
+# TEST_2:
+5
+
+# TEST_3:
+{'d': {'e': 4}}
+
+# TEST_4:
+None
+
+# TEST_5:
+{'d': 3}
+
+# TEST_6:
+{'e': 4}
+
+# TEST_7:
+4
+
+# TEST_8:
+3
+
+# TEST_9:
+0
+

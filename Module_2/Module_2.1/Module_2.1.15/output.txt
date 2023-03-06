@@ -1,0 +1,35 @@
+# OUTPUT DATA:
+
+# TEST_1:
+1 0 2 0 3
+
+# TEST_2:
+b ! e ! e ! g ! e ! e ! k
+
+# TEST_3:
+A
+
+# TEST_4:
+0 > 1 > 2 > 3 > 4
+
+# TEST_5:
+B + e + e + g + e + e + k
+
+# TEST_6:
+B --- e
+
+# TEST_7:
+
+
+# TEST_8:
+b     e     e     g     e     e     k
+
+# TEST_9:
+[0, -1, 1, -1, 2, -1, 3, -1, 4]
+
+# TEST_10:
+[0, '!!!', 1, '!!!', 2, '!!!', 3, '!!!', 4]
+
+# TEST_11:
+['John Warner Backus', '—', 5, '—', 'Niklaus Emil Wirth', '—', True, '—', 'Lawrence Gordon Tesler', '—', None, '—', {1, 2, 3}, '—', {'hello': 'world'}]
+

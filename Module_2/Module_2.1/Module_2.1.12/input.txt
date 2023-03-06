@@ -1,0 +1,41 @@
+# INPUT DATA:
+
+# TEST_1:
+print(is_integer('199'))
+
+# TEST_2:
+print(is_integer('-43'))
+
+# TEST_3:
+print(is_integer('5f'))
+
+# TEST_4:
+print(is_integer('5.0'))
+
+# TEST_5:
+print(is_integer('1.1'))
+
+# TEST_6:
+print(is_integer('1-1'))
+
+# TEST_7:
+print(is_integer('58593485349483423'))
+
+# TEST_8:
+print(is_integer('585934853t49483423'))
+
+# TEST_9:
+print(is_integer('1-2-3'))
+
+# TEST_10:
+print(is_integer('5-'))
+
+# TEST_11:
+print(is_integer('-p'))
+
+# TEST_12:
+print(is_integer('1111111111'))
+
+# TEST_13:
+print(is_integer('--9'))
+

@@ -1,0 +1,56 @@
+# INPUT DATA:
+
+# TEST_1:
+1
+
+# TEST_2:
+2
+
+# TEST_3:
+3
+
+# TEST_4:
+4
+
+# TEST_5:
+5
+
+# TEST_6:
+6
+
+# TEST_7:
+7
+
+# TEST_8:
+8
+
+# TEST_9:
+9
+
+# TEST_10:
+10
+
+# TEST_11:
+11
+
+# TEST_12:
+12
+
+# TEST_13:
+13
+
+# TEST_14:
+14
+
+# TEST_15:
+15
+
+# TEST_16:
+16
+
+# TEST_17:
+17
+
+# TEST_18:
+18
+
