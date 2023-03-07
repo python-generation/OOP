@@ -1,0 +1,28 @@
+# INPUT DATA:
+
+# TEST_1:
+bee = Bee()
+
+print(bee.x, bee.y)
+
+# TEST_2:
+bee = Bee()
+
+bee.move_up(1)
+bee.move_right(1)
+bee.move_down(1)
+bee.move_left(1)
+
+print(bee.x, bee.y)
+
+# TEST_3:
+bee = Bee()
+
+bee.move_right(2)
+bee.move_right(2)
+bee.move_up(3)
+bee.move_left(1)
+bee.move_down(1)
+
+print(bee.x, bee.y)
+

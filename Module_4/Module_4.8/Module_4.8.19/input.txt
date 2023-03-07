@@ -1,0 +1,45 @@
+# INPUT DATA:
+
+# TEST_1:
+birthinfo1 = BirthInfo('2020-09-18')
+birthinfo2 = BirthInfo(date(2010, 10, 10))
+birthinfo3 = BirthInfo([2016, 1, 1])
+
+print(birthinfo1.birth_date)
+print(birthinfo2.birth_date)
+print(birthinfo3.birth_date)
+
+# TEST_2:
+birthday = date(2020, 9, 18)
+today = date.today()
+birthinfo = BirthInfo(birthday)
+true_age = current_age(birthday, today)
+
+print(birthinfo.age == true_age)
+
+# TEST_3:
+birthinfo1 = BirthInfo('2020-09-18')
+birthinfo2 = BirthInfo(date(2010, 10, 10))
+birthinfo3 = BirthInfo([2016, 1, 1])
+
+print(type(birthinfo1.birth_date))
+print(type(birthinfo2.birth_date))
+print(type(birthinfo3.birth_date))
+
+# TEST_4:
+birthday = date(2023, 3, 6)
+today = date.today()
+birthinfo = BirthInfo(birthday)
+true_age = current_age(birthday, today)
+
+print(birthinfo.age == true_age)
+
+# TEST_5:
+errors = [20200918, True, {1: 'one'}, {1, 2, 3}, 100.9]
+
+for obj in errors:
+    try:
+        BirthInfo(obj)
+    except TypeError as e:
+        print(e)
+

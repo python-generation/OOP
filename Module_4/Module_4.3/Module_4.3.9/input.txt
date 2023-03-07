@@ -1,0 +1,32 @@
+# INPUT DATA:
+
+# TEST_1:
+scales = Scales()
+
+scales.add_right(1)
+scales.add_right(1)
+scales.add_left(2)
+
+print(scales.get_result())
+
+# TEST_2:
+scales = Scales()
+
+scales.add_right(1)
+scales.add_left(2)
+
+print(scales.get_result())
+
+# TEST_3:
+scales = Scales()
+
+scales.add_right(2)
+scales.add_left(1)
+
+print(scales.get_result())
+
+# TEST_4:
+scales = Scales()
+
+print(scales.get_result())
+

@@ -1,0 +1,71 @@
+# INPUT DATA:
+
+# TEST_1:
+polynom = QuadraticPolynomial(1, 2, -3)
+
+print(polynom.a)
+print(polynom.b)
+print(polynom.c)
+
+# TEST_2:
+polynom = QuadraticPolynomial(1, 2, -3)
+
+print(polynom.x1)
+print(polynom.x2)
+
+# TEST_3:
+polynom = QuadraticPolynomial(1, 2, -3)
+
+print(polynom.view)
+print(polynom.coefficients)
+
+# TEST_4:
+polynom = QuadraticPolynomial(1, 2, -3)
+
+polynom.coefficients = (1, -5, 6)
+print(polynom.x1)
+print(polynom.x2)
+print(polynom.view)
+
+# TEST_5:
+polynom = QuadraticPolynomial(1, 2, -3)
+
+polynom.coefficients = (1, -5, 0)
+print(polynom.x1)
+print(polynom.x2)
+print(polynom.view)
+
+# TEST_6:
+polynom = QuadraticPolynomial(1, 2, -3)
+
+polynom.coefficients = (1, 0, -9)
+print(polynom.x1)
+print(polynom.x2)
+print(polynom.view)
+
+# TEST_7:
+polynom = QuadraticPolynomial(1, 2, -3)
+
+polynom.coefficients = (5, 0, 0)
+print(polynom.x1)
+print(polynom.x2)
+print(polynom.view)
+
+# TEST_8:
+polynom = QuadraticPolynomial(500, -601, 101)
+
+print(polynom.a, polynom.b, polynom.c)
+print(polynom.x1)
+print(polynom.x2)
+print(polynom.coefficients)
+print(polynom.view)
+
+print()
+
+polynom.coefficients = (-1000, 1202, -202)
+print(polynom.a, polynom.b, polynom.c)
+print(polynom.x1)
+print(polynom.x2)
+print(polynom.coefficients)
+print(polynom.view)
+

@@ -1,0 +1,44 @@
+# INPUT DATA:
+
+# TEST_1:
+wordplay = Wordplay()
+
+print(wordplay.words)
+wordplay.add_word('bee')
+wordplay.add_word('geek')
+print(wordplay.words)
+
+# TEST_2:
+wordplay = Wordplay(['bee', 'geek', 'cool', 'stepik'])
+
+wordplay.add_word('python')
+print(wordplay.words_with_length(4))
+
+# TEST_3:
+wordplay = Wordplay(['o', 'to', 'otto', 'top', 't'])
+
+print(wordplay.only('o', 't'))
+
+# TEST_4:
+wordplay = Wordplay(['a', 'arthur', 'timur', 'bee', 'geek', 'python', 'stepik'])
+
+print(wordplay.avoid('a', 'b', 'c'))
+
+# TEST_5:
+wordplay = Wordplay()
+print(wordplay.words)
+
+# TEST_6:
+wordplay = Wordplay(['Тьюринг', 'Торвальдс', 'Россум', 'Гейтс', 'Гамильтон', 'Бэкус', 'Кнут'])
+
+print(wordplay.words_with_length(6))
+print(wordplay.avoid('ь'))
+
+# TEST_7:
+words = ['Лейбниц', 'Бэббидж', 'Нейман', 'Джобс', 'да_Винчи', 'Касперский']
+wordplay = Wordplay(words)
+
+words.extend(['Гуев', 'Харисов', 'Светкин'])
+print(words)
+print(wordplay.words)
+

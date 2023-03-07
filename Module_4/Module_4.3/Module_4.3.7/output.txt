@@ -1,0 +1,21 @@
+# OUTPUT DATA:
+
+# TEST_1:
+pif
+
+# TEST_2:
+pif
+paf
+pif
+paf
+
+# TEST_3:
+pif
+pif
+paf
+paf
+pif
+pif
+paf
+paf
+

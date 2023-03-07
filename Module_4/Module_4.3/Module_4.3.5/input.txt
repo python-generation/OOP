@@ -1,0 +1,20 @@
+# INPUT DATA:
+
+# TEST_1:
+circle = Circle(1)
+
+print(circle.radius)
+
+# TEST_2:
+circle = Circle(5)
+
+print(circle.radius)
+print(circle.diameter)
+print(circle.area)
+
+# TEST_3:
+circle = Circle(20)
+print(hasattr(circle, 'radius'))
+print(hasattr(circle, 'diameter'))
+print(hasattr(circle, 'area'))
+

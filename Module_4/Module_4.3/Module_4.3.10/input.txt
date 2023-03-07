@@ -1,0 +1,20 @@
+# INPUT DATA:
+
+# TEST_1:
+vector = Vector()
+
+print(vector.x, vector.y)
+print(vector.abs())
+
+# TEST_2:
+vector = Vector(3, 4)
+
+print(vector.x, vector.y)
+print(vector.abs())
+
+# TEST_3:
+vector = Vector(18, 23)
+
+print(vector.x, vector.y)
+print(vector.abs())
+

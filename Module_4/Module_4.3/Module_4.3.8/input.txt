@@ -1,0 +1,96 @@
+# INPUT DATA:
+
+# TEST_1:
+gun = Gun()
+
+print(gun.shots_count())
+gun.shoot()
+print(gun.shots_count())
+gun.shoot()
+print(gun.shots_count())
+
+# TEST_2:
+gun = Gun()
+
+gun.shoot()
+gun.shoot()
+print(gun.shots_count())
+gun.shots_reset()
+print(gun.shots_count())
+gun.shoot()
+print(gun.shots_count())
+
+# TEST_3:
+gun = Gun()
+
+gun.shoot()
+gun.shoot()
+gun.shoot()
+gun.shoot()
+print(gun.shots_count())
+gun.shots_reset()
+print(gun.shots_count())
+
+# TEST_4:
+gun = Gun()
+
+print(gun.shots_count())
+gun.shots_reset()
+print(gun.shots_count())
+gun.shots_reset()
+print(gun.shots_count())
+gun.shots_reset()
+print(gun.shots_count())
+gun.shoot()
+print(gun.shots_count())
+gun.shoot()
+print(gun.shots_count())
+gun.shoot()
+print(gun.shots_count())
+gun.shoot()
+print(gun.shots_count())
+gun.shoot()
+print(gun.shots_count())
+
+# TEST_5:
+gun1 = Gun()
+gun2 = Gun()
+
+gun1.shoot()
+gun1.shoot()
+gun1.shoot()
+gun1.shoot()
+print(gun1.shots_count())
+print(gun2.shots_count())
+gun2.shoot()
+gun2.shoot()
+gun2.shoot()
+gun2.shoot()
+gun2.shoot()
+print(gun1.shots_count())
+print(gun2.shots_count())
+
+# TEST_6:
+gun1 = Gun()
+gun2 = Gun()
+
+gun1.shoot()
+gun1.shoot()
+gun1.shoot()
+gun1.shoot()
+print(gun1.shots_count())
+print(gun2.shots_count())
+gun1.shots_reset()
+print(gun1.shots_count())
+print(gun2.shots_count())
+gun2.shoot()
+gun2.shoot()
+gun2.shoot()
+gun2.shoot()
+gun2.shoot()
+print(gun1.shots_count())
+print(gun2.shots_count())
+gun1.shots_reset()
+print(gun1.shots_count())
+print(gun2.shots_count())
+

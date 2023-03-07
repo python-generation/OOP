@@ -1,0 +1,34 @@
+# INPUT DATA:
+
+# TEST_1:
+person = Person('Меган', 'Фокс')
+
+print(person.name)
+print(person.surname)
+print(person.fullname)
+
+# TEST_2:
+person = Person('Меган', 'Фокс')
+
+person.name = 'Стефани'
+print(person.fullname)
+
+# TEST_3:
+person = Person('Алан', 'Тьюринг')
+
+person.surname = 'Вирт'
+print(person.fullname)
+
+# TEST_4:
+person = Person('Джон', 'Маккарти')
+
+person.fullname = 'Алан Тьюринг'
+print(person.name)
+print(person.surname)
+
+# TEST_5:
+person = Person('Брайан', 'Керниган')
+print(hasattr(person, 'name'))
+print(hasattr(person, 'surname'))
+print(hasattr(person, 'fullname'))
+

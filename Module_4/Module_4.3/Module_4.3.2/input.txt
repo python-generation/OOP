@@ -1,0 +1,23 @@
+# INPUT DATA:
+
+# TEST_1:
+gun = Gun()
+
+gun.shoot()
+
+# TEST_2:
+gun = Gun()
+
+gun.shoot()
+gun.shoot()
+gun.shoot()
+
+# TEST_3:
+gun1 = Gun()
+gun2 = Gun()
+
+gun1.shoot()
+gun2.shoot()
+gun1.shoot()
+gun2.shoot()
+

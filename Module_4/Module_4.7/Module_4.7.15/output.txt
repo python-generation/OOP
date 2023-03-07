@@ -1,0 +1,29 @@
+# OUTPUT DATA:
+
+# TEST_1:
+Pthn
+Stpk
+
+# TEST_2:
+Python
+Stepik
+
+# TEST_3:
+-y-ho-
+S#epi#
+
+# TEST_4:
+Sccss s th blt t g frm flr t flr wtht lsng r nthssm.
+SCCSS S TH BLT T G FRM FLR T FLR WTHT LSNG R NTHSSM.
+
+# TEST_5:
+beegeekBEEGEEK
+beegeekBEEGEEK
+
+# TEST_6:
+ lv n  hs nr th mntns.  hv tw brthrs nd n sstr, nd  ws brn lst. M fthr tchs mthmtcs, nd m mthr s  nrs t  bg hsptl. M brthrs r vr smrt nd wrk hrd n schl. M sstr s  nrvs grl, bt sh s vr knd. M grndmthr ls lvs wth s. Sh cm frm tl whn  ws tw rs ld. Sh hs grwn ld, bt sh s stll vr strng. Sh cks th bst fd!
+M fml s vr mprtnt t m. W d lts f thngs tgthr. M brthrs nd  lk t g n lng wlks n th mntns. M sstr lks t ck wth m grndmthr. n th wknds w ll pl brd gms tgthr. W lgh nd lws hv  gd tm.  lv m fml vr mch.
+IliveinahousenearthemountainsIhavetwobrothersandonesisterandIwasbornlastMyfatherteachesmathematicsandmymotherisanurseatabighospitalMybrothersareverysmartandworkhardinschoolMysisterisanervousgirlbutsheisverykindMygrandmotheralsoliveswithusShecamefromItalywhenIwastwoyearsoldShehasgrownoldbutsheisstillverystrongShecooksthebestfoodMyfamilyisveryimportanttomeWedolotsofthingstogetherMybrothersandIliketogoonlongwalksinthemountainsMysisterlikestocookwithmygrandmotherOntheweekendsweallplayboardgamestogetherWelaughandalwayshaveagoodtimeIlovemyfamilyverymuch
+I       . I      ,  I   . M   ,          . M         . M     ,     . M     . S   I  I    . S   ,      . S    !
+M      . W     . M   I         . M       . O        . W       . I     .
+

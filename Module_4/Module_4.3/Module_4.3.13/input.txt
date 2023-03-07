@@ -1,0 +1,52 @@
+# INPUT DATA:
+
+# TEST_1:
+todo = Todo()
+
+print(todo.things)
+
+# TEST_2:
+todo = Todo()
+
+todo.add('Проснуться', 3)
+todo.add('Помыться', 2)
+todo.add('Поесть', 2)
+
+print(todo.get_by_priority(2))
+
+# TEST_3:
+todo = Todo()
+
+todo.add('Ответить на вопросы', 5)
+todo.add('Сделать картинки', 1)
+todo.add('Доделать задачи', 4)
+todo.add('Дописать конспект', 5)
+
+print(todo.get_low_priority())
+print(todo.get_high_priority())
+
+# TEST_4:
+todo = Todo()
+
+todos = [
+    'Выбрать хостинг для своего сайта',
+    'Записаться к стоматологу',
+    'Записаться на курсы английского',
+    'Навести порядок на кухне',
+    'Подготовить одежду к лету',
+    'Подготовиться к выступлению в понедельние',
+    'Помыть машину',
+    'Пропылесосить ковры',
+    'Свозить Кемаля к ветеринару',
+    'Сходить в парикмахерскую',
+    'Посетить выставку камней'
+]
+
+priorities = [4, 1, 2, 5, 2, 5, 5, 3, 3, 3, 4]
+for t, p in zip(todos, priorities):
+    todo.add(t, p)
+
+print(todo.get_by_priority(3))
+print(todo.get_low_priority())
+print(todo.get_high_priority())
+

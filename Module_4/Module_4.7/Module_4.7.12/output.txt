@@ -1,0 +1,58 @@
+# OUTPUT DATA:
+
+# TEST_1:
+4
+5
+
+# TEST_2:
+5
+5
+
+# TEST_3:
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+
+# TEST_4:
+Длина = 99, Ширина = 297
+Длина = 215, Ширина = 472
+Длина = 270, Ширина = 80
+Длина = 453, Ширина = 215
+Длина = 333, Ширина = 360
+Длина = 52, Ширина = 426
+Длина = 307, Ширина = 257
+Длина = 425, Ширина = 493
+Длина = 291, Ширина = 437
+Длина = 57, Ширина = 415
+
+# TEST_5:
+True
+True
+

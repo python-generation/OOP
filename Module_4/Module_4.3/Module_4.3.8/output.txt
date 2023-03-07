@@ -1,0 +1,75 @@
+# OUTPUT DATA:
+
+# TEST_1:
+0
+pif
+1
+paf
+2
+
+# TEST_2:
+pif
+paf
+2
+0
+pif
+1
+
+# TEST_3:
+pif
+paf
+pif
+paf
+4
+0
+
+# TEST_4:
+0
+0
+0
+0
+pif
+1
+paf
+2
+pif
+3
+paf
+4
+pif
+5
+
+# TEST_5:
+pif
+paf
+pif
+paf
+4
+0
+pif
+paf
+pif
+paf
+pif
+4
+5
+
+# TEST_6:
+pif
+paf
+pif
+paf
+4
+0
+0
+0
+pif
+paf
+pif
+paf
+pif
+0
+5
+0
+5
+

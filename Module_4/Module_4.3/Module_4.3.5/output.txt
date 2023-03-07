@@ -1,0 +1,15 @@
+# OUTPUT DATA:
+
+# TEST_1:
+1
+
+# TEST_2:
+5
+10
+78.53981633974483
+
+# TEST_3:
+True
+True
+True
+

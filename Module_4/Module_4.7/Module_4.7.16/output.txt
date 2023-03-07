@@ -1,0 +1,63 @@
+# OUTPUT DATA:
+
+# TEST_1:
+True
+True
+False
+False
+
+# TEST_2:
+False
+False
+True
+True
+
+# TEST_3:
+beegeek
+bee_geek
+
+# TEST_4:
+Beegeek
+BeeGeek
+
+# TEST_5:
+True
+True
+False
+False
+False
+False
+True
+True
+True
+
+# TEST_6:
+False
+False
+False
+False
+False
+False
+False
+False
+False
+True
+True
+
+# TEST_7:
+assert_equal
+set_up
+tear_down
+add_module_cleanup
+assert_raises_regex
+assert_almost_equal
+assert_not_almost_equal
+
+# TEST_8:
+AssertEqual
+TearDown
+AssertRaisesRegex
+AssertAlmostEqual
+AssertNotAlmostEqual
+Beegeek
+

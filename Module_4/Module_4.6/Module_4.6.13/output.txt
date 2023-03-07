@@ -1,0 +1,22 @@
+# OUTPUT DATA:
+
+# TEST_1:
+Mike
+Pondsmith
+Mike Pondsmith
+
+# TEST_2:
+Troy Pondsmith
+
+# TEST_3:
+Mike Baker
+
+# TEST_4:
+Troy
+Baker
+
+# TEST_5:
+True
+True
+True
+

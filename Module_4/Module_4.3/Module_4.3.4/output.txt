@@ -1,0 +1,18 @@
+# OUTPUT DATA:
+
+# TEST_1:
+white
+4
+
+# TEST_2:
+black
+5
+
+# TEST_3:
+yellow 15
+black 3
+
+# TEST_4:
+black
+6
+

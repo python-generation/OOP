@@ -1,0 +1,35 @@
+# INPUT DATA:
+
+# TEST_1:
+account = Account('hannymad', 'cakeisalie')
+
+print(account.login)
+print(account.password)
+
+# TEST_2:
+account = Account('timyr-guev', 'lovebeegeek')
+
+print(account.password)
+account.password = 'verylovebeegeek'
+print(account.password)
+
+# TEST_3:
+account = Account('timyr-guev', 'lovebeegeek')
+try:
+    account.login = 'timyrik30'
+except AttributeError as e:
+    print(e)
+
+# TEST_4:
+account = Account('svvaliv', 'no_one_will_know_my_password')
+try:
+    account.login = 'vzohan'
+except AttributeError as e:
+    print(e)
+
+# TEST_5:
+account = Account('gvido', 'van_rossum')
+
+print(hasattr(account, 'login'))
+print(hasattr(account, 'password'))
+
