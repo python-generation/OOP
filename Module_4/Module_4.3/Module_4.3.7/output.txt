@@ -19,3 +19,23 @@ pif
 paf
 paf
 
+# TEST_4:
+pif
+pif
+paf
+paf
+pif
+pif
+paf
+paf
+pif
+pif
+paf
+paf
+pif
+pif
+paf
+pif
+paf
+paf
+

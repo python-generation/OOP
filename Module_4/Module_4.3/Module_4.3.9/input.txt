@@ -30,3 +30,18 @@ scales = Scales()
 
 print(scales.get_result())
 
+# TEST_5:
+scales = Scales()
+
+array = [33, 66, 98, 28, 83, 19, 9, 2, 60, 67, 92, 60, 73, 87, 32, 63, 9, 94, 28, 96]
+right = True
+
+for item in array:
+    if right:
+        scales.add_right(item)
+    else:
+        scales.add_left(item)
+    right = not right
+
+print(scales.get_result())
+
