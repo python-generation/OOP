@@ -45,3 +45,11 @@ d = {'a': {'b': 5, 'z': 20}, 'c': {'d': 3}, 'x': 40}
 
 print(pluck(d, 'z', 0))
 
+# TEST_10:
+d = {'firstname': 'Тимур', 'lastname': 'Гуев', 'birthdate': {'day': 10, 'month': 'October', 'year': 1993},
+     'address': {'streetaddress': 'Часовая 25, кв. 127',
+                 'city': {'region': 'Московская область', 'type': 'город', 'cityname': 'Москва'},
+                 'postalcode': '125315'}}
+
+print(pluck(d, 'birthdate.weekday', default='Not found'))
+
