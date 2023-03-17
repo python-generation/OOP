@@ -1,0 +1,63 @@
+# OUTPUT DATA:
+
+# TEST_1:
+XII
+12
+
+# TEST_2:
+IV
+4
+
+# TEST_3:
+False
+False
+True
+False
+True
+
+# TEST_4:
+True
+False
+False
+True
+True
+
+# TEST_5:
+MMCDXLVII
+2447
+
+# TEST_6:
+I
+1
+
+# TEST_7:
+II 2
+XV 15
+C 100
+X 10
+XX 20
+LXX 70
+DLXXII 572
+MMMCMLXXXV 3985
+
+# TEST_8:
+I 1
+V 5
+XL 40
+L 50
+D 500
+XXI 21
+LXXXII 82
+MCMXLI 1941
+
+# TEST_9:
+I 1
+IV 4
+IX 9
+XII 12
+XXV 25
+XLV 45
+LXIX 69
+XC 90
+CDXLVIII 448
+

@@ -1,0 +1,68 @@
+# INPUT DATA:
+
+# TEST_1:
+number = RomanNumeral('IV') + RomanNumeral('VIII')
+
+print(number)
+print(int(number))
+
+# TEST_2:
+number = RomanNumeral('X') - RomanNumeral('VI')
+
+print(number)
+print(int(number))
+
+# TEST_3:
+a = RomanNumeral('X')
+b = RomanNumeral('XII')
+
+print(a == b)
+print(a > b)
+print(a < b)
+print(a >= b)
+print(a <= b)
+
+# TEST_4:
+a = RomanNumeral('X')
+b = RomanNumeral('X')
+
+print(a == b)
+print(a > b)
+print(a < b)
+print(a >= b)
+print(a <= b)
+
+# TEST_5:
+number = RomanNumeral('MXL') + RomanNumeral('MCDVIII') - RomanNumeral('I')
+
+print(number)
+print(int(number))
+
+# TEST_6:
+number = RomanNumeral('I') + RomanNumeral('II') + RomanNumeral('III') - RomanNumeral('V') 
+
+print(number)
+print(int(number))
+
+# TEST_7:
+romans1 = ['I', 'X', 'L', 'IV', 'IX', 'XLV', 'CXXIV', 'MCMXCIV']
+romans2 = ['I', 'V', 'L', 'VI', 'XI', 'XXV', 'CDXLVIII', 'MCMXCI']
+
+for x, y in zip(romans1, romans2):
+    number = RomanNumeral(x) + RomanNumeral(y)
+    print(number, int(number))
+
+# TEST_8:
+romans1 = ['III', 'X', 'L', 'C', 'M', 'XXV', 'XC', 'MMMCMXXXV']
+romans2 = ['II', 'V', 'X', 'L', 'D', 'IV', 'VIII', 'MCMXCIV']
+
+for x, y in zip(romans1, romans2):
+    number = RomanNumeral(x) - RomanNumeral(y)
+    print(number, int(number))
+
+# TEST_9:
+romans = ['I', 'IV', 'IX', 'XII', 'XXV', 'XLV', 'LXIX', 'XC', 'CDXLVIII']
+
+for num in romans:
+    print(RomanNumeral(num), int(RomanNumeral(num)))
+

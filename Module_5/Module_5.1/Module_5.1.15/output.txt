@@ -1,0 +1,21 @@
+# OUTPUT DATA:
+
+# TEST_1:
+GenerationPy
+release
+verbose
+1.0.0
+
+# TEST_2:
+True
+True
+
+# TEST_3:
+True
+True
+True
+True
+
+# TEST_4:
+True
+

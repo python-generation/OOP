@@ -1,0 +1,20 @@
+# OUTPUT DATA:
+
+# TEST_1:
+[2, 4, 6]
+
+# TEST_2:
+[13, 10, 10, 7]
+
+# TEST_3:
+[1, 'Linus Torvalds', {5, 6, 7}, True]
+
+# TEST_4:
+[5414, 4290, 6206, 9458, 5399, 4927, 3942, 833, 9725, 6794, 7207, 1410, 8225, 5826, 2641, 1114, 9171, 1386, 789, 3799, 9727, 1178, 4307, 7535, 2568, 3882, 1366, 8083, 2171, 2176, 336, 7562, 2021, 3029, 9342, 1903, 4084, 7084, 9659, 5566, 926, 9337, 9166, 4186, 6262, 8594, 212, 3783, 6564, 3130, 3703, 2544, 8801, 7837, 2138, 3125, 1800, 383, 6796, 767]
+
+# TEST_5:
+['model', 'likely', 'hard', 'reduce', 'visit', 'stuff', 'line', 'from', 'help', 'need', 'small', 'reason', 'year', 'buy', 'case', 'ten', 'fear', 'goal', 'suffer', 'me', 'into', 'health', 'five', 'minute', 'want', 'trip', 'see', 'money', 'still', 'task', 'our', 'beat', 'stay', 'above', 'since', 'front', 'amount', 'will', 'hit', 'state', 'total', 'speak', 'media', 'cut', 'with', 'reveal', 'finish', 'short', 'share', 'new', 'eight', 'worker', 'beyond', 'modern', 'most', 'room', 'a', 'treat', 'break', 'none', 'cup']
+
+# TEST_6:
+[[], set(), {}, False, '']
+

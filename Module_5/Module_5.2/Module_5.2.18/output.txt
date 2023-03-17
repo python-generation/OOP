@@ -1,0 +1,23 @@
+# OUTPUT DATA:
+
+# TEST_1:
+AnyClass: 
+AnyClass()
+
+# TEST_2:
+AnyClass: name='John', surname='Marston'
+AnyClass(name='John', surname='Marston')
+
+# TEST_3:
+AnyClass: attr1=10, attr2='beegeek', attr3=True, attr4=[1, 2, 3], attr5=('one', 'two'), attr6=None
+AnyClass(attr1=10, attr2='beegeek', attr3=True, attr4=[1, 2, 3], attr5=('one', 'two'), attr6=None)
+
+# TEST_4:
+AnyClass: name='Gvido', language='Python', age=67, AnyClass: name='Поколение Python', language='Python', age=4, best=True
+[AnyClass(name='Gvido', language='Python', age=67), AnyClass(name='Поколение Python', language='Python', age=4, best=True)]
+AnyClass: name='Gvido', language='Python', age=67
+(AnyClass(name='Поколение Python', language='Python', age=4, best=True),)
+
+# TEST_5:
+AnyClass: name='Margaret Heafield Hamilton', birth_date='17.09.1936', age=86, career='computer scientist'
+

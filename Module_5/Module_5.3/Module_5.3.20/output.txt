@@ -1,0 +1,32 @@
+# OUTPUT DATA:
+
+# TEST_1:
+False
+False
+True
+False
+True
+
+# TEST_2:
+True
+True
+True
+
+# TEST_3:
+[Version('1.9.1'), Version('2.0.0'), Version('2.1.0')]
+1.9.1
+2.1.0
+
+# TEST_4:
+[Version('3.2.0'), Version('5.6.0'), Version('6.6.0'), Version('8.2.0'), Version('9.8.0'), Version('10.2.0'), Version('10.4.0'), Version('12.3.0'), Version('12.8.0'), Version('15.7.0'), Version('20.2.0'), Version('20.3.0'), Version('22.4.0'), Version('23.1.0'), Version('26.7.0'), Version('27.4.0'), Version('29.4.0'), Version('33.7.0'), Version('39.2.0'), Version('40.3.0'), Version('45.7.0'), Version('47.2.0'), Version('47.4.0'), Version('49.6.0'), Version('49.9.0'), Version('50.3.0'), Version('53.5.0'), Version('55.1.0'), Version('56.8.0'), Version('57.5.0'), Version('59.4.0'), Version('59.9.0'), Version('63.9.0'), Version('64.9.0'), Version('66.7.0'), Version('68.3.0'), Version('70.3.0'), Version('72.8.0'), Version('74.1.0'), Version('74.2.0'), Version('76.6.0'), Version('83.2.0'), Version('85.2.0'), Version('85.5.0'), Version('89.1.0'), Version('94.9.0'), Version('97.9.0'), Version('98.5.0'), Version('99.2.0'), Version('99.3.0'), Version('106.3.0'), Version('108.9.0'), Version('109.2.0'), Version('111.2.0'), Version('121.7.0'), Version('122.1.0'), Version('122.1.0'), Version('128.5.0'), Version('134.7.0'), Version('135.9.0'), Version('137.7.0'), Version('138.7.0'), Version('139.8.0'), Version('139.9.0'), Version('140.8.0'), Version('145.7.0'), Version('147.5.0'), Version('147.7.0'), Version('150.4.0'), Version('152.9.0'), Version('155.3.0'), Version('158.2.0'), Version('159.4.0'), Version('159.6.0'), Version('160.5.0'), Version('162.5.0'), Version('164.8.0'), Version('164.9.0'), Version('173.6.0'), Version('173.8.0'), Version('174.7.0'), Version('183.7.0'), Version('184.4.0'), Version('184.7.0'), Version('186.7.0'), Version('187.6.0'), Version('188.6.0'), Version('188.8.0'), Version('188.9.0'), Version('189.4.0'), Version('189.7.0'), Version('190.1.0'), Version('191.6.0'), Version('195.6.0'), Version('196.9.0'), Version('197.4.0'), Version('198.7.0'), Version('199.2.0'), Version('199.4.0'), Version('200.2.0')]
+3.2.0
+200.2.0
+
+# TEST_5:
+False
+False
+False
+False
+False
+False
+

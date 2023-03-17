@@ -1,0 +1,75 @@
+# OUTPUT DATA:
+
+# TEST_1:
+beegeek
+bee?geek
+
+# TEST_2:
+     --++beegeek
+bee...geek
+b-e-e-g-e-e-k
+
+# TEST_3:
+gain
+bring
+fami
+pu
+eigh
+protec
+option
+response
+rise
+national
+
+# TEST_4:
+team
+language
+throughout
+dog
+wide
+director
+onto
+of
+company
+run
+father
+street
+enough
+young
+health
+learn
+entire
+use
+first
+heavy
+argue
+mother
+owner
+new
+check
+explain
+late
+movie
+card
+raise
+direction
+article
+trouble
+happen
+move
+anyone
+near
+short
+really
+check
+management
+boy
+or
+very
+attack
+available
+sell
+executive
+up
+floor
+

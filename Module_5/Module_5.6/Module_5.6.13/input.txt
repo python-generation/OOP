@@ -1,0 +1,45 @@
+# INPUT DATA:
+
+# TEST_1:
+strip = Strip('!? ')
+
+print(strip('     ?beegeek!'))
+print(strip('!bee?geek!'))
+
+# TEST_2:
+strip = Strip('.,+-')
+
+print(strip('     --++beegeek++--'))
+print(strip('-bee...geek-'))
+print(strip('-+,.b-e-e-g-e-e-k-+,.'))
+
+# TEST_3:
+chars_sequence = ["X'r", 'q8|', 'M8y', 'uE^', 'N9F', '"kw', '5j_', '" t', 'klB', 'a=']
+words = ["XrragainX'X", '8||bring||8', 'yyyfamily8y8', '^^^put^^u', '99Feight9FF', '"k"protectwwk', 'jjjoptionj55',
+         't" responsettt', 'kkBrisekBB', 'a=anationala==']
+
+for word in words:
+    for chars in chars_sequence:
+        strip = Strip(chars)
+        word = strip(word)
+    print(word)
+
+# TEST_4:
+from string import punctuation
+
+strip = Strip(punctuation)
+words = ['&}:,"@team-..|][', '[${!."language+>}*{@', ')..?(?throughout/?`%%^', '%](+{!dog\\_];]:', "+]@@'?wide[={[&_",
+         "<%:#<_director!']>?$", '&__$>.onto#;|~$-', '@,}]).of?/)?=!', '<%@^:}company\'!#("^', '?@.[^|run#<\\~\\[',
+         "<|%;#=father<:;@'=", ')\\`-&)street+)(#\\~', '((%/?$enough~\\<{${', '*@;{.@young!(_.:)', '?<;<}&health#!=[~^',
+         ".&]+'/learn)-@@)+", "@$,,]/entire;)$'@>", '*"%=+?use#!?#``', '&:|%_+first:@+{}+', '`<&=@.heavy{(}^\\-',
+         ":,]'.=argue&(([|/", '*\\|^!|mother_\\$,]_', '\'>\'@|@owner";\\)}.', '~+=+=%new?]]_!.', '<&{+$@check|\\;[*[',
+         '([*;;^explain%(~"]^', ')|,){+late.,"%,(', '|~\\-{:movie.,~/}\\', ')%*=}?card<{^`>|', '$!,<+)raise+,<{<%',
+         '#?:=!}direction>`\'"#*', '!/|)()article_/]),,', ']\'"=.-trouble#%\\*%$', "}^={=\\happen!)]':^",
+         '`://..move)),%-&', '*`=;>.anyone&-`</,', "}^`{%'near@.+,{&", '%/<*;>short-&{*<-', '^&&(^!really=;?{`"',
+         '^,=}!=check\\{*-!`', '_=?[*`management/(:)?,', '![]_]/boy$-@`&:', '.):\\,}or?]$?;*', '\\^.{:@very=@!!]=',
+         '*\\@~+=attack~=>+.)', '%"`/.:available}*<~)@', "*,-\\'~sell-?;>!\\", ',)^["[executive::;_[:',
+         '&#:":*up~.{`|$', '+}@_=>floor-`}`~@']
+
+for word in words:
+    print(strip(word))
+

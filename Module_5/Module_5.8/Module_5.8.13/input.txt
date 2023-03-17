@@ -1,0 +1,40 @@
+# INPUT DATA:
+
+# TEST_1:
+music_group = AttrsNumberObject(name='Silent Poets', genre='acid jazz')
+
+print(music_group.attrs_num)
+
+# TEST_2:
+music_group = AttrsNumberObject()
+
+print(music_group.attrs_num)
+
+# TEST_3:
+music_group = AttrsNumberObject(name='Woodkid', genre='pop')
+
+print(music_group.attrs_num)
+music_group.country = 'France'
+print(music_group.attrs_num)
+
+# TEST_4:
+music_group = AttrsNumberObject(name='Alexandra Savior', genre='dream pop')
+
+print(music_group.attrs_num)
+del music_group.genre
+print(music_group.attrs_num)
+
+# TEST_5:
+person = AttrsNumberObject(name='Mark')
+
+print(person.attrs_num)
+
+person.surname = 'Zuckerberg'
+print(person.attrs_num)
+
+person.age = 38
+print(person.attrs_num)
+
+person.job = 'Programmer'
+print(person.attrs_num)
+

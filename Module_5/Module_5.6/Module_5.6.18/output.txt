@@ -1,0 +1,30 @@
+# OUTPUT DATA:
+
+# TEST_1:
+[User(Arthur, 20), User(Gvido, 67), User(Gvido, 60), User(Timur, 30), User(Timur, 45)]
+[User(Arthur, 20), User(Gvido, 60), User(Gvido, 67), User(Timur, 30), User(Timur, 45)]
+[User(Arthur, 20), User(Timur, 30), User(Timur, 45), User(Gvido, 60), User(Gvido, 67)]
+[User(Arthur, 20), User(Timur, 30), User(Timur, 45), User(Gvido, 60), User(Gvido, 67)]
+
+# TEST_2:
+User(Timur, 30)
+User(Gvido, 67)
+User(Timur, 45)
+User(Gvido, 67)
+
+# TEST_3:
+User(Arthur, 20)
+User(Arthur, 20)
+User(Arthur, 20)
+User(Arthur, 20)
+
+# TEST_4:
+[User(Arthur, 20), User(Gvido, 67), User(Gvido, 60), User(Timur, 30), User(Timur, 45)]
+[User(Arthur, 20), User(Gvido, 60), User(Gvido, 67), User(Timur, 30), User(Timur, 45)]
+[User(Arthur, 20), User(Timur, 30), User(Timur, 45), User(Gvido, 60), User(Gvido, 67)]
+
+# TEST_5:
+[User(Timur, 30), User(Timur, 45), User(Gvido, 67), User(Gvido, 60), User(Arthur, 20)]
+[User(Timur, 45), User(Timur, 30), User(Gvido, 67), User(Gvido, 60), User(Arthur, 20)]
+[User(Gvido, 67), User(Gvido, 60), User(Timur, 45), User(Timur, 30), User(Arthur, 20)]
+

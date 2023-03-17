@@ -1,0 +1,179 @@
+# INPUT DATA:
+
+# TEST_1:
+@CachedFunction
+def slow_fibonacci(n):
+    if n == 1:
+        return 0
+    elif n in (2, 3):
+        return 1
+    return slow_fibonacci(n - 1) + slow_fibonacci(n - 2)
+    
+print(slow_fibonacci(100))
+
+# TEST_2:
+@CachedFunction
+def slow_fibonacci(n):
+    if n == 1:
+        return 0
+    elif n in (2, 3):
+        return 1
+    return slow_fibonacci(n - 1) + slow_fibonacci(n - 2)
+    
+slow_fibonacci(5)
+
+for args, value in sorted(slow_fibonacci.cache.items()):
+    print(args, value)
+
+# TEST_3:
+@CachedFunction
+def english(word):
+    return ''.join(sorted(word))
+
+
+words = ['stay', 'figure', 'benefit', 'least', 'notice', 'hope', 'authority', 'different', 'clear', 'pull', 'road',
+         'huge', 'probably', 'throw', 'hope', 'realize', 'two', 'term', 'everybody', 'letter', 'person', 'next',
+         'series', 'bank', 'music', 'impact', 'attack', 'enter', 'six', 'above', 'court', 'increase', 'film',
+         'behavior', 'eat', 'least', 'argue', 'close', 'much', 'kid', 'dream', 'day', 'boy', 'five', 'ever', 'exactly',
+         'friend', 'majority', 'record', 'professor', 'must', 'form', 'effort', 'kid', 'school', 'garden', 'value',
+         'recognize', 'add', 'much', 'money', 'region', 'learn', 'cold', 'because', 'single', 'professional', 'skill',
+         'lay', 'address', 'president', 'cut', 'natural', 'although', 'college', 'me', 'certain', 'window', 'maintain',
+         'because', 'wish', 'least', 'water', 'skin', 'certain', 'scientist', 'keep', 'name', 'thought', 'edge',
+         'action', 'various', 'stock', 'find', 'class', 'pick', 'modern', 'understand', 'result', 'blue', 'bill',
+         'must', 'one', 'pay', 'marriage', 'indicate', 'fund', 'realize', 'bill', 'everything', 'have', 'weight',
+         'pretty', 'skill', 'Congress', 'note', 'nearly', 'PM', 'day', 'camera', 'writer', 'discuss', 'here', 'well',
+         'certainly', 'necessary', 'any', 'behavior', 'always', 'Democrat', 'carry', 'billion', 'few', 'truth',
+         'personal', 'range', 'they', 'what', 'soldier', 'according', 'sound', 'expect', 'lot', 'present', 'shoulder',
+         'remember', 'protect', 'together', 'turn', 'plant', 'left', 'show', 'end', 'individual', 'now', 'through',
+         'painting', 'he', 'management', 'travel', 'how', 'board', 'will', 'mention', 'everything', 'statement',
+         'imagine', 'job', 'fact', 'sense', 'its', 'require', 'third', 'feel', 'woman', 'I', 'friend', 'home', 'face',
+         'marriage', 'follow', 'Republican', 'avoid', 'scene', 'recognize', 'provide', 'listen', 'score', 'music',
+         'for', 'step', 'first', 'moment', 'if', 'action', 'me', 'order', 'hospital', 'evidence', 'pass', 'worry', 'so',
+         'eat', 'difference', 'history', 'feel', 'forward', 'hard', 'here', 'property', 'identify', 'central', 'they',
+         'protect', 'either', 'baby', 'entire', 'idea', 'glass', 'whom', 'fill', 'to', 'foreign', 'mouth', 'will',
+         'four', 'my', 'boy', 'deep', 'think', 'leg', 'same', 'book', 'grow', 'tough', 'throughout', 'seem', 'forget',
+         'near', 'thing', 'politics', 'eat', 'enter', 'mention', 'recent', 'significant', 'street', 'increase',
+         'training', 'development', 'management', 'evening', 'deal', 'assume', 'manage', 'few', 'hour', 'buy', 'tell',
+         'city', 'space', 'provide', 'laugh', 'six', 'idea', 'political', 'power', 'brother', 'final', 'enough',
+         'capital', 'with', 'today', 'cause', 'develop', 'nature', 'but', 'everybody', 'yes', 'church', 'possible',
+         'party', 'dark', 'write', 'action', 'civil', 'direction', 'if', 'work', 'believe', 'position', 'image', 'late',
+         'quality', 'fast', 'what', 'than', 'figure', 'feeling', 'successful', 'east', 'fall', 'idea', 'positive',
+         'and', 'popular', 'impact', 'evidence', 'any', 'hour', 'speak', 'improve', 'several', 'people', 'identify',
+         'rest', 'and', 'member', 'about', 'possible', 'vote', 'police', 'imagine', 'more', 'once', 'without', 'region',
+         'sister', 'tough', 'grow', 'rock', 'responsibility', 'open', 'democratic', 'center', 'personal', 'check',
+         'item', 'pick', 'see', 'activity', 'back', 'one', 'energy', 'father', 'and', 'strong', 'statement', 'purpose',
+         'board', 'serious', 'student', 'economic', 'require', 'seven', 'modern', 'forget', 'between', 'skill',
+         'imagine', 'sister', 'give', 'onto', 'man', 'bank', 'administration', 'over', 'somebody', 'medical', 'we',
+         'foot', 'almost', 'officer', 'employee', 'type', 'fill', 'free', 'reach', 'whatever', 'result', 'first', 'it',
+         'head', 'decide', 'chance', 'author', 'fast', 'serve', 'stock', 'sport', 'front', 'lawyer', 'represent',
+         'story', 'fund', 'both', 'near', 'attention', 'career', 'piece', 'couple', 'stop', 'dark', 'by', 'us', 'two',
+         'attention', 'certainly', 'production', 'rise', 'bad', 'old', 'few', 'positive', 'per', 'wall', 'middle',
+         'ground', 'return', 'him', 'agent', 'goal', 'ahead', 'part', 'true', 'PM', 'deep', 'wide', 'do', 'any', 'deal',
+         'successful', 'world', 'course', 'entire', 'property', 'court', 'build', 'nothing', 'later', 'six', 'along',
+         'through', 'business', 'somebody', 'maybe', 'family', 'child', 'realize', 'floor', 'indeed', 'live', 'work',
+         'here', 'street', 'news', 'chair', 'issue', 'second', 'unit', 'themselves', 'country', 'change', 'professor',
+         'whole', 'establish', 'sea', 'relationship', 'successful', 'sing', 'true', 'stay', 'message', 'simply', 'keep',
+         'detail', 'know', 'these', 'culture', 'many', 'agency', 'mind', 'how', 'million', 'wait', 'news', 'career',
+         'administration', 'senior', 'would', 'involve', 'human', 'bring', 'including', 'success', 'campaign', 'time',
+         'professional', 'especially', 'also', 'not', 'pay', 'carry', 'before', 'perform', 'civil', 'doctor', 'for',
+         'fast', 'soldier', 'glass', 'what', 'challenge', 'state', 'suffer', 'policy', 'color', 'provide', 'rock',
+         'probably', 'clear', 'action', 'health', 'minute', 'everybody', 'population', 'catch', 'most', 'hope', 'apply',
+         'military', 'audience', 'blue', 'three', 'business', 'common', 'fire', 'culture', 'score', 'current', 'entire',
+         'as', 'alone', 'happen', 'else', 'record', 'treatment', 'produce', 'there', 'perhaps', 'television',
+         'physical', 'pay', 'hair', 'house', 'especially', 'production', 'full', 'woman', 'matter', 'west', 'police',
+         'eight', 'news', 'commercial', 'decide', 'above', 'center', 'off', 'according', 'short', 'song', 'out',
+         'election', 'main', 'assume', 'west', 'tree', 'western', 'suffer', 'civil', 'can', 'of', 'it', 'black', 'any',
+         'four', 'on', 'kitchen', 'market', 'research', 'be', 'significant', 'him', 'country', 'whom', 'become', 'step',
+         'phone', 'firm', 'of', 'grow', 'month', 'industry', 'series', 'she', 'so', 'at', 'bag', 'drop', 'social',
+         'article', 'act', 'military', 'arrive', 'writer', 'hope', 'them', 'oil', 'real', 'prove', 'seem', 'economic',
+         'impact', 'sense', 'attack', 'rise', 'put', 'drive', 'I', 'cost', 'help', 'run', 'say', 'vote', 'mouth',
+         'capital', 'particularly', 'ten', 'them', 'experience', 'everyone', 'probably', 'economic', 'religious',
+         'particularly', 'time', 'majority', 'foreign', 'while', 'success', 'eye', 'future', 'hit', 'talk', 'you',
+         'miss', 'him', 'control', 'leg', 'culture', 'indeed', 'pull', 'accept', 'choose', 'by', 'war', 'fear', 'data',
+         'explain', 'stage', 'central', 'his', 'state', 'always', 'every', 'must', 'operation', 'attorney', 'everybody',
+         'note', 'dark', 'morning', 'situation', 'leader', 'small', 'simply', 'share', 'environmental', 'property',
+         'recognize', 'moment', 'after', 'soldier', 'house', 'husband', 'concern', 'yes', 'during', 'court',
+         'interesting', 'ahead', 'indeed', 'smile', 'push', 'feel', 'action', 'training', 'majority', 'cell', 'instead',
+         'production', 'wide', 'camera', 'yard', 'loss', 'oil', 'then', 'agree', 'nice', 'movie', 'I', 'allow', 'foot',
+         'popular', 'responsibility', 'gun', 'friend', 'defense', 'continue', 'your', 'strategy', 'home', 'fire',
+         'situation', 'threat', 'charge', 'may', 'floor', 'for', 'subject', 'concern', 'return', 'theory', 'special',
+         'involve', 'author', 'measure', 'on', 'value', 'mind', 'perhaps', 'turn', 'low', 'church', 'hair', 'over',
+         'control', 'knowledge', 'continue', 'challenge', 'just', 'father', 'figure', 'write', 'indicate', 'sense',
+         'around', 'often', 'fire', 'best', 'glass', 'yard', 'behind', 'there', 'seven', 'specific', 'notice',
+         'evidence', 'all', 'plant', 'least', 'his', 'trade', 'per', 'especially', 'name', 'goal', 'performance',
+         'attorney', 'view', 'far', 'take', 'coach', 'while', 'work', 'provide', 'country', 'cover', 'we', 'space',
+         'total', 'scene', 'exist', 'generation', 'teach', 'trade', 'wear', 'will', 'fire', 'strong', 'tonight',
+         'center', 'father', 'no', 'rather', 'third', 'future', 'have', 'true', 'along', 'open', 'laugh', 'oil', 'lead',
+         'really', 'hope', 'seat', 'short', 'him', 'throughout', 'ever', 'window', 'issue', 'region', 'travel',
+         'despite', 'in', 'interview', 'admit', 'yes', 'what', 'job', 'really', 'light', 'wear', 'next', 'world',
+         'factor', 'put', 'at', 'despite', 'Mr', 'end', 'learn', 'its', 'together', 'note', 'woman', 'onto', 'example',
+         'next', 'rock', 'collection', 'might', 'need', 'system', 'condition', 'place', 'operation', 'cut', 'major',
+         'drive', 'actually', 'south', 'interest', 'how', 'light', 'blue', 'add', 'around', 'not', 'while', 'spend',
+         'stand', 'myself', 'may', 'someone', 'attack', 'price', 'look', 'receive', 'clear', 'born', 'try', 'magazine',
+         'individual', 'man', 'charge', 'audience', 'my', 'unit', 'strong', 'reflect', 'hard', 'mother', 'most',
+         'least', 'final', 'two', 'thing', 'compare', 'nice', 'green', 'design', 'indicate', 'event', 'agreement',
+         'available', 'create', 'space', 'thought', 'practice', 'any', 'month', 'strategy', 'difficult', 'science',
+         'catch', 'but', 'market', 'tough', 'easy', 'within', 'suffer', 'go', 'third', 'situation', 'reach', 'game',
+         'front', 'happy', 'positive', 'say', 'lose', 'this', 'least', 'within', 'actually', 'rule', 'young', 'cup',
+         'tend', 'ability', 'black', 'old', 'view', 'reality', 'environmental', 'act', 'high', 'own', 'recently',
+         'physical', 'involve', 'expert', 'beautiful', 'ago', 'whatever', 'go', 'cup', 'resource', 'throughout',
+         'remain', 'Republican', 'cultural', 'upon', 'economic', 'receive', 'food', 'more', 'wonder', 'name', 'certain',
+         'consumer', 'piece', 'spring', 'personal', 'last', 'perform', 'image', 'trade', 'entire', 'spring', 'up',
+         'long', 'you', 'training', 'while', 'store']
+
+for word in words:
+    english(word)
+
+for arg, value in sorted(english.cache.items()):
+    print(arg, value)
+
+print(len(words))
+print(len(english.cache))
+
+# TEST_4:
+@CachedFunction
+def quadratic_polinomial(a, b, c, x):
+    return a * x ** 2 + b * x + c
+
+
+data = [(286, 375, 286, 318), (43, 65, 446, 156), (382, 127, 228, 425), (271, 416, 467, 221), (14, 441, 108, 272),
+        (257, 113, 203, 292), (117, 80, 86, 157), (354, 479, 323, 296), (315, 111, 482, 20), (431, 141, 75, 229),
+        (152, 32, 494, 139), (61, 116, 239, 335), (296, 122, 62, 173), (158, 177, 126, 77), (101, 222, 160, 101),
+        (292, 117, 143, 287), (228, 422, 397, 155), (153, 92, 278, 158), (307, 459, 120, 341), (129, 8, 358, 367),
+        (101, 140, 165, 350), (153, 423, 28, 148), (481, 249, 341, 43), (265, 265, 84, 477), (65, 488, 274, 369),
+        (62, 237, 300, 387), (396, 127, 419, 364), (146, 235, 412, 170), (412, 305, 47, 450), (253, 53, 478, 385),
+        (202, 332, 196, 139), (335, 221, 375, 463), (300, 376, 144, 155), (338, 170, 14, 432), (327, 286, 373, 400),
+        (409, 305, 260, 196), (472, 423, 167, 436), (189, 54, 184, 395), (91, 9, 36, 356), (278, 394, 362, 395),
+        (356, 424, 67, 361), (333, 249, 169, 299), (344, 276, 61, 343), (118, 458, 486, 287), (86, 91, 128, 422),
+        (182, 83, 35, 122), (192, 188, 138, 487), (23, 404, 334, 24), (241, 230, 281, 138), (74, 142, 254, 384),
+        (257, 113, 203, 292), (117, 80, 86, 157), (354, 479, 323, 296), (315, 111, 482, 20), (431, 141, 75, 229),
+        (152, 32, 494, 139), (61, 116, 239, 335), (296, 122, 62, 173), (158, 177, 126, 77), (101, 222, 160, 101),
+        (292, 117, 143, 287), (228, 422, 397, 155), (153, 92, 278, 158), (307, 459, 120, 341), (129, 8, 358, 367),
+        (101, 140, 165, 350), (153, 423, 28, 148), (481, 249, 341, 43), (265, 265, 84, 477), (65, 488, 274, 369),
+        (62, 237, 300, 387), (396, 127, 419, 364), (146, 235, 412, 170), (412, 305, 47, 450), (253, 53, 478, 385),
+        (202, 332, 196, 139), (335, 221, 375, 463), (300, 376, 144, 155), (458, 198, 293, 430), (358, 177, 80, 235),
+        (28, 218, 430, 59), (471, 215, 390, 432), (246, 34, 105, 308), (428, 280, 27, 218), (270, 171, 209, 273),
+        (145, 311, 135, 74), (250, 235, 29, 334), (141, 165, 451, 235), (346, 262, 421, 34), (316, 216, 111, 388),
+        (499, 238, 31, 291), (39, 460, 177, 316), (155, 404, 338, 243), (234, 214, 237, 10), (172, 177, 102, 13),
+        (241, 373, 61, 337), (486, 161, 439, 94), (104, 353, 27, 75), (267, 88, 442, 284), (238, 184, 7, 454)]
+
+for a, b, c, x in data:
+    quadratic_polinomial(a, b, c, x)
+
+for arg, value in sorted(quadratic_polinomial.cache.items()):
+    print(arg, value)
+
+print(len(data))
+print(len(quadratic_polinomial.cache))
+
+# TEST_5:
+@CachedFunction
+def tribonacci(n):
+    if n in (1, 2, 3):
+        return 1
+    return tribonacci(n - 3) + tribonacci(n - 2) + tribonacci(n - 1)
+
+
+print(tribonacci(200))
+print(len(tribonacci.cache))
+

@@ -1,0 +1,22 @@
+# INPUT DATA:
+
+# TEST_1:
+print(hash_function('python'))
+
+# TEST_2:
+print(hash_function(12345))
+
+# TEST_3:
+print(hash_function(None))
+
+# TEST_4:
+print(hash_function([1, 2, 3, 'python']))
+
+# TEST_5:
+array = [8022, 530.602391530928, 'lycmfojREEBSKNcNoIjM', False, {'написать': False, 'собеседник': True},
+         (1448, True, -3913.85417440914, True),
+         [True, True, 554, 'FCLRrFheVhkrubirMUts', -33242154218.4859, 885507704053.121]]
+
+for obj in array:
+    print(hash_function(obj))
+

@@ -1,0 +1,50 @@
+# INPUT DATA:
+
+# TEST_1:
+a = Vector(1, 2)
+b = Vector(1, 2)
+
+print(a == b)
+print(a != b)
+
+# TEST_2:
+a = Vector(1, 2)
+pair1 = (1, 2)
+pair2 = (3, 4)
+pair3 = (5, 6, 7)
+
+print(a == pair1)
+print(a == pair2)
+print(a == pair3)
+
+# TEST_3:
+a = Vector(1, 2)
+pair1 = (1, 2)
+pair2 = ('1', '2')
+pair3 = (5, 6)
+
+print(a == pair1)
+print(a == pair2)
+print(a == pair3)
+
+# TEST_4:
+vectors = [Vector(196, 21), Vector(102, 82), Vector(91, 28), Vector(137, 128), Vector(97, 69), Vector(79, 29), Vector(93, 62), Vector(85, 58), Vector(46, 176), Vector(84, 197)]
+pairs = [(26, 86), (177, 150), (144, 175), (137, 128), (110, 196), (79, 29), (93, 62), (36, 158), (180, 24), (84, 167)]
+
+for vector, pair in zip(vectors, pairs):
+    print(vector == pair, vector != pair)
+
+# TEST_5:
+vectors1 = [Vector(114, 220), Vector(180, 148), Vector(85, 58), Vector(49, 246), Vector(110, 250), Vector(50, 91), Vector(60, 55), Vector(75, 238), Vector(189, 88), Vector(33, 190)]
+vectors2 = [Vector(148, 144), Vector(169, 296), Vector(85, 58), Vector(172, 94), Vector(191, 55), Vector(50, 91), Vector(181, 150), Vector(43, 167), Vector(98, 238), Vector(33, 190)]
+
+for v1, v2 in zip(vectors1, vectors2):
+    print(v1 == v2, v1 != v2)
+
+# TEST_6:
+a = Vector(0, 1)
+not_supported = [[1, 2], True, (1, 2, 3, 4), 'beegeek', {'name': 'Grace Hopper'}, {18, 22}]
+
+for item in not_supported:
+    print(a == item)
+

@@ -1,0 +1,33 @@
+# INPUT DATA:
+
+# TEST_1:
+user = ProtectedObject(login='PG_kamiya', _password='alreadybanned')
+
+try:
+    print(user.login)
+    print(user._password)
+except AttributeError as e:
+    print(e)
+
+# TEST_2:
+user = ProtectedObject(login='PG_kamiya', _password='alreadybanned')
+
+try:
+    user._password = 'qwerty12345'
+except AttributeError as e:
+    print(e)
+
+# TEST_3:
+user = ProtectedObject(login='PG_kamiya', _password='alreadybanned')
+
+try:
+    del user._password
+except AttributeError as e:
+    print(e)
+
+# TEST_4:
+user = ProtectedObject(login='PG_kamiya', _password='alreadybanned')
+
+del user.login
+print('Успешное удаление атрибута')
+

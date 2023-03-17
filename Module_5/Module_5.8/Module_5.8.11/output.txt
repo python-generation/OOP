@@ -1,0 +1,114 @@
+# OUTPUT DATA:
+
+# TEST_1:
+Ares
+greek
+None
+
+# TEST_2:
+Tyr
+scandinavian
+0
+
+# TEST_3:
+Martin Doe
+Dustin Doe
+John Doe
+John Wong
+John Hanna
+Theresa Doe
+Brittany Wheeler
+David Doe
+Nancy Doe
+Brian Mendez
+Jennifer Potts
+Kimberly Walton
+Debbie Dominguez
+Marissa Perez
+Alexander Doe
+Shelly Doe
+Michael Doe
+Tara Doe
+Cynthia Doe
+Jennifer Doe
+Jesse Doe
+Douglas Doe
+Jennifer Patel
+James Doe
+Latoya Doe
+Kirsten Fisher
+Brianna Doe
+Sean Doe
+Laura Doe
+Brandi Doe
+Randall Christian
+Teresa Doe
+Keith Doe
+Diamond Watson
+Anne Doe
+Sarah Doe
+Earl Doe
+Kerry Lane
+Bonnie Doe
+Dwayne Doe
+Sonia Doe
+Mark Miller
+Randall Galvan
+Mark Doe
+Shannon Stephenson
+Anthony Doe
+Steven Doe
+Samantha Miller
+Paul Wright
+Dennis Lewis
+Jessica Doe
+Cody Perry
+Edward Doe
+Robert Doe
+Jacob Doe
+Adam Doe
+Tamara Doe
+Denise Tyler DDS Doe
+Angela Jones MD Doe
+Alexandra Doe
+Dennis Doe
+Dawn Clark
+Kara Mcdonald
+Anthony Perry
+Stephanie Doe
+Jonathan Doe
+Amy Doe
+Martin Collins
+Joseph Doe
+Charles Sheppard
+Shelly Mills
+Phillip Marshall
+Steven Wilson
+Kimberly Brown
+Terry Day
+Mrs. Victoria Dudley Doe
+Sara Doe
+Lucas Cooper
+Brooke Doe
+Raymond Gonzalez
+Randy Moss
+Lisa Doe
+Cody Smith
+Rebecca Doe
+Nicole Aguilar
+Jessica Roman
+Anna Mcclure MD Doe
+John Watts
+Michaela Cochran
+Penny Doe
+Randy Keith
+Alexis Quinn
+William Doe
+Christopher Young
+Emily Johnson
+James King
+Haley Doe
+Kelly Miller
+Manuel Lopez
+Kathleen Doe
+

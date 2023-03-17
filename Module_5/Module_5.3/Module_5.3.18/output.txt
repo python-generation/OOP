@@ -1,0 +1,52 @@
+# OUTPUT DATA:
+
+# TEST_1:
+True
+True
+False
+True
+True
+
+# TEST_2:
+[Word('bee'), Word('geek'), Word('python')]
+Bee
+Python
+
+# TEST_3:
+False
+False
+False
+False
+False
+False
+
+# TEST_4:
+Seven
+Season
+Probably
+Difficult
+Size
+Feeling
+Either
+Friend
+Whatever
+Item
+Evening
+That
+Either
+Last
+North
+Run
+Read
+Respond
+Amount
+Maybe
+
+# TEST_5:
+True
+
+# TEST_6:
+[Word('he'), Word('six'), Word('son'), Word('guy'), Word('sea'), Word('bit'), Word('and'), Word('sea'), Word('oil'), Word('gas'), Word('may'), Word('let'), Word('miss'), Word('game'), Word('most'), Word('role'), Word('tend'), Word('rest'), Word('seat'), Word('five'), Word('food'), Word('last'), Word('goal'), Word('this'), Word('give'), Word('into'), Word('hour'), Word('race'), Word('fall'), Word('meet'), Word('less'), Word('body'), Word('stop'), Word('lead'), Word('huge'), Word('city'), Word('home'), Word('free'), Word('every'), Word('worry'), Word('drive'), Word('value'), Word('truth'), Word('reach'), Word('power'), Word('happy'), Word('share'), Word('clear'), Word('argue'), Word('alone'), Word('occur'), Word('bring'), Word('until'), Word('still'), Word('often'), Word('small'), Word('above'), Word('coach'), Word('notice'), Word('forget'), Word('forget'), Word('policy'), Word('reduce'), Word('center'), Word('pretty'), Word('better'), Word('expect'), Word('charge'), Word('single'), Word('window'), Word('dinner'), Word('couple'), Word('chance'), Word('success'), Word('million'), Word('officer'), Word('suggest'), Word('purpose'), Word('pattern'), Word('control'), Word('special'), Word('despite'), Word('purpose'), Word('perhaps'), Word('quickly'), Word('officer'), Word('response'), Word('economic'), Word('property'), Word('response'), Word('consumer'), Word('consider'), Word('building'), Word('practice'), Word('determine'), Word('candidate'), Word('according'), Word('direction'), Word('conference'), Word('professional')]
+He
+Professional
+

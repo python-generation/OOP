@@ -1,0 +1,724 @@
+# OUTPUT DATA:
+
+# TEST_1:
+218922995834555169026
+
+# TEST_2:
+(2,) 1
+(3,) 1
+(4,) 2
+(5,) 3
+
+# TEST_3:
+('Congress',) Cegnorss
+('Democrat',) Dacemort
+('I',) I
+('Mr',) Mr
+('PM',) MP
+('Republican',) Rabceilnpu
+('ability',) abiilty
+('about',) abotu
+('above',) abeov
+('accept',) accept
+('according',) accdginor
+('act',) act
+('action',) acinot
+('activity',) aciittvy
+('actually',) aaclltuy
+('add',) add
+('address',) adderss
+('administration',) aadiiimnnorstt
+('admit',) adimt
+('after',) aefrt
+('agency',) acegny
+('agent',) aegnt
+('ago',) ago
+('agree',) aeegr
+('agreement',) aeeegmnrt
+('ahead',) aadeh
+('all',) all
+('allow',) allow
+('almost',) almost
+('alone',) aelno
+('along',) aglno
+('also',) alos
+('although',) aghhlotu
+('always',) aalswy
+('and',) adn
+('any',) any
+('apply',) alppy
+('argue',) aegru
+('around',) adnoru
+('arrive',) aeirrv
+('article',) aceilrt
+('as',) as
+('assume',) aemssu
+('at',) at
+('attack',) aacktt
+('attention',) aeinnottt
+('attorney',) aenortty
+('audience',) acdeeinu
+('author',) ahortu
+('authority',) ahiorttuy
+('available',) aaabeillv
+('avoid',) adiov
+('baby',) abby
+('back',) abck
+('bad',) abd
+('bag',) abg
+('bank',) abkn
+('be',) be
+('beautiful',) abefiltuu
+('because',) abceesu
+('become',) bceemo
+('before',) beefor
+('behavior',) abehiorv
+('behind',) bdehin
+('believe',) beeeilv
+('benefit',) beefint
+('best',) best
+('between',) beeentw
+('bill',) bill
+('billion',) biillno
+('black',) abckl
+('blue',) belu
+('board',) abdor
+('book',) bkoo
+('born',) bnor
+('both',) bhot
+('boy',) boy
+('bring',) bginr
+('brother',) behorrt
+('build',) bdilu
+('business',) beinsssu
+('but',) btu
+('buy',) buy
+('by',) by
+('camera',) aacemr
+('campaign',) aacgimnp
+('can',) acn
+('capital',) aacilpt
+('career',) aceerr
+('carry',) acrry
+('catch',) accht
+('cause',) acesu
+('cell',) cell
+('center',) ceenrt
+('central',) acelnrt
+('certain',) aceinrt
+('certainly',) aceilnrty
+('chair',) achir
+('challenge',) aceeghlln
+('chance',) accehn
+('change',) aceghn
+('charge',) aceghr
+('check',) ccehk
+('child',) cdhil
+('choose',) cehoos
+('church',) cchhru
+('city',) city
+('civil',) ciilv
+('class',) aclss
+('clear',) acelr
+('close',) celos
+('coach',) accho
+('cold',) cdlo
+('collection',) cceillnoot
+('college',) ceegllo
+('color',) cloor
+('commercial',) acceilmmor
+('common',) cmmnoo
+('compare',) acemopr
+('concern',) ccennor
+('condition',) cdiinnoot
+('consumer',) cemnorsu
+('continue',) ceinnotu
+('control',) clnoort
+('cost',) cost
+('country',) cnortuy
+('couple',) celopu
+('course',) ceorsu
+('court',) cortu
+('cover',) ceorv
+('create',) aceert
+('cultural',) acllrtuu
+('culture',) celrtuu
+('cup',) cpu
+('current',) cenrrtu
+('cut',) ctu
+('dark',) adkr
+('data',) aadt
+('day',) ady
+('deal',) adel
+('decide',) cddeei
+('deep',) deep
+('defense',) deeefns
+('democratic',) accdeimort
+('design',) degins
+('despite',) deeipst
+('detail',) adeilt
+('develop',) deelopv
+('development',) deeelmnoptv
+('difference',) cdeeeffinr
+('different',) deeffinrt
+('difficult',) cdffiiltu
+('direction',) cdeiinort
+('discuss',) cdisssu
+('do',) do
+('doctor',) cdoort
+('dream',) ademr
+('drive',) deirv
+('drop',) dopr
+('during',) dginru
+('east',) aest
+('easy',) aesy
+('eat',) aet
+('economic',) cceimnoo
+('edge',) deeg
+('effort',) effort
+('eight',) eghit
+('either',) eehirt
+('election',) ceeilnot
+('else',) eels
+('employee',) eeelmopy
+('end',) den
+('energy',) eegnry
+('enough',) eghnou
+('enter',) eenrt
+('entire',) eeinrt
+('environmental',) aeeilmnnnortv
+('especially',) aceeillpsy
+('establish',) abehilsst
+('evening',) eeginnv
+('event',) eentv
+('ever',) eerv
+('every',) eervy
+('everybody',) bdeeorvyy
+('everyone',) eeenorvy
+('everything',) eeghinrtvy
+('evidence',) cdeeeinv
+('exactly',) aceltxy
+('example',) aeelmpx
+('exist',) eistx
+('expect',) ceeptx
+('experience',) ceeeeinprx
+('expert',) eeprtx
+('explain',) aeilnpx
+('eye',) eey
+('face',) acef
+('fact',) acft
+('factor',) acfort
+('fall',) afll
+('family',) afilmy
+('far',) afr
+('fast',) afst
+('father',) aefhrt
+('fear',) aefr
+('feel',) eefl
+('feeling',) eefgiln
+('few',) efw
+('figure',) efgiru
+('fill',) fill
+('film',) film
+('final',) afiln
+('find',) dfin
+('fire',) efir
+('firm',) fimr
+('first',) first
+('five',) efiv
+('floor',) floor
+('follow',) flloow
+('food',) dfoo
+('foot',) foot
+('for',) for
+('foreign',) efginor
+('forget',) efgort
+('form',) fmor
+('forward',) adforrw
+('four',) foru
+('free',) eefr
+('friend',) definr
+('front',) fnort
+('full',) fllu
+('fund',) dfnu
+('future',) efrtuu
+('game',) aegm
+('garden',) adegnr
+('generation',) aeeginnort
+('give',) egiv
+('glass',) aglss
+('go',) go
+('goal',) aglo
+('green',) eegnr
+('ground',) dgnoru
+('grow',) gorw
+('gun',) gnu
+('hair',) ahir
+('happen',) aehnpp
+('happy',) ahppy
+('hard',) adhr
+('have',) aehv
+('he',) eh
+('head',) adeh
+('health',) aehhlt
+('help',) ehlp
+('here',) eehr
+('high',) ghhi
+('him',) him
+('his',) his
+('history',) hiorsty
+('hit',) hit
+('home',) ehmo
+('hope',) ehop
+('hospital',) ahilopst
+('hour',) horu
+('house',) ehosu
+('how',) how
+('huge',) eghu
+('human',) ahmnu
+('husband',) abdhnsu
+('idea',) adei
+('identify',) defiinty
+('if',) fi
+('image',) aegim
+('imagine',) aegiimn
+('impact',) acimpt
+('improve',) eimoprv
+('in',) in
+('including',) cdgiilnnu
+('increase',) aceeinrs
+('indeed',) ddeein
+('indicate',) acdeiint
+('individual',) addiiilnuv
+('industry',) dinrstuy
+('instead',) adeinst
+('interest',) eeinrstt
+('interesting',) eegiinnrstt
+('interview',) eeiinrtvw
+('involve',) eilnovv
+('issue',) eissu
+('it',) it
+('item',) eimt
+('its',) ist
+('job',) bjo
+('just',) jstu
+('keep',) eekp
+('kid',) dik
+('kitchen',) cehiknt
+('know',) know
+('knowledge',) deegklnow
+('last',) alst
+('late',) aelt
+('later',) aelrt
+('laugh',) aghlu
+('lawyer',) aelrwy
+('lay',) aly
+('lead',) adel
+('leader',) adeelr
+('learn',) aelnr
+('least',) aelst
+('left',) eflt
+('leg',) egl
+('letter',) eelrtt
+('light',) ghilt
+('listen',) eilnst
+('live',) eilv
+('long',) glno
+('look',) kloo
+('lose',) elos
+('loss',) loss
+('lot',) lot
+('low',) low
+('magazine',) aaegimnz
+('main',) aimn
+('maintain',) aaiimnnt
+('major',) ajmor
+('majority',) aijmorty
+('man',) amn
+('manage',) aaegmn
+('management',) aaeegmmnnt
+('many',) amny
+('market',) aekmrt
+('marriage',) aaegimrr
+('matter',) aemrtt
+('may',) amy
+('maybe',) abemy
+('me',) em
+('measure',) aeemrsu
+('medical',) acdeilm
+('member',) beemmr
+('mention',) eimnnot
+('message',) aeegmss
+('middle',) ddeilm
+('might',) ghimt
+('military',) aiilmrty
+('million',) iillmno
+('mind',) dimn
+('minute',) eimntu
+('miss',) imss
+('modern',) demnor
+('moment',) emmnot
+('money',) emnoy
+('month',) hmnot
+('more',) emor
+('morning',) gimnnor
+('most',) most
+('mother',) ehmort
+('mouth',) hmotu
+('movie',) eimov
+('much',) chmu
+('music',) cimsu
+('must',) mstu
+('my',) my
+('myself',) eflmsy
+('name',) aemn
+('natural',) aalnrtu
+('nature',) aenrtu
+('near',) aenr
+('nearly',) aelnry
+('necessary',) aceenrssy
+('need',) deen
+('news',) ensw
+('next',) entx
+('nice',) cein
+('no',) no
+('not',) not
+('note',) enot
+('nothing',) ghinnot
+('notice',) ceinot
+('now',) now
+('of',) fo
+('off',) ffo
+('officer',) ceffior
+('often',) efnot
+('oil',) ilo
+('old',) dlo
+('on',) no
+('once',) ceno
+('one',) eno
+('onto',) noot
+('open',) enop
+('operation',) aeinooprt
+('order',) deorr
+('out',) otu
+('over',) eorv
+('own',) now
+('painting',) agiinnpt
+('part',) aprt
+('particularly',) aacillprrtuy
+('party',) aprty
+('pass',) apss
+('pay',) apy
+('people',) eelopp
+('per',) epr
+('perform',) efmoprr
+('performance',) aceefmnoprr
+('perhaps',) aehpprs
+('person',) enoprs
+('personal',) aelnoprs
+('phone',) ehnop
+('physical',) achilpsy
+('pick',) cikp
+('piece',) ceeip
+('place',) acelp
+('plant',) alnpt
+('police',) ceilop
+('policy',) cilopy
+('political',) aciillopt
+('politics',) ciilopst
+('popular',) aloppru
+('population',) ailnoopptu
+('position',) iinoopst
+('positive',) eiiopstv
+('possible',) beilopss
+('power',) eoprw
+('practice',) acceiprt
+('present',) eenprst
+('president',) deeinprst
+('pretty',) eprtty
+('price',) ceipr
+('probably',) abblopry
+('produce',) cdeopru
+('production',) cdinooprtu
+('professional',) aefilnooprss
+('professor',) efooprrss
+('property',) eopprrty
+('protect',) ceoprtt
+('prove',) eoprv
+('provide',) deioprv
+('pull',) llpu
+('purpose',) eopprsu
+('push',) hpsu
+('put',) ptu
+('quality',) ailqtuy
+('range',) aegnr
+('rather',) aehrrt
+('reach',) acehr
+('real',) aelr
+('reality',) aeilrty
+('realize',) aeeilrz
+('really',) aellry
+('receive',) ceeeirv
+('recent',) ceenrt
+('recently',) ceelnrty
+('recognize',) ceeginorz
+('record',) cdeorr
+('reflect',) ceeflrt
+('region',) eginor
+('relationship',) aehiilnoprst
+('religious',) egiilorsu
+('remain',) aeimnr
+('remember',) beeemmrr
+('represent',) eeenprrst
+('require',) eeiqrru
+('research',) aceehrrs
+('resource',) ceeorrsu
+('responsibility',) beiiilnoprssty
+('rest',) erst
+('result',) elrstu
+('return',) enrrtu
+('rise',) eirs
+('road',) ador
+('rock',) ckor
+('rule',) elru
+('run',) nru
+('same',) aems
+('say',) asy
+('scene',) ceens
+('school',) chloos
+('science',) cceeins
+('scientist',) ceiinsstt
+('score',) ceors
+('sea',) aes
+('seat',) aest
+('second',) cdenos
+('see',) ees
+('seem',) eems
+('senior',) einors
+('sense',) eenss
+('series',) eeirss
+('serious',) eiorssu
+('serve',) eersv
+('seven',) eensv
+('several',) aeelrsv
+('share',) aehrs
+('she',) ehs
+('short',) horst
+('shoulder',) dehlorsu
+('show',) hosw
+('significant',) acfgiiinnst
+('simply',) ilmpsy
+('sing',) gins
+('single',) egilns
+('sister',) eirsst
+('situation',) aiinosttu
+('six',) isx
+('skill',) iklls
+('skin',) ikns
+('small',) allms
+('smile',) eilms
+('so',) os
+('social',) acilos
+('soldier',) deilors
+('somebody',) bdemoosy
+('someone',) eemnoos
+('song',) gnos
+('sound',) dnosu
+('south',) hostu
+('space',) aceps
+('speak',) aekps
+('special',) aceilps
+('specific',) ccefiips
+('spend',) denps
+('sport',) oprst
+('spring',) ginprs
+('stage',) aegst
+('stand',) adnst
+('state',) aestt
+('statement',) aeemnsttt
+('stay',) asty
+('step',) epst
+('stock',) ckost
+('stop',) opst
+('store',) eorst
+('story',) orsty
+('strategy',) aegrstty
+('street',) eerstt
+('strong',) gnorst
+('student',) densttu
+('subject',) bcejstu
+('success',) ccesssu
+('successful',) cceflsssuu
+('suffer',) effrsu
+('system',) emssty
+('take',) aekt
+('talk',) aklt
+('teach',) aceht
+('television',) eeiilnostv
+('tell',) ellt
+('ten',) ent
+('tend',) dent
+('term',) emrt
+('than',) ahnt
+('them',) ehmt
+('themselves',) eeehlmsstv
+('then',) ehnt
+('theory',) ehorty
+('there',) eehrt
+('these',) eehst
+('they',) ehty
+('thing',) ghint
+('think',) hiknt
+('third',) dhirt
+('this',) hist
+('thought',) ghhottu
+('threat',) aehrtt
+('three',) eehrt
+('through',) ghhortu
+('throughout',) ghhoorttuu
+('throw',) hortw
+('time',) eimt
+('to',) ot
+('today',) adoty
+('together',) eeghortt
+('tonight',) ghinott
+('total',) alott
+('tough',) ghotu
+('trade',) adert
+('training',) agiinnrt
+('travel',) aelrtv
+('treatment',) aeemnrttt
+('tree',) eert
+('true',) ertu
+('truth',) hrttu
+('try',) rty
+('turn',) nrtu
+('two',) otw
+('type',) epty
+('understand',) addennrstu
+('unit',) intu
+('up',) pu
+('upon',) nopu
+('us',) su
+('value',) aeluv
+('various',) aiorsuv
+('view',) eivw
+('vote',) eotv
+('wait',) aitw
+('wall',) allw
+('war',) arw
+('water',) aertw
+('we',) ew
+('wear',) aerw
+('weight',) eghitw
+('well',) ellw
+('west',) estw
+('western',) eenrstw
+('what',) ahtw
+('whatever',) aeehrtvw
+('while',) ehilw
+('whole',) ehlow
+('whom',) hmow
+('wide',) deiw
+('will',) illw
+('window',) dinoww
+('wish',) hisw
+('with',) hitw
+('within',) hiintw
+('without',) hiottuw
+('woman',) amnow
+('wonder',) denorw
+('work',) korw
+('world',) dlorw
+('worry',) orrwy
+('would',) dlouw
+('write',) eirtw
+('writer',) eirrtw
+('yard',) adry
+('yes',) esy
+('you',) ouy
+('young',) gnouy
+('your',) oruy
+1000
+629
+
+# TEST_4:
+(14, 441, 108, 272) 1155836
+(23, 404, 334, 24) 23278
+(28, 218, 430, 59) 110760
+(39, 460, 177, 316) 4039921
+(43, 65, 446, 156) 1057034
+(61, 116, 239, 335) 6884824
+(62, 237, 300, 387) 9377697
+(65, 488, 274, 369) 9030811
+(74, 142, 254, 384) 10966526
+(86, 91, 128, 422) 15353754
+(91, 9, 36, 356) 11536216
+(101, 140, 165, 350) 12421665
+(101, 222, 160, 101) 1052883
+(104, 353, 27, 75) 611502
+(117, 80, 86, 157) 2896579
+(118, 458, 486, 287) 9851474
+(129, 8, 358, 367) 17378175
+(141, 165, 451, 235) 7825951
+(145, 311, 135, 74) 817169
+(146, 235, 412, 170) 4259762
+(152, 32, 494, 139) 2941734
+(153, 92, 278, 158) 3834306
+(153, 423, 28, 148) 3413944
+(155, 404, 338, 243) 9251105
+(158, 177, 126, 77) 950537
+(172, 177, 102, 13) 31471
+(182, 83, 35, 122) 2719049
+(189, 54, 184, 395) 29510239
+(192, 188, 138, 487) 45628142
+(202, 332, 196, 139) 3949186
+(228, 422, 397, 155) 5543507
+(234, 214, 237, 10) 25777
+(238, 184, 7, 454) 49139151
+(241, 230, 281, 138) 4621625
+(241, 373, 61, 337) 27495891
+(246, 34, 105, 308) 23347121
+(250, 235, 29, 334) 27967519
+(253, 53, 478, 385) 37521808
+(257, 113, 203, 292) 21946047
+(265, 265, 84, 477) 60421674
+(267, 88, 442, 284) 21560586
+(270, 171, 209, 273) 20169722
+(271, 416, 467, 221) 13328314
+(278, 394, 362, 395) 43530942
+(286, 375, 286, 318) 29041000
+(292, 117, 143, 287) 24085470
+(296, 122, 62, 173) 8880152
+(300, 376, 144, 155) 7265924
+(307, 459, 120, 341) 35854906
+(315, 111, 482, 20) 128702
+(316, 216, 111, 388) 47655823
+(327, 286, 373, 400) 52434773
+(333, 249, 169, 299) 29845153
+(335, 221, 375, 463) 71916313
+(338, 170, 14, 432) 63152366
+(344, 276, 61, 343) 40565985
+(346, 262, 421, 34) 409305
+(354, 479, 323, 296) 31158171
+(356, 424, 67, 361) 46547407
+(358, 177, 80, 235) 19812225
+(382, 127, 228, 425) 69052953
+(396, 127, 419, 364) 52515063
+(409, 305, 260, 196) 15772184
+(412, 305, 47, 450) 83567297
+(428, 280, 27, 218) 20401339
+(431, 141, 75, 229) 22634435
+(458, 198, 293, 430) 84769633
+(471, 215, 390, 432) 87993174
+(472, 423, 167, 436) 89909907
+(481, 249, 341, 43) 900417
+(486, 161, 439, 94) 4309869
+(499, 238, 31, 291) 42325108
+100
+72
+
+# TEST_5:
+20153174455711123712868522236097194706311295377380511
+200
+

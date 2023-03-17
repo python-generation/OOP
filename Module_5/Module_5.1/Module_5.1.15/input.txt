@@ -1,0 +1,32 @@
+# INPUT DATA:
+
+# TEST_1:
+config = Config()
+
+print(config.program_name)
+print(config.environment)
+print(config.loglevel)
+print(config.version)
+
+# TEST_2:
+config1 = Config()
+config2 = Config()
+config3 = Config()
+
+print(config1 is config2)
+print(config1 is config3)
+
+# TEST_3:
+config1 = Config()
+config2 = Config()
+
+print(config1.program_name is config2.program_name)
+print(config1.environment is config2.environment)
+print(config1.loglevel is config2.loglevel)
+print(config1.version is config2.version)
+
+# TEST_4:
+config = Config()
+configs = [Config() for _ in range(1000)]
+print(all(item is config for item in configs))
+

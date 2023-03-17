@@ -1,0 +1,130 @@
+# OUTPUT DATA:
+
+# TEST_1:
+True
+True
+False
+False
+
+# TEST_2:
+{ColoredPoint(1, 2, 'white'): 10, ColoredPoint(1, 2, 'black'): 20}
+
+# TEST_3:
+Error
+
+# TEST_4:
+True
+False
+
+# TEST_5:
+10 100 OliveDrab
+73 76 SpringGreen
+67 98 Black
+98 86 DarkGray
+28 29 LightYellow
+38 73 Coral
+79 41 DarkGray
+51 83 DarkGreen
+40 95 BlanchedAlmond
+84 65 Azure
+30 9 DarkSlateBlue
+5 59 SkyBlue
+98 24 Chartreuse
+60 8 LightCyan
+94 31 YellowGreen
+36 30 DarkOliveGreen
+49 30 Beige
+36 28 Chocolate
+19 95 AntiqueWhite
+13 13 AntiqueWhite
+78 46 LightCoral
+56 25 LightSkyBlue
+34 12 Magenta
+49 22 SlateGray
+89 8 DarkGoldenRod
+39 84 Salmon
+73 96 MintCream
+10 65 MintCream
+67 48 Peru
+76 13 Orchid
+11 73 Olive
+12 88 Silver
+89 85 PaleVioletRed
+68 6 Purple
+56 64 Red
+7 25 LightGray
+41 76 Salmon
+28 99 CornflowerBlue
+47 7 LightSeaGreen
+85 100 PeachPuff
+5 86 Cyan
+68 11 Violet
+49 31 Violet
+93 55 LightCyan
+8 42 PeachPuff
+46 43 Teal
+67 36 Navy
+64 50 Olive
+8 59 PaleTurquoise
+79 69 Salmon
+81 37 Fuchsia
+86 84 Orchid
+25 100 DeepSkyBlue
+12 15 IndianRed
+9 71 LimeGreen
+88 23 WhiteSmoke
+12 89 DodgerBlue
+12 19 BurlyWood
+12 66 MediumOrchid
+59 55 PaleGreen
+15 86 Black
+65 98 DarkOliveGreen
+86 83 DarkGoldenRod
+9 85 DarkOliveGreen
+73 46 WhiteSmoke
+77 88 Beige
+43 64 MediumBlue
+95 84 DodgerBlue
+11 63 DarkGray
+28 71 DarkSalmon
+11 81 AliceBlue
+80 26 LightCoral
+97 35 Tomato
+12 82 Sienna
+100 23 Moccasin
+45 95 SeaGreen
+94 70 LightYellow
+63 76 Beige
+29 16 FireBrick
+21 42 HotPink
+65 63 DarkOrange
+31 14 HotPink
+55 67 DarkSeaGreen
+98 86 YellowGreen
+60 36 LightSteelBlue
+11 32 RoyalBlue
+14 93 Red
+72 74 Fuchsia
+53 98 AntiqueWhite
+20 33 Gold
+64 24 LightCyan
+96 58 PapayaWhip
+57 79 SlateGray
+47 75 MediumSpringGreen
+79 73 Silver
+60 36 DodgerBlue
+86 12 Linen
+9 7 RoyalBlue
+77 70 Navy
+83 66 LightCyan
+
+# TEST_6:
+False
+False
+False
+False
+False
+False
+False
+False
+

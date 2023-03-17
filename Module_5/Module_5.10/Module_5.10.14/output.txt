@@ -1,0 +1,126 @@
+# OUTPUT DATA:
+
+# TEST_1:
+Row(a='A', b='B', c='C')
+A B C
+
+# TEST_2:
+True
+True
+False
+False
+
+# TEST_3:
+Установка нового атрибута невозможна
+
+# TEST_4:
+Изменение значения атрибута невозможно
+
+# TEST_5:
+Удаление атрибута невозможно
+
+# TEST_6:
+{Row(a=1, b=2, c=3): 10, Row(d=4, e=5, f=6): 20}
+
+# TEST_7:
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+
