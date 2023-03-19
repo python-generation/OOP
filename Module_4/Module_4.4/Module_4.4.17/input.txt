@@ -53,3 +53,9 @@ for age in invalid_ages:
     except ValueError as e:
         print(e)
 
+# TEST_7:
+try:
+    user = User('Gvido_1956', '67')
+except ValueError as e:
+    print(e)
+
