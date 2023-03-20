@@ -24,6 +24,7 @@ todo.add('Дописать конспект', 5)
 
 print(todo.get_low_priority())
 print(todo.get_high_priority())
+print(todo.get_by_priority(3))
 
 # TEST_4:
 todo = Todo()
@@ -47,6 +48,11 @@ for t, p in zip(todos, priorities):
     todo.add(t, p)
 
 print(todo.get_by_priority(3))
+print(todo.get_low_priority())
+print(todo.get_high_priority())
+
+# TEST_5:
+todo = Todo()
 print(todo.get_low_priority())
 print(todo.get_high_priority())
 
