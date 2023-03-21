@@ -4,6 +4,8 @@
 postman = Postman()
 
 print(postman.delivery_data)
+print(postman.get_houses_for_street('3-я ул. Строителей'))
+print(postman.get_flats_for_house('3-я ул. Строителей', 25))
 
 # TEST_2:
 postman = Postman()
