@@ -48,3 +48,11 @@ not_supported = [[1, 2], True, (1, 2, 3, 4), 'beegeek', {'name': 'Grace Hopper'}
 for item in not_supported:
     print(a == item)
 
+# TEST_7:
+a = Vector(1, 2)
+b = Vector(3, 4)
+c = Vector(5, 6)
+
+vectors = [a, b, c]
+print(vectors)
+
