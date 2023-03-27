@@ -1,0 +1,79 @@
+# INPUT DATA:
+
+# TEST_1:
+historydict = HistoryDict({'name': 'Timur', 'city': 'Moscow'})
+
+del historydict['city']
+print(historydict['name'])
+print(len(historydict))
+
+# TEST_2:
+historydict = HistoryDict({'name': 'Timur', 'city': 'Moscow'})
+
+historydict['name'] = 'Arthur'
+historydict['city'] = 'Almetyevsk'
+historydict['name'] = 'Dima'
+print(historydict.history('name'))
+print(historydict.history('city'))
+print(historydict.history('age'))
+
+# TEST_3:
+historydict = HistoryDict({'name': 'Timur', 'city': 'Moscow'})
+
+historydict['name'] = 'Arthur'
+historydict['city'] = 'Almetyevsk'
+historydict['name'] = 'Dima'
+print(historydict.all_history())
+
+# TEST_4:
+historydict = HistoryDict({'name': 'Timur', 'city': 'Moscow', 'age': 30})
+
+print(*historydict)
+print(*historydict.keys())
+print(*historydict.values())
+print(*historydict.items())
+
+# TEST_5:
+d = dict.fromkeys(range(100), None)
+attrdict = HistoryDict(d)
+print(*attrdict)
+
+d[100] = None
+print(*attrdict)
+
+# TEST_6:
+d = {'name': 'Иннокентий Елисеевич Архипов', 'age': 34, 'year': 1989}
+historydict = HistoryDict(d)
+
+names = ['Регина Ефимовна Костина', 'Мина Викторович Лаврентьев', 'Голубева Юлия Робертовна',
+         'Чернова Варвара Максимовна', 'Юдин Матвей Иосипович', 'Степанов Мечислав Ерофеевич',
+         'Абрамов Амос Августович', 'Ольга Егоровна Константинова', 'Хохлов Ираклий Ефимьевич',
+         'Нестеров Никон Ермилович', 'Третьякова София Юльевна', 'Кудряшова Нина Юльевна', 'Казакова Раиса Феликсовна',
+         'Александрова Надежда Николаевна', 'Никон Давыдович Васильев', 'Пахом Ильясович Морозов',
+         'Дмитрий Тихонович Панов', 'Лебедева Галина Валериевна', 'Кузьмина Анастасия Викторовна',
+         'Севастьян Жанович Якушев']
+
+ages = [37, 20, 31, 21, 38, 24, 31, 24, 37, 20, 22, 39, 25, 21, 28, 28, 30, 30, 36, 23]
+
+years = [1986, 2003, 1992, 2002, 1985, 1999, 1992, 1999, 1986, 2003, 2001, 1984, 1998, 2002, 1995, 1995, 1993, 1993,
+         1987, 2000]
+
+for name, age, year in zip(names, ages, years):
+    historydict['name'] = name
+    historydict['age'] = age
+    historydict['year'] = year
+
+print(*historydict.items())
+print(historydict.history('name'))
+print(historydict.history('age'))
+print(historydict.history('year'))
+
+# TEST_7:
+historydict = HistoryDict()
+print('Keys:', *historydict.keys())
+print('Values:', *historydict.values())
+print('Items:', *historydict.items())
+print('History(key=1):', historydict.history(1))
+print('History(key=1):', historydict.history(1))
+print('All history:', historydict.all_history())
+

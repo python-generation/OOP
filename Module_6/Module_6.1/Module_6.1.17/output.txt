@@ -1,0 +1,20 @@
+# OUTPUT DATA:
+
+# TEST_1:
+('name', 'Debbie') ('surname', 'Harry') ('age', 77)
+
+# TEST_2:
+('name', 'Debbie')
+('surname', 'Harry')
+('age', 77)
+('profession', 'singer')
+('height', 160)
+
+# TEST_3:
+('family', 'cats')
+('breed', 'british')
+('master', 'Kemal')
+
+# TEST_4:
+Атрибуты закончились
+

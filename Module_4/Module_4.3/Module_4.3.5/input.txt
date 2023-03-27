@@ -23,5 +23,5 @@ array = [85, 74, 34, 33, 19, 15, 65, 91, 17, 15, 95, 17, 57, 35, 61, 29, 98, 74,
 
 for radius in array:
     circle = Circle(radius)
-    print('Радиус =',circle.radius, 'Диаметр =', circle.diameter, 'Площадь =', circle.area)
+    print('Радиус =', circle.radius, 'Диаметр =', circle.diameter, 'Площадь =', round(circle.area, 2))
 
