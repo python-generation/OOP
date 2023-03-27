@@ -146,3 +146,10 @@ vector4 = vector2 - vector1
 print(vector3)
 print(vector4)
 
+# TEST_8:
+vector = Vector(10, 20)
+print(vector.__add__([]))
+print(vector.__sub__(()))
+print(vector.__mul__({}))
+print(vector.__truediv__(set()))
+

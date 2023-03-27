@@ -42,3 +42,8 @@ None
 True
 False
 
+# TEST_10:
+NotImplemented
+NotImplemented
+NotImplemented
+

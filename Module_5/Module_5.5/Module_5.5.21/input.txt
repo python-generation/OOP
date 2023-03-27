@@ -65,3 +65,9 @@ q2 = Queue(1, 2)
 print(q1 == q2)
 print(q1 != q2)
 
+# TEST_10:
+queue = Queue(1, 2, 3)
+print(queue.__add__([]))
+print(queue.__iadd__('bee'))
+print(queue.__rshift__('geek'))
+

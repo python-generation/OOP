@@ -74,3 +74,10 @@ for p, f, c in pfc:
     food = FoodInfo(p, f, c)
     print(food / 10)
 
+# TEST_6:
+food = FoodInfo(10, 20, 30)
+print(food.__add__([]))
+print(food.__mul__(()))
+print(food.__truediv__({}))
+print(food.__floordiv__(set()))
+

@@ -423,3 +423,9 @@ Vector(53.0, 12.0)
 Vector(-5, -5)
 Vector(5, 5)
 
+# TEST_8:
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+

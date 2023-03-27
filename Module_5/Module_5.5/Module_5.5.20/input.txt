@@ -56,3 +56,8 @@ for hour, minute in times:
     new_time = time + Time(hour, minute)
     print(new_time)
 
+# TEST_7:
+t = Time(40, 80)
+print(t.__add__([]))
+print(t.__iadd__('bee'))
+
