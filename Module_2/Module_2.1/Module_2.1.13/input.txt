@@ -63,3 +63,8 @@ print(is_decimal('1-1'))
 # TEST_21:
 print(is_decimal('1-1-1'))
 
+# TEST_22:
+strings = ['100.', '349..', '-425.', '-1248..']
+for string in strings:
+    print(is_decimal(string))
+

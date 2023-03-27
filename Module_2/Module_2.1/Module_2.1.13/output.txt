@@ -63,3 +63,9 @@ False
 # TEST_21:
 False
 
+# TEST_22:
+True
+False
+True
+False
+
