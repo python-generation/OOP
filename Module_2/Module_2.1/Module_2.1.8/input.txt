@@ -47,8 +47,11 @@ print(make_None())
 # TEST_7:
 @jsonify
 def make_tuple():
+    """JSON-Tuple object"""
     return (1, '2', 3.0, None, False, {'1': True})
 
 
 print(make_tuple())
+print(make_tuple.__name__)
+print(make_tuple.__doc__)
 
