@@ -23,7 +23,7 @@ except ValueError as e:
 
 # TEST_4:
 try:
-    HourClock('🦆')
+    HourClock(0)
 except ValueError as e:
     print(e)
 
