@@ -1,0 +1,30 @@
+# INPUT DATA:
+
+# TEST_1:
+with Greeter('Кейв'):
+    print('...')
+
+# TEST_2:
+with Greeter('Кейв') as greeter:
+    print(greeter.name)
+
+# TEST_3:
+with Greeter('Матильда') as greeter:
+    pass
+
+# TEST_4:
+with Greeter('Михаил Г.') as greeter:
+    print(
+        '\nКак бессонница в час ночной\n'
+        'Меняет, нелюдимая, облик твой,\n'
+        'Чьих невольница ты идей?\n'
+        'Зачем тебе охотиться на людей?\n'
+    )
+
+# TEST_5:
+with Greeter('Gvido') as greeter:
+    try:
+        print(greeter.age)
+    except AttributeError as e:
+        print(f'Атрибут "{e.name}" отсутствует')
+

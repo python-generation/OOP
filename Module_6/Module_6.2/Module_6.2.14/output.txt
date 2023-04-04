@@ -1,0 +1,31 @@
+# OUTPUT DATA:
+
+# TEST_1:
+bee python stepik geek
+4
+
+# TEST_2:
+True
+False
+
+# TEST_3:
+green blue red
+green red
+
+# TEST_4:
+True
+False
+True
+False
+False
+
+# TEST_5:
+1
+
+# TEST_6:
+True
+True
+True
+True
+True
+

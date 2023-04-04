@@ -1,0 +1,57 @@
+# INPUT DATA:
+
+# TEST_1:
+class Student:
+    name = LimitedTakes(3)
+
+student = Student()
+student.name = 'Gwen'
+
+print(student.name)
+print(student.name)
+print(student.name)
+
+try:
+    print(student.name)
+except MaxCallsException as e:
+    print(e)
+
+# TEST_2:
+class Student:
+    name = LimitedTakes(3)
+
+student = Student()
+
+for _ in range(100):
+    student.name = 'Gwen'
+    
+print(student.name)
+
+# TEST_3:
+class Programmer:
+    name = LimitedTakes(1)
+
+
+programmer = Programmer()
+
+try:
+    print(programmer.name)
+except AttributeError as e:
+    print(e)
+
+# TEST_4:
+class Programmer:
+    name = LimitedTakes(1000)
+
+
+programmer = Programmer()
+programmer.name = 'Gvido'
+
+for _ in range(1000):
+    programmer.name
+
+try:
+    print(programmer.name)
+except MaxCallsException as e:
+    print(e)
+

@@ -1,0 +1,59 @@
+# INPUT DATA:
+
+# TEST_1:
+class Student:
+    name = NonKeyword('name')
+
+student = Student()
+student.name = 'Peter'
+
+print(student.name)
+
+# TEST_2:
+class Student:
+    name = NonKeyword('name')
+
+student = Student()
+
+try:
+    print(student.name)
+except AttributeError as e:
+    print(e)
+
+# TEST_3:
+class Student:
+    name = NonKeyword('name')
+
+student = Student()
+student.name = 'Peter'
+
+try:
+    student.name = 'class'
+except ValueError as e:
+    print(e)
+
+# TEST_4:
+class Student:
+    name = NonKeyword('name')
+
+student = Student()
+
+try:
+    student.name = 'class'
+except ValueError as e:
+    print(e)
+
+# TEST_5:
+from keyword import kwlist
+
+class Student:
+    name = NonKeyword('name')
+
+student = Student()
+
+for kw in kwlist:
+    try:
+        student.name = kw
+    except ValueError as e:
+        print(e)
+

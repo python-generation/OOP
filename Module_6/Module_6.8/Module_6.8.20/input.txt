@@ -1,0 +1,82 @@
+# INPUT DATA:
+
+# TEST_1:
+class Student:
+    age = Versioned()
+    
+student = Student()
+
+student.age = 18
+student.age = 19
+
+print(student.age)
+
+# TEST_2:
+class Student:
+    age = Versioned()
+    
+student = Student()
+
+student.age = 18
+student.age = 19
+student.age = 20
+
+print(student.age)
+print(Student.age.get_version(student, 1))
+print(Student.age.get_version(student, 2))
+print(Student.age.get_version(student, 3))
+
+# TEST_3:
+class Student:
+    age = Versioned()
+    
+student = Student()
+
+student.age = 18
+student.age = 19
+student.age = 20
+
+print(student.age)
+Student.age.set_version(student, 1)
+print(student.age)
+
+# TEST_4:
+class Student:
+    name = Versioned()
+
+student = Student()
+
+try:
+    print(student.name)
+except AttributeError as e:
+    print(e)
+
+# TEST_5:
+class Person:
+    age = Versioned()
+
+
+person = Person()
+
+person.age = 0
+for _ in range(50):
+    person.age += 1
+
+for i in range(51):
+    print(Person.age.get_version(person, i + 1))
+
+# TEST_6:
+class Person:
+    age = Versioned()
+
+
+person = Person()
+
+person.age = 0
+for _ in range(50):
+    person.age += 1
+
+print(person.age)
+Person.age.set_version(person, 32)
+print(person.age)
+

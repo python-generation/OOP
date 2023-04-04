@@ -1,0 +1,25 @@
+# OUTPUT DATA:
+
+# TEST_1:
+Завершение программы
+
+# TEST_2:
+invalid literal for int() with base 10: 'я число'
+<class 'ValueError'>
+
+# TEST_3:
+All success!
+None
+
+# TEST_4:
+None
+
+# TEST_5:
+99
+
+<class 'StopIteration'>
+
+# TEST_6:
+'Mask'
+<class 'KeyError'>
+

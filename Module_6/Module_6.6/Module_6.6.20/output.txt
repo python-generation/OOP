@@ -1,0 +1,64 @@
+# OUTPUT DATA:
+
+# TEST_1:
+None
+Знаешь, кто не прав? Лев
+Что треугольник сказал кругу? Катись отсюда
+
+# TEST_2:
+None
+[Errno 2] No such file or directory: 'Ellies_jokes_2.txt'
+
+# TEST_3:
+Кричит ворона в небе: – Кар-р!
+В лесу пожар-р, в лесу пожар-р!
+А было просто очень:
+В нём поселилась осень.
+None
+
+# TEST_4:
+None
+binary mode doesn't take an encoding argument
+
+# TEST_5:
+None
+[Errno 2] No such file or directory: 'file1.txt'
+None
+[Errno 2] No such file or directory: 'file2.txt'
+None
+[Errno 2] No such file or directory: 'file3.txt'
+None
+[Errno 2] No such file or directory: 'file4.txt'
+None
+[Errno 2] No such file or directory: 'file5.txt'
+None
+[Errno 2] No such file or directory: 'file6.txt'
+None
+[Errno 2] No such file or directory: 'file7.txt'
+None
+[Errno 2] No such file or directory: 'file8.txt'
+None
+[Errno 2] No such file or directory: 'file9.txt'
+None
+[Errno 2] No such file or directory: 'file10.txt'
+None
+[Errno 2] No such file or directory: 'file11.txt'
+None
+[Errno 2] No such file or directory: 'file12.txt'
+None
+[Errno 2] No such file or directory: 'file13.txt'
+None
+[Errno 2] No such file or directory: 'file14.txt'
+None
+[Errno 2] No such file or directory: 'file15.txt'
+None
+[Errno 2] No such file or directory: 'file16.txt'
+None
+[Errno 2] No such file or directory: 'file17.txt'
+None
+[Errno 2] No such file or directory: 'file18.txt'
+None
+[Errno 2] No such file or directory: 'file19.txt'
+None
+[Errno 2] No such file or directory: 'file20.txt'
+

@@ -1,0 +1,94 @@
+# OUTPUT DATA:
+
+# TEST_1:
+True
+True
+True
+
+# TEST_2:
+False
+False
+False
+
+# TEST_3:
+True
+True
+True
+
+# TEST_4:
+Изменение невозможно
+
+# TEST_5:
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+
+# TEST_6:
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+

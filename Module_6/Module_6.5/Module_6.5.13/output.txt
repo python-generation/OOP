@@ -1,0 +1,25 @@
+# OUTPUT DATA:
+
+# TEST_1:
+[1, 0, 4, 5, 6]
+
+# TEST_2:
+[1, 2, 3, 4, 5]
+
+# TEST_3:
+[[1, 2], [3, 4, 0]]
+
+# TEST_4:
+[[1, 2], [3, 4]]
+
+# TEST_5:
+[1, 2, 3, 4, 5]
+[1, 2, 3, 4, 5, 6]
+
+# TEST_6:
+{'firstname': 'Alyson', 'lastname': 'Hannigan', 'birthday': {'day': 24, 'month': 'March', 'year': 1974}}
+{'firstname': 'Alyson', 'lastname': 'Hannigan', 'birthday': {'day': 24, 'month': 'April', 'year': 1974}}
+
+# TEST_7:
+{'a': 100, 'z': 333, 'b': 200, 'c': 300, 'd': 45, 'e': 100, 't': 76, 'q': 34, 'f': 90, 'm': 230}
+

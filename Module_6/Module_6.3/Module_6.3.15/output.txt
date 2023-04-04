@@ -1,0 +1,14 @@
+# OUTPUT DATA:
+
+# TEST_1:
+INFO: User logged in
+ERROR: Invalid input data
+
+# TEST_2:
+INFO: User is here
+ERROR: User is nub
+INFO: Patrick
+ERROR: File not found
+INFO: Start Beegeek OOP Course
+INFO: Goodbye
+
