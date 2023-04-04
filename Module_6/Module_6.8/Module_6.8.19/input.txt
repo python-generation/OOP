@@ -71,3 +71,16 @@ magicpoint = MagicPoint()
 for _ in range(50):
     print(magicpoint.x in range(-1000, 1001))
 
+# TEST_7:
+class MagicPoint:
+    x = RandomNumber(-1000, 1000)
+
+    def __init__(self, x):
+        self.x = x
+
+
+try:
+    magicpoint = MagicPoint(150)
+except AttributeError as e:
+    print(e)
+
