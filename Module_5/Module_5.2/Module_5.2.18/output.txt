@@ -21,3 +21,9 @@ AnyClass: name='Gvido', language='Python', age=67
 # TEST_5:
 AnyClass: name='Margaret Heafield Hamilton', birth_date='17.09.1936', age=86, career='computer scientist'
 
+# TEST_6:
+Guido van Rossum
+31.01.1956
+67
+python guru
+

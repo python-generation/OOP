@@ -77,3 +77,11 @@ with Atomic(data) as atomic:
 
 print(data)
 
+# TEST_8:
+matrix = [[1, 2], [3, 4]]
+
+with Atomic(matrix, True) as atomic:
+    atomic[1].append(0)
+
+print(matrix)
+

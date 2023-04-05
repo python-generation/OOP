@@ -4,7 +4,7 @@
 f1 = open('file1.txt', mode='w')
 f2 = open('file2.txt', mode='w')
 
-with WriteSpy(f1, f2, close=True) as combined:
+with WriteSpy(f1, f2, to_close=True) as combined:
     combined.write('You shall seal the blinding light that plagues their dreams\n')
     combined.write('You are the Vessel\n')
     combined.write('You are the Hollow Knight')
@@ -19,20 +19,20 @@ with open('file1.txt') as file1, open('file2.txt') as file2:
 f1 = open('file1.txt', mode='w')
 f2 = open('file2.txt', mode='w')
 
-with WriteSpy(f1, f2, close=True) as combined:
+with WriteSpy(f1, f2, to_close=True) as combined:
     print(combined.writable())
     
 f1 = open('file1.txt')
 f2 = open('file2.txt')
 
-with WriteSpy(f1, f2, close=True) as combined:
+with WriteSpy(f1, f2, to_close=True) as combined:
     print(combined.writable())
 
 # TEST_3:
 f1 = open('file1.txt', mode='w')
 f2 = open('file2.txt', mode='w')
 
-with WriteSpy(f1, f2, close=True) as combined:
+with WriteSpy(f1, f2, to_close=True) as combined:
     print(combined.closed())
     f1.close()
     print(combined.closed())
@@ -43,7 +43,7 @@ with WriteSpy(f1, f2, close=True) as combined:
 f1 = open('file1.txt', mode='w')
 f2 = open('file2.txt', mode='w')
 
-with WriteSpy(f1, f2, close=False) as combined:
+with WriteSpy(f1, f2, to_close=False) as combined:
     print(f1.closed, f2.closed)
     combined.close()
     print(f1.closed, f2.closed)
@@ -53,7 +53,7 @@ f1 = open('file1.txt', mode='r')
 f2 = open('file2.txt', mode='w')
 
 try:
-    with WriteSpy(f1, f2, close=True) as combined:
+    with WriteSpy(f1, f2, to_close=True) as combined:
         combined.write('No cost too great')
 except ValueError as error:
     print(error)
@@ -64,8 +64,16 @@ f2 = open('file2.txt', mode='w')
 f1.close()
 
 try:
-    with WriteSpy(f1, f2, close=True) as combined:
+    with WriteSpy(f1, f2, to_close=True) as combined:
         combined.write('No cost too great')
 except ValueError as error:
     print(error)
+
+# TEST_7:
+f1 = open('file1.txt', mode='w')
+f2 = open('file2.txt', mode='w')
+f1.close()
+
+with WriteSpy(f1, f2, to_close=True) as combined:
+    print(combined.writable())
 

@@ -17,8 +17,8 @@ None
 None
 
 # TEST_4:
+<_io.BufferedReader name='file.txt'>
 None
-binary mode doesn't take an encoding argument
 
 # TEST_5:
 None

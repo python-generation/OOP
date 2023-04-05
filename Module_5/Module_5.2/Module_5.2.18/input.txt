@@ -37,3 +37,16 @@ attrs = {
 obj = AnyClass(**attrs)
 print(obj)
 
+# TEST_6:
+attrs = {
+    'name': 'Guido van Rossum',
+    'birth_date': '31.01.1956',
+    'age': 67,
+    'career': 'python guru'
+}
+obj = AnyClass(**attrs)
+print(obj.name)
+print(obj.birth_date)
+print(obj.age)
+print(obj.career)
+
