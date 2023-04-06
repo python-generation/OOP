@@ -109,3 +109,16 @@ with tree:
 
 print(tree.structure())
 
+# TEST_7:
+tree = TreeBuilder()
+
+tree.add('1st')
+
+with tree:
+    with tree:
+        with tree:
+            with tree:
+                tree.add('5th')
+
+print(tree.structure())
+

@@ -22,3 +22,6 @@
 # TEST_6:
 ['root', ['first child', 'second child', ['grandchild'], 'bastard', 'another bastard']]
 
+# TEST_7:
+['1st', [[[['5th']]]]]
+
