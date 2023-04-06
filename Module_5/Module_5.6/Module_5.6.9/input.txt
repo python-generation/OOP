@@ -44,3 +44,10 @@ for a, b in digits:
     print(calculator(a, b, operations[ind]))
     count += 1
 
+# TEST_4:
+calculator = Calculator()
+
+print(calculator(10, 0, '+'))
+print(calculator(10, 0, '-'))
+print(calculator(10, 0, '*'))
+
