@@ -55,3 +55,60 @@ try:
 except MaxCallsException as e:
     print(e)
 
+# TEST_5:
+class Student:
+    name = LimitedTakes(3)
+
+
+class Programmer:
+    name = LimitedTakes(1)
+
+
+student = Student()
+programmer = Programmer()
+
+student.name = 'Gwen'
+programmer.name = 'Mantrida'
+
+for _ in range(3):
+    print(student.name)
+
+try:
+    print(student.name)
+except MaxCallsException as e:
+    print(e)
+
+
+print(programmer.name)
+
+try:
+    print(programmer.name)
+except MaxCallsException as e:
+    print(e)
+
+# TEST_6:
+class Student:
+    first_name = LimitedTakes(3)
+    last_name = LimitedTakes(1)
+
+
+student = Student()
+
+student.first_name = 'Gwen'
+student.last_name = 'Stacy'
+
+
+for _ in range(3):
+    print(student.first_name)
+
+try:
+    print(student.first_name)
+except MaxCallsException as e:
+    print(e)
+
+print(student.last_name)
+try:
+    print(student.last_name)
+except MaxCallsException as e:
+    print(e)
+

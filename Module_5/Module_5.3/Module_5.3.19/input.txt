@@ -47,3 +47,10 @@ print(sorted(months))
 print(min(months))
 print(max(months))
 
+# TEST_6:
+print(Month(1999, 12) == (1999, 12))
+print(Month(1999, 12) < (2000, 1))
+print(Month(1999, 12) > (2000, 1))
+print(Month(1999, 12) <= (1999, 12))
+print(Month(1999, 12) >= (2000, 1))
+

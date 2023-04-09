@@ -29,3 +29,10 @@ False
 2000-4
 2023-5
 
+# TEST_6:
+True
+True
+False
+True
+False
+
