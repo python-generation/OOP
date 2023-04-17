@@ -1,0 +1,39 @@
+# INPUT DATA:
+
+# TEST_1:
+print(issubclass(LandVehicle, Vehicle))
+print(issubclass(WaterVehicle, Vehicle))
+print(issubclass(AirVehicle, Vehicle))
+
+# TEST_2:
+print(issubclass(Car, LandVehicle))
+print(issubclass(Motocycle, LandVehicle))
+print(issubclass(Bicycle, LandVehicle))
+
+# TEST_3:
+print(issubclass(Propeller, AirVehicle))
+print(issubclass(Jet, AirVehicle))
+
+# TEST_4:
+print(issubclass(Car, Vehicle))
+print(issubclass(Motocycle, Vehicle))
+print(issubclass(Bicycle, Vehicle))
+print(issubclass(Propeller, AirVehicle))
+print(issubclass(Jet, AirVehicle))
+
+# TEST_5:
+print(issubclass(Car, WaterVehicle))
+print(issubclass(Motocycle, WaterVehicle))
+print(issubclass(Bicycle, WaterVehicle))
+
+print(issubclass(Car, AirVehicle))
+print(issubclass(Motocycle, AirVehicle))
+print(issubclass(Bicycle, AirVehicle))
+
+# TEST_6:
+print(issubclass(Propeller, LandVehicle))
+print(issubclass(Jet, LandVehicle))
+
+print(issubclass(Propeller, WaterVehicle))
+print(issubclass(Jet, WaterVehicle))
+

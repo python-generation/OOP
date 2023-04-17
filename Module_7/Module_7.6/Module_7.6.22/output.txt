@@ -1,0 +1,28 @@
+# OUTPUT DATA:
+
+# TEST_1:
+True
+True
+True
+True
+
+# TEST_2:
+True
+True
+False
+False
+
+# TEST_3:
+False
+False
+True
+True
+
+# TEST_4:
+[<class '__main__.A'>, <class '__main__.B'>, <class '__main__.D'>, <class '__main__.E'>, <class '__main__.C'>, <class '__main__.F'>, <class '__main__.G'>, <class '__main__.H'>, <class 'object'>]
+
+# TEST_5:
+True
+True
+True
+

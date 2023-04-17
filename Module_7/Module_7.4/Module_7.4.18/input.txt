@@ -1,0 +1,58 @@
+# INPUT DATA:
+
+# TEST_1:
+numberlist = NumberList([1, 2])
+
+numberlist.append(3)
+numberlist.extend([4, 5])
+numberlist.insert(0, 0)
+print(numberlist)
+
+# TEST_2:
+numberlist = NumberList([0, 1.0])
+
+numberlist[1] = 1
+numberlist = numberlist + NumberList([2, 3])
+numberlist += NumberList([4, 5])
+print(numberlist)
+
+# TEST_3:
+try:
+    numberlist = NumberList(['a', 'b', 'c'])
+except TypeError as error:
+    print(error)
+
+# TEST_4:
+numberlist = NumberList([1, 2, 3])
+
+try:
+    numberlist.append('4')
+except TypeError as error:
+    print(error)
+
+# TEST_5:
+numberlist = NumberList([1, 2])
+
+try:
+    numberlist += [3, '4']
+except TypeError as e:
+    print(e)
+
+# TEST_6:
+numberlist1 = NumberList([1, 2])
+
+try:
+    numberlist2 = numberlist1 + [3, '4']
+except TypeError as e:
+    print(e)
+
+# TEST_7:
+data = [1, 2, 3]
+numberlist = NumberList(data)
+
+print(numberlist)
+
+data.extend([4, 5, 6])
+print(data)
+print(numberlist)
+

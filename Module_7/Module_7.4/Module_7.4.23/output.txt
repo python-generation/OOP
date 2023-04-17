@@ -1,0 +1,113 @@
+# OUTPUT DATA:
+
+# TEST_1:
+beegeek
+BEEGEEK
+BEEEEGK
+
+# TEST_2:
+beegeek
+BeeGeek
+
+# TEST_3:
+improve IMPROVE EIMOPRV
+north NORTH HNORT
+now NOW NOW
+there THERE EEHRT
+outside OUTSIDE DEIOSTU
+set SET EST
+into INTO INOT
+time TIME EIMT
+campaign CAMPAIGN AACGIMNP
+onto ONTO NOOT
+change CHANGE ACEGHN
+source SOURCE CEORSU
+use USE ESU
+huge HUGE EGHU
+specific SPECIFIC CCEFIIPS
+consumer CONSUMER CEMNORSU
+speak SPEAK AEKPS
+card CARD ACDR
+century CENTURY CENRTUY
+late LATE AELT
+focus FOCUS CFOSU
+money MONEY EMNOY
+successful SUCCESSFUL CCEFLSSSUU
+myself MYSELF EFLMSY
+available AVAILABLE AAABEILLV
+rise RISE EIRS
+no NO NO
+charge CHARGE ACEGHR
+hit HIT HIT
+friend FRIEND DEFINR
+cost COST COST
+billion BILLION BIILLNO
+financial FINANCIAL AACFIILNN
+model MODEL DELMO
+decade DECADE ACDDEE
+whole WHOLE EHLOW
+space SPACE ACEPS
+service SERVICE CEEIRSV
+agreement AGREEMENT AEEEGMNRT
+home HOME EHMO
+represent REPRESENT EEENPRRST
+away AWAY AAWY
+describe DESCRIBE BCDEEIRS
+plan PLAN ALNP
+drop DROP DOPR
+dream DREAM ADEMR
+leg LEG EGL
+mouth MOUTH HMOTU
+interesting INTERESTING EEGIINNRSTT
+provide PROVIDE DEIOPRV
+indeed INDEED DDEEIN
+thing THING GHINT
+practice PRACTICE ACCEIPRT
+miss MISS IMSS
+bring BRING BGINR
+important IMPORTANT AIMNOPRTT
+court COURT CORTU
+talk TALK AKLT
+true TRUE ERTU
+conference CONFERENCE CCEEEFNNOR
+tell TELL ELLT
+issue ISSUE EISSU
+identify IDENTIFY DEFIINTY
+hand HAND ADHN
+appear APPEAR AAEPPR
+stuff STUFF FFSTU
+run RUN NRU
+present PRESENT EENPRST
+good GOOD DGOO
+region REGION EGINOR
+detail DETAIL ADEILT
+recognize RECOGNIZE CEEGINORZ
+international INTERNATIONAL AAEIILNNNORTT
+behavior BEHAVIOR ABEHIORV
+attack ATTACK AACKTT
+politics POLITICS CIILOPST
+great GREAT AEGRT
+baby BABY ABBY
+measure MEASURE AEEMRSU
+whether WHETHER EEHHRTW
+yard YARD ADRY
+with WITH HITW
+pressure PRESSURE EEPRRSSU
+role ROLE ELOR
+eight EIGHT EGHIT
+man MAN AMN
+she SHE EHS
+four FOUR FORU
+them THEM EHMT
+adult ADULT ADLTU
+clear CLEAR ACELR
+marriage MARRIAGE AAEGIMRR
+meeting MEETING EEGIMNT
+notice NOTICE CEINOT
+
+# TEST_4:
+Spelling: my last name is two words, and I'd like to keep it that way, the spelling on some of my credit
+cards notwithstanding. Dutch spelling rules dictate that when used in combination with my first name, "VAN" is not
+capitalized: "Guido van Rossum". But when my last name is used alone to refer to me, it is capitalized, for example:
+"As usual, Van Rossum was right."
+

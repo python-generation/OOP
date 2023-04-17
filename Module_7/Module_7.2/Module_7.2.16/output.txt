@@ -1,0 +1,33 @@
+# OUTPUT DATA:
+
+# TEST_1:
+True
+True
+True
+False
+False
+1
+8.99$
+
+# TEST_2:
+True
+True
+True
+True
+False
+2
+12.99$
+
+# TEST_3:
+True
+True
+True
+True
+True
+4
+15.99$
+
+# TEST_4:
+True
+True
+

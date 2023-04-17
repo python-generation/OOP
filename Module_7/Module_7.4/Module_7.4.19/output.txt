@@ -1,0 +1,25 @@
+# OUTPUT DATA:
+
+# TEST_1:
+Timur
+Moscow
+
+# TEST_2:
+Dubai
+30
+
+# TEST_3:
+{'name': 'Artur', 'city': 'Almetevsk'}
+
+# TEST_4:
+30
+33
+31
+44
+23
+21
+46
+23
+22
+37
+

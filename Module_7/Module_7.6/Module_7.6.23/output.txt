@@ -1,0 +1,29 @@
+# OUTPUT DATA:
+
+# TEST_1:
+<class '__main__.A'>
+
+# TEST_2:
+<class '__main__.B'>
+
+# TEST_3:
+None
+
+# TEST_4:
+<class '__main__.Cat'>
+
+# TEST_5:
+<class '__main__.B'>
+
+# TEST_6:
+<class '__main__.C'>
+
+# TEST_7:
+<class '__main__.A'>
+
+# TEST_8:
+<class '__main__.D'>
+
+# TEST_9:
+None
+

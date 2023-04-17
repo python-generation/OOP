@@ -1,0 +1,173 @@
+# OUTPUT DATA:
+
+# TEST_1:
+1
+5
+3.0
+
+# TEST_2:
+1
+5
+3.0
+
+# TEST_3:
+None
+None
+None
+
+# TEST_4:
+844 None
+3023 None
+278 None
+332 None
+213 None
+1129 None
+1676 None
+1903 None
+1050 None
+880 None
+179 None
+1584 None
+366 None
+2363 None
+439 None
+129 None
+2145 None
+913 None
+1096 None
+728 None
+291 None
+116 None
+762 None
+344 None
+1119 None
+895 None
+371 None
+3260 None
+2172 None
+210 None
+3816 None
+1028 None
+390 None
+994 None
+648 None
+266 None
+1129 None
+129 None
+485 None
+1927 None
+1624 None
+277 None
+383 None
+553 None
+1990 None
+1447 None
+853 None
+263 None
+102 None
+788 None
+
+# TEST_5:
+9788 None
+8758 None
+9075 None
+9993 None
+9879 None
+8397 None
+8047 None
+9520 None
+9248 None
+8191 None
+9465 None
+9685 None
+8626 None
+9024 None
+8502 None
+9836 None
+9440 None
+9559 None
+7701 None
+9803 None
+8913 None
+9945 None
+9905 None
+9873 None
+7290 None
+9357 None
+9561 None
+9882 None
+7763 None
+9998 None
+9722 None
+8091 None
+4975 None
+9812 None
+9212 None
+9389 None
+9145 None
+9926 None
+9577 None
+9126 None
+9689 None
+9498 None
+9550 None
+8976 None
+8600 None
+7321 None
+9560 None
+6847 None
+9877 None
+9738 None
+
+# TEST_6:
+6941.7 None
+4895.4 None
+4908.8 None
+5349.1 None
+6319.3 None
+4693.8 None
+4633.1 None
+6000.5 None
+4152.6 None
+4514.1 None
+4689.1 None
+5110.8 None
+5477.3 None
+4816.2 None
+4173.3 None
+5218.4 None
+5417.1 None
+4367.6 None
+4680.4 None
+5800.3 None
+3181.4 None
+3955.4 None
+4942.4 None
+5104.1 None
+5770.9 None
+5141.0 None
+3320.0 None
+4285.1 None
+5693.0 None
+5878.6 None
+4486.2 None
+5478.4 None
+2562.9 None
+4793.2 None
+4890.9 None
+4321.6 None
+5558.1 None
+4408.4 None
+4336.3 None
+4683.5 None
+4607.2 None
+6377.3 None
+3425.9 None
+5088.4 None
+4645.9 None
+6702.5 None
+4749.2 None
+5094.9 None
+4894.6 None
+5970.1 None
+

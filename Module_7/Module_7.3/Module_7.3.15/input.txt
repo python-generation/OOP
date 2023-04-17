@@ -1,0 +1,63 @@
+# INPUT DATA:
+
+# TEST_1:
+s1 = FuzzyString('BeeGeek')
+s2 = FuzzyString('beegeek')
+
+print(s1 == s2)
+print(s1 in s2)
+print(s2 in s1)
+print(s2 not in s1)
+print(s2 not in s1)
+
+# TEST_2:
+s = FuzzyString('BeeGeek')
+
+print(s != 'BEEGEEK')
+print(s == 'BEEGEEK')
+print(s != 'beegeek')
+print(s == 'beegeek')
+print(s >= 'BEEGEEK')
+print(s <= 'BEEGEEK')
+print(s > 'BEEGEEK')
+print(s < 'BEEGEEK')
+
+# TEST_3:
+s = FuzzyString('BeeGeek')
+
+print(s != 'BEE GEEK')
+print(s == 'BEE GEEK')
+print(s != 'bee geek')
+print(s == 'bee geek')
+
+# TEST_4:
+s = FuzzyString('patrick')
+
+words = ['patrick', 'Patrick', 'pAtrick', 'PAtrick', 'paTrick', 'PaTrick', 'pATrick', 'PATrick', 'patRick', 'PatRick',
+         'pAtRick', 'PAtRick', 'paTRick', 'PaTRick', 'pATRick', 'PATRick', 'patrIck', 'PatrIck', 'pAtrIck', 'PAtrIck',
+         'paTrIck', 'PaTrIck', 'pATrIck', 'PATrIck', 'patRIck', 'PatRIck', 'pAtRIck', 'PAtRIck', 'paTRIck', 'PaTRIck',
+         'pATRIck', 'PATRIck', 'patriCk', 'PatriCk', 'pAtriCk', 'PAtriCk', 'paTriCk', 'PaTriCk', 'pATriCk', 'PATriCk',
+         'patRiCk', 'PatRiCk', 'pAtRiCk', 'PAtRiCk', 'paTRiCk', 'PaTRiCk', 'pATRiCk', 'PATRiCk', 'patrICk', 'PatrICk',
+         'pAtrICk', 'PAtrICk', 'paTrICk', 'PaTrICk', 'pATrICk', 'PATrICk', 'patRICk', 'PatRICk', 'pAtRICk', 'PAtRICk',
+         'paTRICk', 'PaTRICk', 'pATRICk', 'PATRICk', 'patricK', 'PatricK', 'pAtricK', 'PAtricK', 'paTricK', 'PaTricK',
+         'pATricK', 'PATricK', 'patRicK', 'PatRicK', 'pAtRicK', 'PAtRicK', 'paTRicK', 'PaTRicK', 'pATRicK', 'PATRicK',
+         'patrIcK', 'PatrIcK', 'pAtrIcK', 'PAtrIcK', 'paTrIcK', 'PaTrIcK', 'pATrIcK', 'PATrIcK', 'patRIcK', 'PatRIcK',
+         'pAtRIcK', 'PAtRIcK', 'paTRIcK', 'PaTRIcK', 'pATRIcK', 'PATRIcK', 'patriCK', 'PatriCK', 'pAtriCK', 'PAtriCK',
+         'paTriCK', 'PaTriCK', 'pATriCK', 'PATriCK', 'patRiCK', 'PatRiCK', 'pAtRiCK', 'PAtRiCK', 'paTRiCK', 'PaTRiCK',
+         'pATRiCK', 'PATRiCK', 'patrICK', 'PatrICK', 'pAtrICK', 'PAtrICK', 'paTrICK', 'PaTrICK', 'pATrICK', 'PATrICK',
+         'patRICK', 'PatRICK', 'pAtRICK', 'PAtRICK', 'paTRICK', 'PaTRICK', 'pATRICK', 'PATRICK']
+
+print(all(s == item for item in words))
+
+
+# TEST_5:
+s1 = FuzzyString('ManTrida')
+s2 = FuzzyString('MANTRIDA')
+
+print(s1 == s2)
+print(s1 != s2)
+print(s1 >= s2)
+print(s1 <= s2)
+print(s1 > s2)
+print(s1 < s2)
+

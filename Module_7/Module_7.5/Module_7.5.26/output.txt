@@ -1,0 +1,72 @@
+# OUTPUT DATA:
+
+# TEST_1:
+SortedList([1, 2, 3, 4, 5])
+2
+4
+SortedList([0, 1, 2, 3, 4, 5])
+SortedList([0, 1, 2, 3, 5])
+SortedList([0, 1, 2, 3, 4, 5, 6])
+
+# TEST_2:
+5
+1 2 3 4 5
+True
+False
+
+# TEST_3:
+SortedList([1, 2, 3, 4, 5])
+SortedList([1, 1, 3, 3, 5, 5])
+SortedList([2, 2, 4, 4])
+
+# TEST_4:
+SortedList([1, 2, 3, 4, 5])
+SortedList([1, 3, 4, 5])
+SortedList([1, 3, 4])
+Неподдерживаемая операция
+
+# TEST_5:
+Неподдерживаемая операция
+
+# TEST_6:
+Неподдерживаемая операция
+
+# TEST_7:
+Неподдерживаемая операция
+
+# TEST_8:
+Неподдерживаемая операция
+
+# TEST_9:
+Неподдерживаемая операция
+
+# TEST_10:
+1 1 2 2 3 3 4 4 5 5
+1 1 1 1 1 1 2 2 2 2 2 2 3 3 3 3 3 3 4 4 4 4 4 4 5 5 5 5 5 5
+1 1 1 1 1 1 2 2 2 2 2 2 3 3 3 3 3 3 5 5 5 5 5 5
+
+# TEST_11:
+True
+True
+True
+
+# TEST_12:
+SortedList([1, 2, 3, 4, 5])
+[5, 4, 3, 2]
+SortedList([1, 2, 3, 4, 5])
+
+# TEST_13:
+SortedList([])
+
+# TEST_14:
+SortedList([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) <class '__main__.SortedList'>
+SortedList([6, 6, 7, 7, 8, 8, 9, 9, 10, 10]) <class '__main__.SortedList'>
+
+# TEST_15:
+SortedList([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) <class '__main__.SortedList'>
+SortedList([6, 6, 7, 7, 8, 8, 9, 9, 10, 10]) <class '__main__.SortedList'>
+
+# TEST_16:
+SortedList([])
+SortedList([])
+

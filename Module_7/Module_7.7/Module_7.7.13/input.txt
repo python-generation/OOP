@@ -1,0 +1,46 @@
+# INPUT DATA:
+
+# TEST_1:
+leftparagraph = LeftParagraph(10)
+
+leftparagraph.add('death')
+leftparagraph.add('can have me')
+leftparagraph.add('when it earns me')
+leftparagraph.end()
+
+# TEST_2:
+rightparagraph = RightParagraph(10)
+
+rightparagraph.add('death')
+rightparagraph.add('can have me')
+rightparagraph.add('when it earns me')
+rightparagraph.end()
+
+# TEST_3:
+leftparagraph = LeftParagraph(23)
+leftparagraph.add('Умножайте шум и радость')
+leftparagraph.add('Пойте песни в добрый час')
+leftparagraph.add('Дружба грация и младость')
+leftparagraph.add('Именинницы у нас')
+leftparagraph.end()
+
+leftparagraph.add('Между тем дитя крылато')
+leftparagraph.add('Вас приветствуя, друзья')
+leftparagraph.add('Втайне думает когда-то')
+leftparagraph.add('Именинник буду я')
+leftparagraph.end()
+
+# TEST_4:
+rightparagraph = RightParagraph(28)
+rightparagraph.add('Не стану я жалеть о розах')
+rightparagraph.add('Увядших с легкою весной')
+rightparagraph.add('Мне мил и виноград на лозах')
+rightparagraph.add('В кистях созревший под горой')
+rightparagraph.end()
+
+rightparagraph.add('Краса моей долины злачной')
+rightparagraph.add('Отрада осени златой')
+rightparagraph.add('Продолговатый и прозрачный')
+rightparagraph.add('Как персты девы молодой')
+rightparagraph.end()
+

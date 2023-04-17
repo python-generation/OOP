@@ -1,0 +1,123 @@
+# OUTPUT DATA:
+
+# TEST_1:
+beegeek
+beegeek
+True
+True
+
+# TEST_2:
+['bee', 'geek']
+{'a': 1, 'b': 2, 'c': 3}
+
+# TEST_3:
+b g
+
+# TEST_4:
+next
+site
+break
+condition
+song
+federal
+chance
+learn
+large
+goal
+general
+worker
+base
+growth
+carry
+remember
+model
+current
+science
+teach
+word
+west
+yeah
+where
+none
+relate
+bar
+author
+give
+skin
+though
+decide
+book
+get
+close
+article
+quickly
+positive
+body
+control
+price
+control
+sign
+bed
+city
+leave
+decision
+beat
+within
+take
+mission
+pressure
+if
+tax
+dream
+discover
+majority
+more
+skill
+dog
+new
+fish
+edge
+recognize
+child
+according
+practice
+financial
+after
+forget
+share
+concern
+trial
+condition
+us
+defense
+section
+institution
+worker
+than
+write
+because
+national
+manager
+cultural
+thus
+personal
+season
+car
+day
+eat
+speech
+college
+small
+turn
+customer
+similar
+public
+officer
+fish
+
+# TEST_5:
+
+
+# TEST_6:
+<class '__main__.LowerString'>
+

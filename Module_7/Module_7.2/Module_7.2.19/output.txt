@@ -1,0 +1,23 @@
+# OUTPUT DATA:
+
+# TEST_1:
+True
+
+# TEST_2:
+10
+16
+5
+0
+
+# TEST_3:
+20
+32
+10
+0
+
+# TEST_4:
+365
+
+# TEST_5:
+190
+

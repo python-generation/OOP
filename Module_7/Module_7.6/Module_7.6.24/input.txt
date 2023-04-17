@@ -1,0 +1,42 @@
+# INPUT DATA:
+
+# TEST_1:
+father = Father()
+mother = Mother()
+
+print(father.mood)
+print(mother.mood)
+print(father.greet())
+print(mother.greet())
+
+# TEST_2:
+father = Father('happy')
+mother = Mother('unhappy')
+
+print(father.mood)
+print(mother.mood)
+father.be_strict()
+mother.be_kind()
+print(father.mood)
+print(mother.mood)
+
+# TEST_3:
+daughter = Daughter()
+
+print(daughter.greet())
+print(daughter.mood)
+daughter.be_kind()
+print(daughter.mood)
+daughter.be_strict()
+print(daughter.mood)
+
+# TEST_4:
+son = Son()
+
+print(son.greet())
+print(son.mood)
+son.be_kind()
+print(son.mood)
+son.be_strict()
+print(son.mood)
+

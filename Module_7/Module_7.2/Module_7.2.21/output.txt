@@ -1,0 +1,66 @@
+# OUTPUT DATA:
+
+# TEST_1:
+1
+False
+{}
+
+# TEST_2:
+1
+3
+True
+True
+{'x': 1, 'z': 3}
+
+# TEST_3:
+0
+4
+False
+False
+{}
+
+# TEST_4:
+{}
+{'x': 1}
+4
+{'x': 1, 'z': 3}
+{}
+{'y': 2}
+8
+{}
+{}
+
+# TEST_5:
+False
+False
+False
+True
+False
+False
+True
+False
+True
+False
+False
+False
+False
+True
+False
+False
+False
+False
+
+# TEST_6:
+1
+1
+4
+1
+2
+3
+4
+2
+6
+2
+8
+8
+
