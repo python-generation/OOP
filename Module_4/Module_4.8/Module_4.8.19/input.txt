@@ -43,3 +43,11 @@ for obj in errors:
     except TypeError as e:
         print(e)
 
+# TEST_6:
+today = date.today()
+for day in range(10):
+    birthday = (today + timedelta(days=day)).replace(year=2000)
+    birthinfo = BirthInfo(birthday)
+    true_age = current_age(birthday, today)
+    print(birthinfo.age == true_age)
+

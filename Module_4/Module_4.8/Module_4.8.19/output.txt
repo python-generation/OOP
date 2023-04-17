@@ -23,3 +23,15 @@ True
 Аргумент переданного типа не поддерживается
 Аргумент переданного типа не поддерживается
 
+# TEST_6:
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+

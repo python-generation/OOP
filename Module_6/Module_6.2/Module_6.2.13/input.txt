@@ -33,5 +33,15 @@ print(sequencezip[99999])
 
 # TEST_6:
 sequencezip = SequenceZip()
+print(len(sequencezip))
+print(list(sequencezip))
+
+# TEST_7:
+data = {'bee': 'bee', 'geek': 'geek'}
+
+sequencezip = SequenceZip(data)
+data['python'] = 'python'
+print(data)
+print(len(sequencezip))
 print(list(sequencezip))
 
