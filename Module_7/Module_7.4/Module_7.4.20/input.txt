@@ -1,41 +1,58 @@
 # INPUT DATA:
 
 # TEST_1:
-twowaydict = TwoWayDict({'apple': 1})
+numberlist = NumberList([1, 2])
 
-twowaydict['banana'] = 2
-
-print(twowaydict['apple'])
-print(twowaydict[1])
-print(twowaydict['banana'])
-print(twowaydict[2])
+numberlist.append(3)
+numberlist.extend([4, 5])
+numberlist.insert(0, 0)
+print(numberlist)
 
 # TEST_2:
-d = TwoWayDict()
-d[3] = 8
-d[7] = 6
-print(d[3], d[8])
-print(d[7], d[6])
+numberlist = NumberList([0, 1.0])
 
-d.update({9: 7, 8: 2})
-print(d[9], d[7])
-print(d[8], d[2])
+numberlist[1] = 1
+numberlist = numberlist + NumberList([2, 3])
+numberlist += NumberList([4, 5])
+print(numberlist)
 
 # TEST_3:
-d = TwoWayDict()
-
-for i in range(100):
-    d[i] = i + 100
-
-print(d)
+try:
+    numberlist = NumberList(['a', 'b', 'c'])
+except TypeError as error:
+    print(error)
 
 # TEST_4:
-from string import ascii_uppercase, ascii_lowercase
+numberlist = NumberList([1, 2, 3])
 
-d = TwoWayDict()
+try:
+    numberlist.append('4')
+except TypeError as error:
+    print(error)
 
-for i in range(26):
-    d[ascii_uppercase[i]] = ascii_lowercase[i]
+# TEST_5:
+numberlist = NumberList([1, 2])
 
-print(d)
+try:
+    numberlist += [3, '4']
+except TypeError as e:
+    print(e)
+
+# TEST_6:
+numberlist1 = NumberList([1, 2])
+
+try:
+    numberlist2 = numberlist1 + [3, '4']
+except TypeError as e:
+    print(e)
+
+# TEST_7:
+data = [1, 2, 3]
+numberlist = NumberList(data)
+
+print(numberlist)
+
+data.extend([4, 5, 6])
+print(data)
+print(numberlist)
 
