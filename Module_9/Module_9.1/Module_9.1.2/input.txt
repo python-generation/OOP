@@ -1,0 +1,47 @@
+# INPUT DATA:
+
+# TEST_1:
+import math, re
+
+print(anything() != [])
+print(anything() < 'World')
+print(anything() > 81)
+print(anything() >= re)
+print(anything() <= math)
+print(anything() == ord)
+
+# TEST_2:
+print(anything() != set())
+print(anything() < {})
+print(anything() > ())
+print(anything() >= True)
+print(anything() <= False)
+print(anything() == id)
+
+# TEST_3:
+print(anything() != (1, 2, 3))
+print(anything() < {4, 5, 6})
+print(anything() > range(180))
+print(anything() >= {1: 'one'})
+print(anything() <= ['', [], (), set])
+print(anything() == any)
+print(anything() != any)
+print(anything() > any)
+print(anything() < all)
+print(anything() <= all)
+print(anything() >= all)
+
+# TEST_4:
+print(anything() == filter)
+print(anything() != filter)
+print(anything() < filter)
+print(anything() > filter)
+print(anything() >= filter)
+print(anything() <= filter)
+print(anything() == anything())
+print(anything() != anything())
+print(anything() < anything())
+print(anything() > anything())
+print(anything() >= anything())
+print(anything() <= anything())
+

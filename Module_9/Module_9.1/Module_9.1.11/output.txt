@@ -1,0 +1,50 @@
+# OUTPUT DATA:
+
+# TEST_1:
+14
+18
+40
+0
+0
+False
+False
+True
+
+# TEST_2:
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+
+# TEST_3:
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+
+# TEST_4:
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+

@@ -1,0 +1,42 @@
+# INPUT DATA:
+
+# TEST_1:
+progression = ArithmeticProgression(0, 1)
+
+for elem in progression:
+    if elem > 10:
+        break
+    print(elem, end=' ')
+
+# TEST_2:
+progression = GeometricProgression(1, 2)
+
+for elem in progression:
+    if elem > 10:
+        break
+    print(elem, end=' ')
+
+# TEST_3:
+progression = ArithmeticProgression(0, -1)
+
+for _ in range(20):
+    print(next(progression), end=' ')
+
+# TEST_4:
+progression = GeometricProgression(4, -2)
+
+for _ in range(20):
+    print(next(progression), end=' ')
+
+# TEST_5:
+progression = ArithmeticProgression(100, -10)
+
+for _ in range(20):
+    print(next(progression), end=' ')
+
+# TEST_6:
+progression = GeometricProgression(100, 10)
+
+for _ in range(20):
+    print(next(progression), end=' ')
+

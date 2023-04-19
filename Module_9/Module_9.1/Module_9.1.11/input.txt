@@ -1,0 +1,39 @@
+# INPUT DATA:
+
+# TEST_1:
+game = Game(14, 18, 40)
+print(game.rows)
+print(game.cols)
+print(game.mines)
+
+cell = game.board[0][0]
+
+print(cell.row)
+print(cell.col)
+print(cell.mine)
+print(cell.open)
+print(0 <= cell.neighbours <= 3)
+
+# TEST_2:
+game = Game(10, 8, 14)
+
+for r, c in ((0, 0), (0, -1), (-1, 0), (-1, -1)):
+    cell = game.board[r][c]
+    print(0 <= cell.neighbours <= 3, type(cell))
+
+# TEST_3:
+game = Game(10, 8, 14)
+
+for r in (0, -1):
+    for c in range(1, game.cols - 1):
+        cell = game.board[r][c]
+        print(0 <= cell.neighbours <= 5, type(cell))
+
+# TEST_4:
+game = Game(10, 8, 14)
+
+for c in (0, -1):
+    for r in range(1, game.rows - 1):
+        cell = game.board[r][c]
+        print(0 <= cell.neighbours <= 5, type(cell))
+

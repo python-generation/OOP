@@ -1,0 +1,73 @@
+# INPUT DATA:
+
+# TEST_1:
+tictactoe = TicTacToe()
+
+tictactoe.mark(1, 1)
+tictactoe.mark(3, 1)
+tictactoe.mark(1, 1)
+
+tictactoe.mark(1, 3)
+tictactoe.mark(1, 2)
+tictactoe.mark(3, 3)
+tictactoe.mark(2, 2)
+tictactoe.mark(2, 3)
+
+print(tictactoe.winner())
+tictactoe.mark(2, 1)
+tictactoe.show()
+
+# TEST_2:
+tictactoe = TicTacToe()
+
+tictactoe.mark(1, 1)
+tictactoe.mark(3, 2)
+tictactoe.mark(1, 1)
+
+tictactoe.mark(1, 3)
+tictactoe.mark(1, 2)
+tictactoe.mark(3, 3)
+tictactoe.mark(2, 2)
+tictactoe.mark(2, 3)
+
+print(tictactoe.winner())
+tictactoe.show()
+
+# TEST_3:
+tictactoe = TicTacToe()
+
+tictactoe.mark(1, 1)
+tictactoe.mark(3, 2)
+tictactoe.mark(1, 3)
+tictactoe.mark(1, 2)
+tictactoe.mark(3, 3)
+tictactoe.mark(2, 3)
+tictactoe.mark(3, 1)
+tictactoe.mark(2, 1)
+tictactoe.mark(2, 2)
+
+print(tictactoe.winner())
+tictactoe.show()
+tictactoe.mark(2, 2)
+
+# TEST_4:
+tictactoe = TicTacToe()
+
+tictactoe.mark(1, 1)
+tictactoe.mark(1, 3)
+tictactoe.mark(3, 1)
+tictactoe.mark(2, 1)
+
+print(tictactoe.winner())
+
+tictactoe.mark(3, 2)
+tictactoe.mark(3, 3)
+tictactoe.mark(1, 2)
+tictactoe.mark(2, 2)
+tictactoe.mark(2, 3)
+
+print(tictactoe.winner())
+tictactoe.show()
+tictactoe.mark(2, 2)
+print(tictactoe.winner())
+

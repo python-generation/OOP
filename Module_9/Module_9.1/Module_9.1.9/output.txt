@@ -1,0 +1,16 @@
+# OUTPUT DATA:
+
+# TEST_1:
+{'Maths': 'Passed! (80%)'}
+{'Chemistry': 'Failed (25%)', 'Computing': 'Failed (43%)'}
+
+# TEST_2:
+No tests taken
+
+# TEST_3:
+{'Maths': 'Failed (20%)', 'Chemistry': 'Failed (0%)', 'Computing': 'Failed (14%)', 'Informatics': 'Failed (30%)'}
+{'Maths': 'Failed (40%)', 'Chemistry': 'Failed (50%)', 'Computing': 'Failed (29%)', 'Informatics': 'Failed (30%)'}
+
+# TEST_4:
+{'Maths': 'Passed! (80%)', 'Chemistry': 'Passed! (75%)', 'Computing': 'Passed! (86%)', 'Informatics': 'Passed! (95%)'}
+

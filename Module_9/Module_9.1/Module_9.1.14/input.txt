@@ -1,0 +1,43 @@
+# INPUT DATA:
+
+# TEST_1:
+multikeydict = MultiKeyDict(x=100, y=[10, 20])
+
+multikeydict.alias('x', 'z')
+multikeydict.alias('x', 't')
+print(multikeydict['z'])
+multikeydict['t'] += 1
+print(multikeydict['x'])
+
+multikeydict.alias('y', 'z')
+multikeydict['z'] += [30]
+print(multikeydict['y'])
+
+# TEST_2:
+multikeydict = MultiKeyDict(x=100)
+
+multikeydict.alias('x', 'z')
+del multikeydict['x']
+print(multikeydict['z'])
+
+# TEST_3:
+multikeydict = MultiKeyDict(x=100, y=[10, 20])
+
+multikeydict.alias('x', 'y')
+print(multikeydict['y'])
+
+multikeydict['y'] += [30]
+print(multikeydict['y'])
+
+# TEST_4:
+multikeydict = MultiKeyDict(lecture='python', lesson='object oriented programming')
+
+multikeydict.alias('lecture', 'lesson')
+print(multikeydict['lesson'])
+
+multikeydict.alias('lecture', 'lesson')
+print(multikeydict['lesson'])
+
+del multikeydict['lesson']
+print(multikeydict['lesson'])
+

@@ -1,0 +1,22 @@
+# OUTPUT DATA:
+
+# TEST_1:
+Looqoou
+Wzzbzzf
+
+# TEST_2:
+Биljjp123
+Биgeek123
+
+# TEST_3:
+['voknob', 'vspo', 'moxdbkv', 'grkdofob', 'dbeo', 'cryg', 'iokb', 'dokmrob', 'rkzzox', 'wsqrd', 'nopoxco', 'ceqqocd', 'lyi', 'dbsz', 'gscr', 'sxdobocd', 'cdkb', 'cicdow', 'reclkxn', 'gksd', 'iyexq', 'mobdksxvi', 'gsdr', 'gsxn', 'dryeqrd', 'rkbn', 'dynki', 'mez', 'grobo', 'pvi', 'kqboowoxd', 'rewkx', 'nomscsyx', 'kvyxq', 'lsvvsyx', 'zbofoxd', 'kedrybsdi', 'dryco', 'ny', 'zobpybw', 'zvkx', 'kvvyg', 'zbocsnoxd', 'ny', 'kbyexn', 'cofox', 'nyq', 'cok', 'eco', 'wi', 'rokn', 'gryco', 'swzybdkxd', 'dyz', 'mebboxd', 'okcd', 'zkqo', 'nomsno', 'wyedr', 'grkdofob', 'ryczsdkv', 'zkddobx', 'cwsvo', 'zbylklvi', 'kd', 'ofoxsxq', 'mebboxd', 'vymkv', 'gkxd', 'pybosqx', 'mkdmr', 'yzdsyx', 'woodsxq', 'myebco', 'myvvomdsyx', 'cdbood', 'wkuo', 'omyxywsm', 'pvi', 'bodebx', 'ohzobsoxmo', 'okcd', 'zycsdsyx', 'pyyd', 'yxo', 'wokx', 'lboku', 'wo', 'dbedr', 'wkxkqowoxd', 'gkxd', 'yzdsyx', 'omyxywsm', 'boczyxco', 'kddybxoi', 'dklvo', 'zecr', 'dbkfov', 'gkdob', 'rovz']
+['leader', 'life', 'central', 'whatever', 'true', 'show', 'year', 'teacher', 'happen', 'might', 'defense', 'suggest', 'boy', 'trip', 'wish', 'interest', 'star', 'system', 'husband', 'wait', 'young', 'certainly', 'with', 'wind', 'thought', 'hard', 'today', 'cup', 'where', 'fly', 'agreement', 'human', 'decision', 'along', 'billion', 'prevent', 'authority', 'those', 'do', 'perform', 'plan', 'allow', 'president', 'do', 'around', 'seven', 'dog', 'sea', 'use', 'my', 'head', 'whose', 'important', 'top', 'current', 'east', 'page', 'decide', 'mouth', 'whatever', 'hospital', 'pattern', 'smile', 'probably', 'at', 'evening', 'current', 'local', 'want', 'foreign', 'catch', 'option', 'meeting', 'course', 'collection', 'street', 'make', 'economic', 'fly', 'return', 'experience', 'east', 'position', 'foot', 'one', 'mean', 'break', 'me', 'truth', 'management', 'want', 'option', 'economic', 'response', 'attorney', 'table', 'push', 'travel', 'water', 'help']
+
+# TEST_4:
+['TkTg', 'LdJaS', 'RtGiPxC', 'LwXrW', 'LxIw', 'IwTgT', 'TcKxGdCbTcIpA', 'HiGjRiJgT', 'CtLh', 'IwGdL', 'CdIt', 'Xu', 'LxC', 'HwDjAsTg', 'CtTs', 'LwTgT', 'BtIwDs', 'UxGhI', 'RxKxA', 'QpHt']
+['EvEr', 'WoUlD', 'CeRtAiN', 'WhIcH', 'WiTh', 'ThErE', 'EnViRoNmEnTaL', 'StRuCtUrE', 'NeWs', 'ThRoW', 'NoTe', 'If', 'WiN', 'ShOuLdEr', 'NeEd', 'WhErE', 'MeThOd', 'FiRsT', 'CiViL', 'BaSe']
+
+# TEST_5:
+['rxkxa😀', 'hd😁', 'gtvxdc☺', 'qtpi☺', 'pgixhi😍', 'rwdxrt🙃', 'xcrajst🤭', 'stvgtt😝', 'ejhw🤪', 'hxst😏', 'hxot🤥', 'edaxrn🤨', '🤨🤥😏🤪😝🤭🙃😍☺😁😀']
+['civil😀', 'so😁', 'region☺', 'beat☺', 'artist😍', 'choice🙃', 'include🤭', 'degree😝', 'push🤪', 'side😏', 'size🤥', 'policy🤨', '🤨🤥😏🤪😝🤭🙃😍☺😁😀']
+

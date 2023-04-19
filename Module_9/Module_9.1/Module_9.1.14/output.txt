@@ -1,0 +1,19 @@
+# OUTPUT DATA:
+
+# TEST_1:
+100
+101
+[10, 20, 30]
+
+# TEST_2:
+100
+
+# TEST_3:
+[10, 20]
+[10, 20, 30]
+
+# TEST_4:
+object oriented programming
+object oriented programming
+python
+
