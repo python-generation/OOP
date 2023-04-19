@@ -31,3 +31,8 @@ user = ProtectedObject(login='PG_kamiya', _password='alreadybanned')
 del user.login
 print('Успешное удаление атрибута')
 
+# TEST_5:
+user = ProtectedObject(login='PG_kamiya', _password='alreadybanned')
+print(object.__getattribute__(user, 'login'))
+print(object.__getattribute__(user, '_password'))
+

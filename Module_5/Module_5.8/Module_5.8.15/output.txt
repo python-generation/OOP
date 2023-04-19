@@ -13,3 +13,7 @@ PG_kamiya
 # TEST_4:
 Успешное удаление атрибута
 
+# TEST_5:
+PG_kamiya
+alreadybanned
+
