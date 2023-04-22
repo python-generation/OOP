@@ -1,73 +1,22 @@
 # OUTPUT DATA:
 
 # TEST_1:
-(4, 6, 8)
-(-2, -2, -2)
-26
-13.19090595827292
+Looqoou
+Wzzbzzf
 
 # TEST_2:
-True
-False
-True
+Биljjp123
+Биgeek123
 
 # TEST_3:
-Нельзя производить операции на векторах разной длины
+['voknob', 'vspo', 'moxdbkv', 'grkdofob', 'dbeo', 'cryg', 'iokb', 'dokmrob', 'rkzzox', 'wsqrd', 'nopoxco', 'ceqqocd', 'lyi', 'dbsz', 'gscr', 'sxdobocd', 'cdkb', 'cicdow', 'reclkxn', 'gksd', 'iyexq', 'mobdksxvi', 'gsdr', 'gsxn', 'dryeqrd', 'rkbn', 'dynki', 'mez', 'grobo', 'pvi', 'kqboowoxd', 'rewkx', 'nomscsyx', 'kvyxq', 'lsvvsyx', 'zbofoxd', 'kedrybsdi', 'dryco', 'ny', 'zobpybw', 'zvkx', 'kvvyg', 'zbocsnoxd', 'ny', 'kbyexn', 'cofox', 'nyq', 'cok', 'eco', 'wi', 'rokn', 'gryco', 'swzybdkxd', 'dyz', 'mebboxd', 'okcd', 'zkqo', 'nomsno', 'wyedr', 'grkdofob', 'ryczsdkv', 'zkddobx', 'cwsvo', 'zbylklvi', 'kd', 'ofoxsxq', 'mebboxd', 'vymkv', 'gkxd', 'pybosqx', 'mkdmr', 'yzdsyx', 'woodsxq', 'myebco', 'myvvomdsyx', 'cdbood', 'wkuo', 'omyxywsm', 'pvi', 'bodebx', 'ohzobsoxmo', 'okcd', 'zycsdsyx', 'pyyd', 'yxo', 'wokx', 'lboku', 'wo', 'dbedr', 'wkxkqowoxd', 'gkxd', 'yzdsyx', 'omyxywsm', 'boczyxco', 'kddybxoi', 'dklvo', 'zecr', 'dbkfov', 'gkdob', 'rovz']
+['leader', 'life', 'central', 'whatever', 'true', 'show', 'year', 'teacher', 'happen', 'might', 'defense', 'suggest', 'boy', 'trip', 'wish', 'interest', 'star', 'system', 'husband', 'wait', 'young', 'certainly', 'with', 'wind', 'thought', 'hard', 'today', 'cup', 'where', 'fly', 'agreement', 'human', 'decision', 'along', 'billion', 'prevent', 'authority', 'those', 'do', 'perform', 'plan', 'allow', 'president', 'do', 'around', 'seven', 'dog', 'sea', 'use', 'my', 'head', 'whose', 'important', 'top', 'current', 'east', 'page', 'decide', 'mouth', 'whatever', 'hospital', 'pattern', 'smile', 'probably', 'at', 'evening', 'current', 'local', 'want', 'foreign', 'catch', 'option', 'meeting', 'course', 'collection', 'street', 'make', 'economic', 'fly', 'return', 'experience', 'east', 'position', 'foot', 'one', 'mean', 'break', 'me', 'truth', 'management', 'want', 'option', 'economic', 'response', 'attorney', 'table', 'push', 'travel', 'water', 'help']
 
 # TEST_4:
-<class '__main__.Vector'>
-<class '__main__.Vector'>
+['TkTg', 'LdJaS', 'RtGiPxC', 'LwXrW', 'LxIw', 'IwTgT', 'TcKxGdCbTcIpA', 'HiGjRiJgT', 'CtLh', 'IwGdL', 'CdIt', 'Xu', 'LxC', 'HwDjAsTg', 'CtTs', 'LwTgT', 'BtIwDs', 'UxGhI', 'RxKxA', 'QpHt']
+['EvEr', 'WoUlD', 'CeRtAiN', 'WhIcH', 'WiTh', 'ThErE', 'EnViRoNmEnTaL', 'StRuCtUrE', 'NeWs', 'ThRoW', 'NoTe', 'If', 'WiN', 'ShOuLdEr', 'NeEd', 'WhErE', 'MeThOd', 'FiRsT', 'CiViL', 'BaSe']
 
 # TEST_5:
-93.30058949438637
-
-# TEST_6:
-Нельзя производить операции на векторах разной длины
-Нельзя производить операции на векторах разной длины
-Нельзя производить операции на векторах разной длины
-Нельзя производить операции на векторах разной длины
-
-# TEST_7:
-(28, 102, 94) (0, 0, 0) 5006 70.75309180523492
-(78, 34, 128) (0, 0, 0) 5906 76.8505042273634
-(86, 40, 176) (0, 0, 0) 9993 99.96499387285532
-(84, 24, 132) (0, 0, 0) 6264 79.14543574963751
-(148, 162, 164) (0, 0, 0) 18761 136.97079980784227
-(54, 24, 96) (0, 0, 0) 3177 56.36488268416781
-(52, 146, 30) (0, 0, 0) 6230 78.93034904268447
-(176, 92, 140) (0, 0, 0) 14760 121.49074038789952
-(90, 70, 40) (0, 0, 0) 3650 60.41522986797286
-(62, 200, 102) (0, 0, 0) 13562 116.45600027478189
-(72, 142, 56) (0, 0, 0) 7121 84.38601779915912
-(66, 102, 92) (0, 0, 0) 5806 76.19711280619497
-(120, 124, 152) (0, 0, 0) 13220 114.97825881443848
-(148, 184, 116) (0, 0, 0) 17304 131.5446692192428
-(166, 148, 58) (0, 0, 0) 13206 114.91736161259533
-(192, 94, 120) (0, 0, 0) 15025 122.57650672131263
-(126, 124, 154) (0, 0, 0) 13742 117.22627691776277
-(152, 130, 92) (0, 0, 0) 12117 110.07724560507498
-(128, 66, 134) (0, 0, 0) 9674 98.35649444749441
-(158, 190, 60) (0, 0, 0) 16166 127.14558584551806
-
-# TEST_8:
-False True
-False True
-False True
-False True
-False True
-True False
-True False
-False True
-False True
-False True
-False True
-False True
-False True
-False True
-False True
-False True
-True False
-False True
-False True
-False True
+['rxkxa😀', 'hd😁', 'gtvxdc☺', 'qtpi☺', 'pgixhi😍', 'rwdxrt🙃', 'xcrajst🤭', 'stvgtt😝', 'ejhw🤪', 'hxst😏', 'hxot🤥', 'edaxrn🤨', '🤨🤥😏🤪😝🤭🙃😍☺😁😀']
+['civil😀', 'so😁', 'region☺', 'beat☺', 'artist😍', 'choice🙃', 'include🤭', 'degree😝', 'push🤪', 'side😏', 'size🤥', 'policy🤨', '🤨🤥😏🤪😝🤭🙃😍☺😁😀']
 

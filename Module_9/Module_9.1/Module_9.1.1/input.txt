@@ -1,49 +1,47 @@
 # INPUT DATA:
 
 # TEST_1:
-value1 = Converter(1, 'm')
-value2 = Converter(5, 'km')
+import math, re
 
-print(value1.mm)
-print(value1.cm)
-print(value1.m)
-print(value1.km)
-
-print(value2.mm)
-print(value2.cm)
-print(value2.m)
-print(value2.km)
+print(anything() != [])
+print(anything() < 'World')
+print(anything() > 81)
+print(anything() >= re)
+print(anything() <= math)
+print(anything() == ord)
 
 # TEST_2:
-value = Converter(100, 'cm')
-
-print(value.mm)
-print(value.cm)
-print(value.m)
-print(value.km)
+print(anything() != set())
+print(anything() < {})
+print(anything() > ())
+print(anything() >= True)
+print(anything() <= False)
+print(anything() == id)
 
 # TEST_3:
-value = Converter(1000000, 'mm')
-
-print(value.mm)
-print(value.cm)
-print(value.m)
-print(value.km)
+print(anything() != (1, 2, 3))
+print(anything() < {4, 5, 6})
+print(anything() > range(180))
+print(anything() >= {1: 'one'})
+print(anything() <= ['', [], (), set])
+print(anything() == any)
+print(anything() != any)
+print(anything() > any)
+print(anything() < all)
+print(anything() <= all)
+print(anything() >= all)
 
 # TEST_4:
-from itertools import cycle
-
-units = ['mm', 'cm', 'm', 'km']
-
-values = [931, 1252, 4413, 2239, 1340, 3464, 4691, 3548, 426, 1348, 451, 2817, 2603, 2805, 3507, 4608, 620, 4414, 3944,
-          325, 1478, 4728, 2268, 557, 2516, 4884, 2594, 3989, 4667, 4764, 470, 1535, 2494, 510, 1252, 1120, 4041, 829,
-          4251, 434, 1859, 2070, 21, 2526, 1006, 4193, 2324, 935, 4152, 1031, 3950, 4790, 3489, 637, 1451, 2855, 463,
-          2616, 2597, 1886, 3636, 2595, 3225, 1066, 4270, 2552, 1224, 964, 3757, 1656, 845, 3398, 6, 1676, 2294, 3387,
-          549, 4288, 3649, 3092, 270, 3160, 4416, 4344, 3870, 2602, 2486, 842, 1989, 952, 875, 116, 464, 4036, 553,
-          3425, 3522, 4594, 3914, 2411]
-
-for value, unit in zip(values, cycle(units)):
-    v = Converter(value, unit)
-    print(f'{value} {unit}:', v.mm, 'mm,', v.cm, 'cm,', v.m, 'm,', v.km, 'km')
-    print('-' * 70)
+print(anything() == filter)
+print(anything() != filter)
+print(anything() < filter)
+print(anything() > filter)
+print(anything() >= filter)
+print(anything() <= filter)
+print(anything() == anything())
+print(anything() != anything())
+print(anything() < anything())
+print(anything() > anything())
+print(anything() >= anything())
+print(anything() <= anything())
 

@@ -1,73 +1,39 @@
 # INPUT DATA:
 
 # TEST_1:
-tictactoe = TicTacToe()
+game = Game(14, 18, 40)
+print(game.rows)
+print(game.cols)
+print(game.mines)
 
-tictactoe.mark(1, 1)
-tictactoe.mark(3, 1)
-tictactoe.mark(1, 1)
+cell = game.board[0][0]
 
-tictactoe.mark(1, 3)
-tictactoe.mark(1, 2)
-tictactoe.mark(3, 3)
-tictactoe.mark(2, 2)
-tictactoe.mark(2, 3)
-
-print(tictactoe.winner())
-tictactoe.mark(2, 1)
-tictactoe.show()
+print(cell.row)
+print(cell.col)
+print(cell.mine)
+print(cell.open)
+print(0 <= cell.neighbours <= 3)
 
 # TEST_2:
-tictactoe = TicTacToe()
+game = Game(10, 8, 14)
 
-tictactoe.mark(1, 1)
-tictactoe.mark(3, 2)
-tictactoe.mark(1, 1)
-
-tictactoe.mark(1, 3)
-tictactoe.mark(1, 2)
-tictactoe.mark(3, 3)
-tictactoe.mark(2, 2)
-tictactoe.mark(2, 3)
-
-print(tictactoe.winner())
-tictactoe.show()
+for r, c in ((0, 0), (0, -1), (-1, 0), (-1, -1)):
+    cell = game.board[r][c]
+    print(0 <= cell.neighbours <= 3, type(cell))
 
 # TEST_3:
-tictactoe = TicTacToe()
+game = Game(10, 8, 14)
 
-tictactoe.mark(1, 1)
-tictactoe.mark(3, 2)
-tictactoe.mark(1, 3)
-tictactoe.mark(1, 2)
-tictactoe.mark(3, 3)
-tictactoe.mark(2, 3)
-tictactoe.mark(3, 1)
-tictactoe.mark(2, 1)
-tictactoe.mark(2, 2)
-
-print(tictactoe.winner())
-tictactoe.show()
-tictactoe.mark(2, 2)
+for r in (0, -1):
+    for c in range(1, game.cols - 1):
+        cell = game.board[r][c]
+        print(0 <= cell.neighbours <= 5, type(cell))
 
 # TEST_4:
-tictactoe = TicTacToe()
+game = Game(10, 8, 14)
 
-tictactoe.mark(1, 1)
-tictactoe.mark(1, 3)
-tictactoe.mark(3, 1)
-tictactoe.mark(2, 1)
-
-print(tictactoe.winner())
-
-tictactoe.mark(3, 2)
-tictactoe.mark(3, 3)
-tictactoe.mark(1, 2)
-tictactoe.mark(2, 2)
-tictactoe.mark(2, 3)
-
-print(tictactoe.winner())
-tictactoe.show()
-tictactoe.mark(2, 2)
-print(tictactoe.winner())
+for c in (0, -1):
+    for r in range(1, game.rows - 1):
+        cell = game.board[r][c]
+        print(0 <= cell.neighbours <= 5, type(cell))
 

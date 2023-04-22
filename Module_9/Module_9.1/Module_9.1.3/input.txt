@@ -1,79 +1,57 @@
 # INPUT DATA:
 
 # TEST_1:
-vector1 = Vector(1, 2, 3)
-vector2 = Vector(3, 4, 5)
-vector3 = Vector(5, 6, 7, 8)
+cipher = CaesarCipher(10)
 
-print(vector1 + vector2)
-print(vector1 - vector2)
-print(vector1 * vector2)
-print(vector3.norm())
+print(cipher.encode('Beegeek'))
+print(cipher.decode('Gjjljjp'))
 
 # TEST_2:
-vector1 = Vector(1, 2, 3)
-vector2 = Vector(3, 4, 5)
-vector3 = Vector(5, 6, 7, 8)
+cipher = CaesarCipher(5)
 
-print(vector1 == Vector(1, 2, 3))
-print(vector1 == Vector(4, 5, 6))
-print(vector1 != vector2)
+print(cipher.encode('Биgeek123'))
+print(cipher.decode('Биljjp123'))
 
 # TEST_3:
-vector1 = Vector(1, 2, 3)
-vector2 = Vector(5, 6, 7, 8)
+cipher = CaesarCipher(10)
 
-try:
-    print(vector1 == vector2)
-except ValueError as e:
-    print(e)
+words = ['leader', 'life', 'central', 'whatever', 'true', 'show', 'year', 'teacher', 'happen', 'might', 'defense',
+         'suggest', 'boy', 'trip', 'wish', 'interest', 'star', 'system', 'husband', 'wait', 'young', 'certainly',
+         'with', 'wind', 'thought', 'hard', 'today', 'cup', 'where', 'fly', 'agreement', 'human', 'decision', 'along',
+         'billion', 'prevent', 'authority', 'those', 'do', 'perform', 'plan', 'allow', 'president', 'do', 'around',
+         'seven', 'dog', 'sea', 'use', 'my', 'head', 'whose', 'important', 'top', 'current', 'east', 'page', 'decide',
+         'mouth', 'whatever', 'hospital', 'pattern', 'smile', 'probably', 'at', 'evening', 'current', 'local', 'want',
+         'foreign', 'catch', 'option', 'meeting', 'course', 'collection', 'street', 'make', 'economic', 'fly', 'return',
+         'experience', 'east', 'position', 'foot', 'one', 'mean', 'break', 'me', 'truth', 'management', 'want',
+         'option', 'economic', 'response', 'attorney', 'table', 'push', 'travel', 'water', 'help']
+
+encode_words = [cipher.encode(word) for word in words]
+print(encode_words)
+
+decode_words = [cipher.decode(word) for word in encode_words]
+print(decode_words)
 
 # TEST_4:
-vector1 = Vector(1, 2)
-vector2 = Vector(3, 4)
+cipher = CaesarCipher(15)
 
-vector3 = vector1 + vector2
-vector4 = vector1 - vector2
+words = ['EvEr', 'WoUlD', 'CeRtAiN', 'WhIcH', 'WiTh', 'ThErE', 'EnViRoNmEnTaL', 'StRuCtUrE', 'NeWs', 'ThRoW', 'NoTe',
+         'If', 'WiN', 'ShOuLdEr', 'NeEd', 'WhErE', 'MeThOd', 'FiRsT', 'CiViL', 'BaSe']
 
-print(type(vector3))
-print(type(vector4))
+encode_words = [cipher.encode(word) for word in words]
+print(encode_words)
+
+decode_words = [cipher.decode(word) for word in encode_words]
+print(decode_words)
 
 # TEST_5:
-vector = Vector(18, 21, 14, 88)
-print(vector.norm())
+cipher = CaesarCipher(15)
 
-# TEST_6:
-vector1 = Vector(1, 2)
-vector2 = Vector(3, 4, 5)
+words = ['civil😀', 'so😁', 'region☺', 'beat☺', 'artist😍', 'choice🙃', 'include🤭', 'degree😝', 'push🤪', 'side😏', 'size🤥',
+         'policy🤨', '🤨🤥😏🤪😝🤭🙃😍☺😁😀']
 
-operations = ['vector1 + vector2', 'vector1 - vector2', 'vector1 * vector2', 'vector1 != vector2']
+encode_words = [cipher.encode(word) for word in words]
+print(encode_words)
 
-for operation in operations:
-    try:
-        eval(operation)
-    except ValueError as e:
-        print(e)
-
-# TEST_7:
-coordinates = [(14, 51, 47), (39, 17, 64), (43, 20, 88), (42, 12, 66), (74, 81, 82), (27, 12, 48), (26, 73, 15),
-               (88, 46, 70), (45, 35, 20), (31, 100, 51), (36, 71, 28), (33, 51, 46), (60, 62, 76), (74, 92, 58),
-               (83, 74, 29), (96, 47, 60), (63, 62, 77), (76, 65, 46), (64, 33, 67), (79, 95, 30)]
-
-for x, y, z in coordinates:
-    vector = Vector(x, y, z)
-    print(vector + vector, vector - vector, vector * vector, vector.norm())
-
-# TEST_8:
-coordinates = [((64, 42, 11), (20, 40, 64)), ((50, 96, 60), (32, 26, 38)), ((46, 95, 64), (23, 70, 78)),
-               ((22, 29, 48), (21, 50, 31)), ((40, 50, 19), (95, 37, 78)), ((74, 21, 77), (74, 21, 77)),
-               ((55, 33, 88), (55, 33, 88)), ((99, 50, 74), (77, 28, 87)), ((64, 65, 33), (24, 73, 76)),
-               ((63, 12, 36), (80, 53, 22)), ((92, 15, 80), (48, 42, 17)), ((84, 65, 80), (72, 15, 46)),
-               ((54, 48, 52), (68, 25, 26)), ((37, 93, 12), (16, 76, 42)), ((45, 91, 87), (46, 91, 58)),
-               ((33, 74, 85), (13, 20, 36)), ((63, 12, 43), (63, 12, 43)), ((87, 67, 41), (41, 82, 52)),
-               ((10, 63, 68), (54, 36, 65)), ((74, 51, 90), (30, 25, 90))]
-
-for coord1, coord2 in coordinates:
-    vector1 = Vector(*coord1)
-    vector2 = Vector(*coord2)
-    print(vector1 == vector2, vector1 != vector2)
+decode_words = [cipher.decode(word) for word in encode_words]
+print(decode_words)
 

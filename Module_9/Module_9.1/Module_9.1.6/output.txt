@@ -1,113 +1,24 @@
 # OUTPUT DATA:
 
 # TEST_1:
-pygen.ru
-pygen.ru
-pygen.ru
+[]
+[12, 10, 8]
 
 # TEST_2:
-Недопустимый домен, url или email
+[]
+[12, 10, 8]
+[12, 10, 8]
 
 # TEST_3:
-stepik.org
-stepik.org
-stepik.org
+[]
+[12, 10, 8]
+[18, 13, 12]
 
 # TEST_4:
-ip.ru
-ao.org
-npo.com
-npo.com
-zao.org
-sibtred.info
-ao.biz
-npo.net
-npo.net
-oao.net
-zao.com
-pahomov.org
-bikova.ru
-ooo.ru
-transol.net
-zao.com
-rao.info
-ooo.org
-krjukov.com
-nikonova.com
+[]
+[99, 97, 95, 94, 93]
 
 # TEST_5:
-hotmail.com
-hotmail.com
-hotmail.com
-mail.ru
-mail.ru
-hotmail.com
-gmail.com
-rambler.ru
-hotmail.com
-hotmail.com
-hotmail.com
-hotmail.com
-hotmail.com
-yahoo.com
-mail.ru
-yandex.ru
-rambler.ru
-yahoo.com
-yandex.ru
-mail.ru
-
-# TEST_6:
-npo.com
-zao.biz
-ooo.edu
-ooo.ru
-prioskole.net
-ooo.com
-bolshakova.biz
-rao.biz
-ip.biz
-alekseev.ru
-ooo.ru
-zao.biz
-pk.biz
-rao.biz
-npo.org
-rao.com
-rao.org
-galkina.net
-moskovskaja.biz
-ao.ru
-
-# TEST_7:
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-
-# TEST_8:
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-
-# TEST_9:
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-Недопустимый домен, url или email
-Недопустимый домен, url или email
+[]
+[100, 100, 100, 100, 100, 100, 100, 100, 100, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
 

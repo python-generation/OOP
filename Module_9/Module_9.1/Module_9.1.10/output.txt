@@ -1,42 +1,50 @@
 # OUTPUT DATA:
 
 # TEST_1:
-Недоступная клетка
-X
-Игра окончена
-X|O|X
------
- |O|X
------
-O| |X
+14
+18
+40
+0
+0
+False
+False
+True
 
 # TEST_2:
-Недоступная клетка
-Игра окончена
-O
-X|O|X
------
- |O| 
------
- |O|X
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
 
 # TEST_3:
-X
-X|O|X
------
-O|X|O
------
-X|O|X
-Игра окончена
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
 
 # TEST_4:
-None
-Ничья
-X|X|O
------
-O|O|X
------
-X|X|O
-Игра окончена
-Ничья
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
+True <class '__main__.Cell'>
 

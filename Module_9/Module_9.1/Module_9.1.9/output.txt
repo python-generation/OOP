@@ -1,16 +1,42 @@
 # OUTPUT DATA:
 
 # TEST_1:
-{'Maths': 'Passed! (80%)'}
-{'Chemistry': 'Failed (25%)', 'Computing': 'Failed (43%)'}
+Недоступная клетка
+X
+Игра окончена
+X|O|X
+-----
+ |O|X
+-----
+O| |X
 
 # TEST_2:
-No tests taken
+Недоступная клетка
+Игра окончена
+O
+X|O|X
+-----
+ |O| 
+-----
+ |O|X
 
 # TEST_3:
-{'Maths': 'Failed (20%)', 'Chemistry': 'Failed (0%)', 'Computing': 'Failed (14%)', 'Informatics': 'Failed (30%)'}
-{'Maths': 'Failed (40%)', 'Chemistry': 'Failed (50%)', 'Computing': 'Failed (29%)', 'Informatics': 'Failed (30%)'}
+X
+X|O|X
+-----
+O|X|O
+-----
+X|O|X
+Игра окончена
 
 # TEST_4:
-{'Maths': 'Passed! (80%)', 'Chemistry': 'Passed! (75%)', 'Computing': 'Passed! (86%)', 'Informatics': 'Passed! (95%)'}
+None
+Ничья
+X|X|O
+-----
+O|O|X
+-----
+X|X|O
+Игра окончена
+Ничья
 

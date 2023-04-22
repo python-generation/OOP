@@ -1,20 +1,116 @@
 # OUTPUT DATA:
 
 # TEST_1:
-0 1 2 3 4 5 6 7 8 9 10
+pygen.ru
+pygen.ru
+pygen.ru
 
 # TEST_2:
-1 2 4 8
+Недопустимый домен, url или email
 
 # TEST_3:
-0 -1 -2 -3 -4 -5 -6 -7 -8 -9 -10 -11 -12 -13 -14 -15 -16 -17 -18 -19
+stepik.org
+stepik.org
+stepik.org
 
 # TEST_4:
-4 -8 16 -32 64 -128 256 -512 1024 -2048 4096 -8192 16384 -32768 65536 -131072 262144 -524288 1048576 -2097152
+ip.ru
+ao.org
+npo.com
+npo.com
+zao.org
+sibtred.info
+ao.biz
+npo.net
+npo.net
+oao.net
+zao.com
+pahomov.org
+bikova.ru
+ooo.ru
+transol.net
+zao.com
+rao.info
+ooo.org
+krjukov.com
+nikonova.com
 
 # TEST_5:
-100 90 80 70 60 50 40 30 20 10 0 -10 -20 -30 -40 -50 -60 -70 -80 -90
+hotmail.com
+hotmail.com
+hotmail.com
+mail.ru
+mail.ru
+hotmail.com
+gmail.com
+rambler.ru
+hotmail.com
+hotmail.com
+hotmail.com
+hotmail.com
+hotmail.com
+yahoo.com
+mail.ru
+yandex.ru
+rambler.ru
+yahoo.com
+yandex.ru
+mail.ru
 
 # TEST_6:
-100 1000 10000 100000 1000000 10000000 100000000 1000000000 10000000000 100000000000 1000000000000 10000000000000 100000000000000 1000000000000000 10000000000000000 100000000000000000 1000000000000000000 10000000000000000000 100000000000000000000 1000000000000000000000
+npo.com
+zao.biz
+ooo.edu
+ooo.ru
+prioskole.net
+ooo.com
+bolshakova.biz
+rao.biz
+ip.biz
+alekseev.ru
+ooo.ru
+zao.biz
+pk.biz
+rao.biz
+npo.org
+rao.com
+rao.org
+galkina.net
+moskovskaja.biz
+ao.ru
+
+# TEST_7:
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+
+# TEST_8:
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+
+# TEST_9:
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+Недопустимый домен, url или email
 
