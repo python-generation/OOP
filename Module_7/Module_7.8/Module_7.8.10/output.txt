@@ -1,0 +1,29 @@
+# OUTPUT DATA:
+
+# TEST_1:
+Yoga Mat, 130$
+Flannel Shirt, 22$
+
+# TEST_2:
+Yoga Mat, 130$
+Flannel Shirt, 22$
+152
+
+# TEST_3:
+Flannel Shirt, 22$
+22
+
+# TEST_4:
+Banana, 100$
+Apple, 120$
+Orange, 110$
+Tomato, 180$
+Cucumber, 150$
+Banana, 100$
+760
+Apple, 120$
+Orange, 110$
+Tomato, 180$
+Cucumber, 150$
+560
+

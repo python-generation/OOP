@@ -1,0 +1,34 @@
+# INPUT DATA:
+
+# TEST_1:
+item1 = Item('Yoga Mat', 130)
+item2 = Item('Flannel Shirt', 22)
+
+print(item1)
+print(item2)
+
+# TEST_2:
+shopping_cart = ShoppingCart([Item('Yoga Mat', 130)])
+
+shopping_cart.add(Item('Flannel Shirt', 22))
+print(shopping_cart)
+print(shopping_cart.total())
+
+# TEST_3:
+shopping_cart = ShoppingCart([Item('Yoga Mat', 130), Item('Flannel Shirt', 22)])
+
+shopping_cart.remove('Yoga Mat')
+print(shopping_cart)
+print(shopping_cart.total())
+
+# TEST_4:
+shopping_cart = ShoppingCart([Item('Banana', 100), Item('Apple', 120), Item('Orange', 110), Item('Tomato', 180), Item('Cucumber', 150)])
+
+shopping_cart.add(Item('Banana', 100))
+print(shopping_cart)
+print(shopping_cart.total())
+
+shopping_cart.remove('Banana')
+print(shopping_cart)
+print(shopping_cart.total())
+
