@@ -55,3 +55,8 @@ print(encode_words)
 decode_words = [cipher.decode(word) for word in encode_words]
 print(decode_words)
 
+# TEST_6:
+cipher = CaesarCipher(1)
+print(cipher.encode('ZzzZzz'))
+print(cipher.decode('AaaAaa'))
+
