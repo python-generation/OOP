@@ -1,0 +1,65 @@
+# OUTPUT DATA:
+
+# TEST_1:
+triangle
+red
+12
+
+# TEST_2:
+Red Square (4)
+
+# TEST_3:
+True
+True
+
+# TEST_4:
+Error
+
+# TEST_5:
+Chartreuse rectangle (92)
+AliceBlue square (18)
+DarkSlateBlue triangle (35)
+Silver circle (59)
+RosyBrown hexagon (59)
+MediumAquaMarine rectangle (64)
+LemonChiffon square (50)
+LightSalmon triangle (38)
+Moccasin circle (26)
+Indigo hexagon (58)
+DarkViolet rectangle (25)
+MediumOrchid square (74)
+AntiqueWhite triangle (17)
+Peru circle (67)
+DarkOliveGreen hexagon (24)
+CadetBlue rectangle (20)
+Lime square (30)
+LightBlue triangle (54)
+OrangeRed circle (88)
+Yellow hexagon (64)
+
+# TEST_6:
+False
+True
+
+# TEST_7:
+False
+True
+
+# TEST_8:
+True
+False
+
+# TEST_9:
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+

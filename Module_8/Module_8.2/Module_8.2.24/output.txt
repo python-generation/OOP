@@ -1,0 +1,13 @@
+# OUTPUT DATA:
+
+# TEST_1:
+весна
+sping
+
+# TEST_2:
+WINTER
+SPING
+SUMMER
+FALL
+WINTER
+
