@@ -73,6 +73,10 @@ print(len(queue))
 for _ in range(97):
     print(queue.pop())
 
-queue.pop()
+try:
+    queue.pop()
+except KeyError as e:
+    print(e)
+
 print(len(queue))
 

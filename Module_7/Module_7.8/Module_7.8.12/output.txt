@@ -17,7 +17,7 @@ Queue([('one', 1), ('two', 2)])
 Queue([('two', 2), ('one', 10)])
 
 # TEST_5:
-Очередь пуста
+'Очередь пуста'
 
 # TEST_6:
 97
@@ -118,6 +118,6 @@ Queue([('two', 2), ('one', 10)])
 ('Jennifer Peterson MD', 15)
 ('Paul Henderson', 24)
 ('Julie Gibson', 48)
-Очередь пуста
+'Очередь пуста'
 0
 
