@@ -1,13 +1,18 @@
 # OUTPUT DATA:
 
 # TEST_1:
-весна
-sping
+осень
+fall
 
 # TEST_2:
-WINTER
-SPING
-SUMMER
-FALL
-WINTER
+winter -> зима
+spring -> весна
+summer -> лето
+fall -> осень
+
+# TEST_3:
+WINTER 1
+SPRING 2
+SUMMER 3
+FALL 4
 
