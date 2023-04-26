@@ -20,3 +20,7 @@ print(HTTPStatusCodes.NOT_FOUND.code_class())
 print(HTTPStatusCodes.BAD_GATEWAY.info())
 print(HTTPStatusCodes.BAD_GATEWAY.code_class())
 
+# TEST_6:
+for instance in HTTPStatusCodes:
+    print(f'{instance.name} -> {instance.value}')
+
