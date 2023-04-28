@@ -1,0 +1,38 @@
+# OUTPUT DATA:
+
+# TEST_1:
+City(name='Tokyo', population=14043239, founded=1457)
+Tokyo
+14043239
+1457
+
+# TEST_2:
+False
+True
+True
+False
+
+# TEST_3:
+City(name='Челябинск', population=1189525, founded=1736)
+Челябинск
+1189525
+1736
+
+# TEST_4:
+City(name='Москва', population=13015126, founded=1147)
+Москва
+13015126
+1147
+
+# TEST_5:
+City(name='Ростов', population=1142162, founded=1749)
+Ростов
+1142162
+1749
+City(name='Владивосток', population=605049, founded=1860)
+Владивосток
+605049
+1860
+True
+True
+

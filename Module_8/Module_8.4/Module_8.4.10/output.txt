@@ -1,0 +1,28 @@
+# OUTPUT DATA:
+
+# TEST_1:
+9
+
+# TEST_2:
+meloncherryapple
+
+# TEST_3:
+14
+
+# TEST_4:
+operation
+integer division
+0
+
+# TEST_5:
+ZeroDivisionError
+
+# TEST_6:
+10
+
+# TEST_7:
+ZeroDivisionError
+
+# TEST_8:
+-69
+

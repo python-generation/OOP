@@ -1,0 +1,48 @@
+# INPUT DATA:
+
+# TEST_1:
+@auto_repr(args=['x', 'y'], kwargs=['color'])
+class Point:
+    def __init__(self, x, y, color):
+        self.x = x
+        self.y = y
+        self.color = color
+
+point = Point(1, 2, color='green')
+
+print(point)
+
+# TEST_2:
+@auto_repr(args=['name', 'surname'], kwargs=[])
+class Person:
+    def __init__(self, name, surname):
+        self.name = name
+        self.surname = surname
+
+
+person = Person('Gvido', 'van Rossum')
+
+print(person)
+
+# TEST_3:
+@auto_repr(args=[], kwargs=['name', 'breed'])
+class Cat:
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed
+
+
+cat = Cat('Кемаль', 'Британский')
+
+print(cat)
+
+# TEST_4:
+@auto_repr(args=[], kwargs=[])
+class Gun:
+    pass
+
+
+gun = Gun()
+
+print(gun)
+

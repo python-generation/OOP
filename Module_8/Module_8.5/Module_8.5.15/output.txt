@@ -1,0 +1,14 @@
+# OUTPUT DATA:
+
+# TEST_1:
+Point(1, 2, color='green')
+
+# TEST_2:
+Person('Gvido', 'van Rossum')
+
+# TEST_3:
+Cat(name='Кемаль', breed='Британский')
+
+# TEST_4:
+Gun()
+

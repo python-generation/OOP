@@ -1,0 +1,26 @@
+# OUTPUT DATA:
+
+# TEST_1:
+3
+
+# TEST_2:
+<class 'TypeError'>
+
+# TEST_3:
+beegeek
+beegeek docs
+<class 'TypeError'>
+
+# TEST_4:
+append_this
+append_this docs
+[1, 2, 3, 4]
+
+# TEST_5:
+append_this
+append_this docs
+<class 'TypeError'>
+
+# TEST_6:
+15
+

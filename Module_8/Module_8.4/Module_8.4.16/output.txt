@@ -1,0 +1,22 @@
+# OUTPUT DATA:
+
+# TEST_1:
+3
+
+# TEST_2:
+<class 'TypeError'>
+
+# TEST_3:
+add
+sum a and b
+3
+
+# TEST_4:
+6.0
+
+# TEST_5:
+3
+
+# TEST_6:
+8
+

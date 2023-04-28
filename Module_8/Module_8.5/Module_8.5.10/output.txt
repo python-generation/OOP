@@ -1,0 +1,14 @@
+# OUTPUT DATA:
+
+# TEST_1:
+[Person('object 1'), Person('object 2')]
+
+# TEST_2:
+10
+__init__
+cat init
+
+# TEST_3:
+10000
+Gun()
+

@@ -1,0 +1,21 @@
+# OUTPUT DATA:
+
+# TEST_1:
+MusicAlbum(title='Calendar', artist='Motorama')
+
+# TEST_2:
+True
+False
+
+# TEST_3:
+Error
+
+# TEST_4:
+Камнем по голове
+КиШ
+Хоррор-панк
+1996
+
+# TEST_5:
+MusicAlbum(title='Король и Шут', artist='КиШ')
+
