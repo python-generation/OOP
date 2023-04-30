@@ -66,3 +66,7 @@ def operation(a, b, value=10):
 
 print(operation(70, 70, value=70))
 
+# TEST_9:
+print(reverse_args)
+print(type(reverse_args))
+

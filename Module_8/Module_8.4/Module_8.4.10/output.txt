@@ -26,3 +26,7 @@ ZeroDivisionError
 # TEST_8:
 -69
 
+# TEST_9:
+<class '__main__.reverse_args'>
+<class 'type'>
+
