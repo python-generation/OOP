@@ -1,0 +1,84 @@
+# OUTPUT DATA:
+
+# TEST_1:
+5
+5
+
+# TEST_2:
+10
+8
+
+# TEST_3:
+ID = 0, value = 48
+ID = 1, value = 17
+ID = 2, value = 36
+ID = 3, value = 26
+ID = 4, value = 52
+ID = 5, value = 90
+ID = 6, value = 98
+ID = 7, value = 46
+ID = 8, value = 86
+ID = 9, value = 95
+ID = 9, value = 95
+ID = 9, value = 95
+ID = 9, value = 95
+ID = 9, value = 95
+ID = 9, value = 95
+ID = 9, value = 95
+ID = 9, value = 95
+ID = 9, value = 95
+ID = 9, value = 95
+ID = 9, value = 95
+
+# TEST_4:
+ID = 0, value = 84
+ID = 1, value = 97
+ID = 2, value = 41
+ID = 3, value = 80
+ID = 4, value = 31
+ID = 5, value = 40
+ID = 6, value = 26
+ID = 7, value = 51
+ID = 8, value = 68
+ID = 9, value = 41
+ID = 0, value = 84
+ID = 0, value = 84
+ID = 0, value = 84
+ID = 0, value = 84
+ID = 0, value = 84
+ID = 0, value = 84
+ID = 0, value = 84
+ID = 0, value = 84
+ID = 0, value = 84
+ID = 0, value = 84
+
+# TEST_5:
+ID = 0, value = 33
+ID = 1, value = 99
+ID = 2, value = 71
+ID = 3, value = 61
+ID = 4, value = 51
+ID = 5, value = 76
+ID = 6, value = 25
+ID = 7, value = 95
+ID = 8, value = 67
+ID = 9, value = 54
+ID = 10, value = 62
+ID = 11, value = 66
+ID = 3, value = 61
+ID = 9, value = 54
+ID = 9, value = 54
+ID = 10, value = 62
+ID = 6, value = 25
+ID = 8, value = 67
+ID = 4, value = 51
+ID = 8, value = 67
+ID = 11, value = 66
+
+# TEST_6:
+True
+True
+
+# TEST_7:
+True
+

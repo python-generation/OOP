@@ -1,0 +1,29 @@
+# OUTPUT DATA:
+
+# TEST_1:
+('OK', 200)
+успех
+
+# TEST_2:
+('CONTINUE', 100)
+информация
+
+# TEST_3:
+('USE_PROXY', 305)
+перенаправление
+
+# TEST_4:
+('NOT_FOUND', 404)
+ошибка клиента
+
+# TEST_5:
+('BAD_GATEWAY', 502)
+ошибка сервера
+
+# TEST_6:
+CONTINUE -> 100
+OK -> 200
+USE_PROXY -> 305
+NOT_FOUND -> 404
+BAD_GATEWAY -> 502
+

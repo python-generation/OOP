@@ -1,0 +1,17 @@
+# OUTPUT DATA:
+
+# TEST_1:
+Заказ оформлен!
+Оплата получена!
+Доставка завершена!
+
+# TEST_2:
+1
+2
+4
+
+# TEST_3:
+OrderStatus.ORDER_PLACED
+OrderStatus.PAYMENT_RECEIVED
+OrderStatus.SHIPPING_COMPLETE
+

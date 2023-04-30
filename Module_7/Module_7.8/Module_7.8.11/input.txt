@@ -1,0 +1,51 @@
+# INPUT DATA:
+
+# TEST_1:
+print(Card('♣', '4'))
+print(Card('♡', 'A'))
+print(Card('♢', '10'))
+
+# TEST_2:
+deck = Deck()
+
+print(deck)
+print(deck.deal())
+print(deck.deal())
+print(deck.deal())
+print(deck)
+
+# TEST_3:
+deck = Deck()
+
+for _ in range(52):
+    deck.deal()
+    
+try:
+    deck.deal()
+except ValueError as error:
+    print(error)
+
+# TEST_4:
+deck = Deck()
+
+deck.deal()
+    
+try:
+    deck.shuffle()
+except ValueError as error:
+    print(error)
+
+# TEST_5:
+deck = Deck()
+
+for _ in range(52):
+    print(deck.deal())
+
+# TEST_6:
+deck = Deck()
+
+deck.shuffle()
+
+for _ in range(52):
+    print(deck.deal())
+

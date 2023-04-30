@@ -1,0 +1,30 @@
+# OUTPUT DATA:
+
+# TEST_1:
+FootballPlayer(name='Kylian', surname='Mbappe')
+Kylian
+Mbappe
+180000000
+
+# TEST_2:
+True
+False
+False
+True
+
+# TEST_3:
+FootballTeam(name='PSG')
+PSG
+[]
+[FootballPlayer(name='Kylian', surname='Mbappe')]
+
+# TEST_4:
+True
+False
+False
+True
+
+# TEST_5:
+Best
+[FootballPlayer(name='Ronaldo', surname=''), FootballPlayer(name='Lothar', surname='Matthaus'), FootballPlayer(name='Xavi', surname='Simons'), FootballPlayer(name='Paolo', surname='Maldini'), FootballPlayer(name='Лев', surname='Яшин'), FootballPlayer(name='Diego', surname='Maradona'), FootballPlayer(name='Lionel', surname='Messi'), FootballPlayer(name='Kristiano', surname='Ronaldo')]
+

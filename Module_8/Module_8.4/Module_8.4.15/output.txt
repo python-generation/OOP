@@ -1,0 +1,28 @@
+# OUTPUT DATA:
+
+# TEST_1:
+Исключение ZeroDivisionError обработано
+
+# TEST_2:
+<class 'TypeError'>
+
+# TEST_3:
+<class 'ValueError'>
+
+# TEST_4:
+<class 'ValueError'>
+
+# TEST_5:
+Исключение NameError обработано
+
+# TEST_6:
+Исключение ZeroDivisionError обработано
+
+# TEST_7:
+Исключение NameError обработано
+
+# TEST_8:
+beegeek
+beegeek
+beegeek
+

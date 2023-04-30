@@ -1,0 +1,43 @@
+# INPUT DATA:
+
+# TEST_1:
+point = Point()
+
+print(point)
+print(point.x)
+print(point.y)
+print(point.quadrant)
+
+# TEST_2:
+point = Point(1.0, 2.0)
+
+print(point.symmetric_x())
+print(point.symmetric_y())
+
+# TEST_3:
+point1 = Point(1, 2)
+point2 = Point(1, 2)
+point3 = Point(3, 4)
+
+print(point1 == point2)
+print(point1 == point3)
+print(point2 != point3)
+
+# TEST_4:
+for x in range(-3, 4):
+    for y in range(-3, 4):
+        point = Point(x, y)
+        print(point)
+
+# TEST_5:
+for x in range(-3, 4):
+    for y in range(-3, 4):
+        point = Point(x, y)
+        print(point.symmetric_x())
+
+# TEST_6:
+for x in range(-3, 4):
+    for y in range(-3, 4):
+        point = Point(x, y)
+        print(point.symmetric_y())
+

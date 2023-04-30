@@ -69,3 +69,6 @@ False
 # TEST_23:
 False
 
+# TEST_24:
+True
+

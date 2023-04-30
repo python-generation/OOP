@@ -1,0 +1,14 @@
+# INPUT DATA:
+
+# TEST_1:
+print(Seasons.FALL.text_value('ru'))
+print(Seasons.FALL.text_value('en'))
+
+# TEST_2:
+for season in Seasons:
+    print(season.text_value('en'), '->', season.text_value('ru'))
+
+# TEST_3:
+for season in Seasons:
+    print(season.name, season.value)
+

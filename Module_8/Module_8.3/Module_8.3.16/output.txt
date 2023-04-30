@@ -1,0 +1,27 @@
+# OUTPUT DATA:
+
+# TEST_1:
+The Lord of the Rings
+
+# TEST_2:
+True
+False
+True
+
+# TEST_3:
+False
+True
+True
+
+# TEST_4:
+False
+True
+True
+Avengers
+
+# TEST_5:
+True
+False
+True
+Любовь и голуби
+

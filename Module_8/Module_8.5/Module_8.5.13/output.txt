@@ -1,0 +1,13 @@
+# OUTPUT DATA:
+
+# TEST_1:
+True
+
+# TEST_2:
+True
+
+# TEST_3:
+Person('Doe John')
+Person('Doe John')
+True
+

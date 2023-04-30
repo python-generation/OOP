@@ -1,0 +1,18 @@
+# OUTPUT DATA:
+
+# TEST_1:
+1
+2
+
+# TEST_2:
+John
+Doe
+
+# TEST_3:
+Кемаль
+Британский
+
+# TEST_4:
+pif
+paf
+
