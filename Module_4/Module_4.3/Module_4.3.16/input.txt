@@ -4,17 +4,17 @@
 knight = Knight('c', 3, 'white')
 
 print(knight.color, knight.get_char())
-print(knight.col, knight.row)
+print(knight.horizontal, knight.vertical)
 
 # TEST_2:
 knight = Knight('c', 3, 'white')
 
-print(knight.col, knight.row)
+print(knight.horizontal, knight.vertical)
 print(knight.can_move('e', 5))
 print(knight.can_move('e', 4))
 
 knight.move_to('e', 4)
-print(knight.col, knight.row)
+print(knight.horizontal, knight.vertical)
 
 # TEST_3:
 knight = Knight('c', 3, 'white')
