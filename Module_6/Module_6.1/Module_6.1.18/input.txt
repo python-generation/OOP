@@ -16,27 +16,27 @@ skipiterator = SkipIterator([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 0)   # не про�
 print(*skipiterator)
 
 # TEST_4:
-skipiterator = SkipIterator('abcd', 0)   # не пропускаем элементы
+skipiterator = SkipIterator('abcd', 0)
 
 print(*skipiterator)
 
 # TEST_5:
-skipiterator = SkipIterator(['abcd'], 1)   # не пропускаем элементы
+skipiterator = SkipIterator(['abcd'], 1)
 
 print(*skipiterator)
 
 # TEST_6:
-skipiterator = SkipIterator('abcd', 3)   # не пропускаем элементы
+skipiterator = SkipIterator('abcd', 3)
 
 print(*skipiterator)
 
 # TEST_7:
-skipiterator = SkipIterator(iter([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]), 5)   # пропускаем по два элемента
+skipiterator = SkipIterator(iter([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]), 5)
 
 print(*skipiterator)
 
 # TEST_8:
-skipiterator = SkipIterator(iter(['aa', 'bb', 'cc', 'dd', 'ee', 'ff']), 2)   # пропускаем по два элемента
+skipiterator = SkipIterator(iter(['aa', 'bb', 'cc', 'dd', 'ee', 'ff']), 2)
 
 print(*skipiterator)
 
@@ -44,7 +44,7 @@ print(*skipiterator)
 data = ['к', 'б', 'ш', 'к', 'к', 'о', 'т', 'г', 'о', 'д', 'р', 'в', 'с', 'с', 'и', 'о', 'в', 'п', 'у', 'с', 'л', 'т',
         'г', 'т', 'з', 'ь', 'о', 'п', 'н', 'в', 'и', 'н', 'с', 'п', 'р', 'ш', 'е', 'к', 'н', 'с', 'у', 'в', 'п', 'т',
         'х', 'т', 'с', 'с', 'л', 'с']
-skipiterator = SkipIterator(iter(data), 4)  # пропускаем по четыре элемента
+skipiterator = SkipIterator(iter(data), 4)
 
 print(*skipiterator)
 
