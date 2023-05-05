@@ -18,10 +18,9 @@ beegeek
 BeeGeek
 
 # TEST_5:
-egeek
-beege
-ege
-eg
+egeek <class '__main__.MutableString'>
+beege <class '__main__.MutableString'>
+ee <class '__main__.MutableString'>
 
 # TEST_6:
 True
@@ -46,4 +45,11 @@ l amatoht m stluM
 
 # TEST_11:
 MutableString('')
+
+# TEST_12:
+be
+
+# TEST_13:
+beegeeee
+beegeegeek
 

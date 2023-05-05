@@ -33,10 +33,13 @@ print(mutablestring)
 # TEST_5:
 mutablestring = MutableString('beegeek')
 
-print(mutablestring[2:])
-print(mutablestring[:5])
-print(mutablestring[2:5])
-print(mutablestring[1:5:2])
+s1 = mutablestring[2:]
+s2 = mutablestring[:5]
+s3 = mutablestring[2:5:2]
+
+print(s1, type(s1))
+print(s2, type(s2))
+print(s3, type(s3))
 
 # TEST_6:
 mutablestring = MutableString('Ada Wong')
@@ -89,4 +92,20 @@ print(array)
 # TEST_11:
 mutablestring = MutableString()
 print(repr(mutablestring))
+
+# TEST_12:
+mutablestring = MutableString('beegeek')
+
+del mutablestring[2:5]
+del mutablestring[1:5:2]
+print(mutablestring)
+
+# TEST_13:
+mutablestring = MutableString('beegeek')
+
+mutablestring[-1] = 'ee'
+print(mutablestring)
+
+mutablestring[-2:] = 'geek'
+print(mutablestring)
 

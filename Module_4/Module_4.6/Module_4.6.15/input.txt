@@ -69,3 +69,11 @@ print(polynom.x2)
 print(polynom.coefficients)
 print(polynom.view)
 
+# TEST_9:
+polynom = QuadraticPolynomial(1, 2, -3)
+
+polynom.coefficients = (5, 3, 1)
+print(polynom.x1)
+print(polynom.x2)
+print(polynom.view)
+
