@@ -72,3 +72,7 @@ False
 # TEST_24:
 True
 
+# TEST_25:
+True
+True
+

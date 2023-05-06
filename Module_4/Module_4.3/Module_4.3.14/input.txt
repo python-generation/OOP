@@ -13,6 +13,7 @@ postman = Postman()
 postman.add_delivery('Советская', 151, 74)
 postman.add_delivery('Советская', 151, 75)
 postman.add_delivery('Советская', 90, 2)
+postman.add_delivery('Советская', 151, 74)
 
 print(postman.get_houses_for_street('Советская'))
 print(postman.get_flats_for_house('Советская', 151))

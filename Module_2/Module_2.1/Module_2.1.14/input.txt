@@ -72,3 +72,7 @@ print(is_fraction('5/2/4/2'))
 # TEST_24:
 print(is_fraction('1000/10'))
 
+# TEST_25:
+print(is_fraction('1000/00001'))
+print(is_fraction('-1000/00001'))
+

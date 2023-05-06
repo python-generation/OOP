@@ -39,3 +39,7 @@ print(is_integer('1111111111'))
 # TEST_13:
 print(is_integer('--9'))
 
+# TEST_14:
+print(is_integer('-0001'))
+print(is_integer('0001'))
+

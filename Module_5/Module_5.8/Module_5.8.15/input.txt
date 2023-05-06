@@ -36,3 +36,25 @@ user = ProtectedObject(login='PG_kamiya', _password='alreadybanned')
 print(object.__getattribute__(user, 'login'))
 print(object.__getattribute__(user, '_password'))
 
+# TEST_6:
+user = ProtectedObject(login='PG_kamiya', _password='alreadybanned')
+
+try:
+    user.__dict__['attr'] = 1
+except AttributeError as e:
+    print(e)
+
+# TEST_7:
+user = ProtectedObject(login='PG_kamiya', _password='alreadybanned')
+
+try:
+    print(user.__dict__)
+except AttributeError as e:
+    print(e)
+
+# TEST_8:
+try:
+    del user.__dict__['_password']
+except AttributeError as e:
+    print(e)
+
