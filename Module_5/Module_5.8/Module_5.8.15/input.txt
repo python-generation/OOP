@@ -53,6 +53,8 @@ except AttributeError as e:
     print(e)
 
 # TEST_8:
+user = ProtectedObject(login='PG_kamiya', _password='alreadybanned')
+
 try:
     del user.__dict__['_password']
 except AttributeError as e:
