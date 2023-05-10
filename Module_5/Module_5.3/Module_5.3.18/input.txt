@@ -75,3 +75,13 @@ print(sorted(words))
 print(min(words))
 print(max(words))
 
+# TEST_7:
+word = Word('Beegeek')
+
+print(word.__eq__(1))
+print(word.__ne__(1.1))
+print(word.__gt__(range(5)))
+print(word.__lt__([1, 2, 3]))
+print(word.__ge__({4, 5, 6}))
+print(word.__le__({1: 'one'}))
+

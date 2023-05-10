@@ -11,10 +11,12 @@ print(dna[-1])
 print(dna[-2])
 
 # TEST_2:
-dna = DNA('AGTC')
+dna = DNA('AGT')
 
 print(dna)
 print(len(dna))
+print('A' in dna)
+print('C' in dna)
 
 # TEST_3:
 dna1 = DNA('ACG')
@@ -62,4 +64,10 @@ dnas = ['TAAAACCCCATCGGCTCTGACAATGAAC', 'AGATGTTCCCTCTAATATCTATACGAAT', 'ACGACGC
 for base in dnas:
     dna = DNA(base)
     print(*dna)
+
+# TEST_8:
+dna = DNA('ACG')
+print(dna.__eq__(1))
+print(dna.__ne__(1.1))
+print(dna.__add__([1, 2, 3]))
 

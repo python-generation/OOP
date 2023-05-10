@@ -66,3 +66,12 @@ romans = ['I', 'IV', 'IX', 'XII', 'XXV', 'XLV', 'LXIX', 'XC', 'CDXLVIII']
 for num in romans:
     print(RomanNumeral(num), int(RomanNumeral(num)))
 
+# TEST_10:
+roman = RomanNumeral('L')
+print(roman.__eq__(1))
+print(roman.__ne__(1.1))
+print(roman.__gt__(range(5)))
+print(roman.__lt__([1, 2, 3]))
+print(roman.__ge__({4, 5, 6}))
+print(roman.__le__({1: 'one'}))
+

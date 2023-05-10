@@ -102,3 +102,11 @@ for p, f, c in pfc:
     truediv = food1 // c
     print(round(add), round(mul), round(truediv))
 
+# TEST_8:
+food = FoodInfo(10, 20, 30)
+
+print(food.__add__(1))
+print(food.__mul__(range(5)))
+print(food.__truediv__([1, 2, 3]))
+print(food.__floordiv__({4, 5, 6}))
+

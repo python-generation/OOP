@@ -49,3 +49,13 @@ not_supported = ['12.0.0', 12.0, (12, 0), {12: 0}, True, False]
 for obj in not_supported:
     print(obj == version)
 
+# TEST_6:
+version = Version('25')
+
+print(version.__eq__(1))
+print(version.__ne__(1.1))
+print(version.__gt__(range(5)))
+print(version.__lt__([1, 2, 3]))
+print(version.__ge__({4, 5, 6}))
+print(version.__le__({1: 'one'}))
+

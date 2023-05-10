@@ -82,3 +82,8 @@ not_supported = [6952, 208621309.925047, 'Крестик на моей груд�
 for item in not_supported:
     print(item == point)
 
+# TEST_7:
+coloredpoint = ColoredPoint(85, 100, 'PeachPuff')
+print(coloredpoint.__eq__(1))
+print(coloredpoint.__ne__(1.1))
+

@@ -159,3 +159,10 @@ print(numbers1)
 numbers2 *= 0
 print(numbers2)
 
+# TEST_17:
+numbers = SortedList([5, 3, 4, 2, 1])
+print(numbers.__add__(1))
+print(numbers.__iadd__(1.1))
+print(numbers.__mul__([1, 2, 3]))
+print(numbers.__imul__({4, 5, 6}))
+

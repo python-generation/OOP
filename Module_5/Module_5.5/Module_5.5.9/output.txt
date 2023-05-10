@@ -251,3 +251,9 @@ FoodInfo(1556.53, 2686.17, 3622.61) FoodInfo(556530.0, 1113060.0, 1669590.0) Foo
 FoodInfo(1699.8, 2872.49, 3908.3) FoodInfo(699800.0, 1399600.0, 2099400.0) FoodInfo(1.0, 2.0, 3.0)
 FoodInfo(1622.3, 2920.97, 3801.17) FoodInfo(622300.0, 1244600.0, 1866900.0) FoodInfo(1.0, 2.0, 3.0)
 
+# TEST_8:
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+

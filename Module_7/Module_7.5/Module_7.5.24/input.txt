@@ -60,3 +60,8 @@ print(len(bitarray1) == len(bitarray2))
 print(bitarray1 | bitarray2)
 print(bitarray1 & bitarray2)
 
+# TEST_6:
+bitarray = BitArray([1, 0, 1, 1])
+print(bitarray.__or__(1))
+print(bitarray.__and__(1.1))
+

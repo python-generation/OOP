@@ -66,3 +66,13 @@ for item in not_supported:
     print(shape == item)
     print(item == shape)
 
+# TEST_10:
+shape = Shape('square', 'LemonChiffon', 50)
+
+print(shape.__eq__(1))
+print(shape.__ne__(1.1))
+print(shape.__gt__(range(5)))
+print(shape.__lt__([1, 2, 3]))
+print(shape.__ge__({4, 5, 6}))
+print(shape.__le__({1: 'one'}))
+

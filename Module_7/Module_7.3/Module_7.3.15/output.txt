@@ -34,3 +34,11 @@ True
 False
 False
 
+# TEST_6:
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+

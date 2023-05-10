@@ -92,3 +92,8 @@ rows = [Row(a=66, b=69, country='China'), Row(a=35, b=42, country='Singapore'), 
 for row in rows:
     print(row != row1)
 
+# TEST_8:
+row = Row(a=16, b=100, country='Jamaica')
+print(row.__eq__(1))
+print(row.__ne__(1.1))
+

@@ -58,3 +58,13 @@ c = Vector(5, 6)
 vectors = [a, b, c]
 print(vectors)
 
+# TEST_8:
+vector = Vector(0, 1)
+
+print(vector.__eq__(1))
+print(vector.__ne__(1.1))
+print(vector.__gt__(range(5)))
+print(vector.__lt__([1, 2, 3]))
+print(vector.__ge__({4, 5, 6}))
+print(vector.__le__({1: 'one'}))
+
