@@ -76,3 +76,8 @@ print(is_fraction('1000/10'))
 print(is_fraction('1000/00001'))
 print(is_fraction('-1000/00001'))
 
+# TEST_26:
+print(is_fraction('1000/00004123'))
+print(is_fraction('1000/0000'))
+print(is_fraction('1000/00000008000'))
+

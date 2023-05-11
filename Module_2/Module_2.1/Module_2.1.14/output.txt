@@ -76,3 +76,8 @@ True
 True
 True
 
+# TEST_26:
+True
+False
+True
+
