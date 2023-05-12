@@ -4,7 +4,9 @@
 1 0 2 0 3
 
 # TEST_2:
-b ! e ! e ! g ! e ! e ! k
+b
+!
+e ! e ! g ! e ! e ! k
 
 # TEST_3:
 A

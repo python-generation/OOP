@@ -4,7 +4,10 @@
 print(*intersperse([1, 2, 3], 0))
 
 # TEST_2:
-print(*intersperse('beegeek', '!'))
+inter = intersperse('beegeek', '!')
+print(next(inter))
+print(next(inter))
+print(*inter)
 
 # TEST_3:
 print(*intersperse('A', '...'))
