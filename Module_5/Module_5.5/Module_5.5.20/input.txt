@@ -30,13 +30,13 @@ time2 = Time(10, 130)
 print(time1 + time2)
 
 # TEST_5:
-time = Time(13, 0)
-print(time)
-id1 = id(time)
+t = Time(13, 0)
+print(t)
+id1 = id(t)
 
-time += Time(2, 30)
-id2 = id(time)
-print(time)
+t += Time(2, 30)
+id2 = id(t)
+print(t)
 print(id1 == id2)
 
 # TEST_6:
