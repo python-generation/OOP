@@ -20,11 +20,11 @@ except TypeError as e:
     print(e)
 
 # TEST_5:
-not_supported = [str, type, bool, True, dict, tuple, list]
+not_supported = [str, type, bool, dict, tuple, list]
 
 for item in not_supported:
     try:
-        Formatter.format(str)
+        Formatter.format(item)
     except TypeError as e:
         print(e)
 
