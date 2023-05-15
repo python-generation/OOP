@@ -47,6 +47,12 @@ id2 = id(queue)
 print(queue)
 print(id1 == id2)
 
+queue = queue + Queue(11, 12, 13, 14, 15)
+id3 = id(queue)
+
+print(queue)
+print(id1 == id3)
+
 # TEST_7:
 queue = Queue(*'beegeek')
 for i in range(9):
