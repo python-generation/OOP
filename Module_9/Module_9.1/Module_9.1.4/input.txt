@@ -24,19 +24,31 @@ for _ in range(20):
 
 # TEST_4:
 progression = GeometricProgression(4, -2)
+count = 0
 
-for _ in range(20):
-    print(next(progression), end=' ')
+for item in progression:
+    if count == 20:
+        break
+    count += 1
+    print(item, end=' ')
 
 # TEST_5:
 progression = ArithmeticProgression(100, -10)
+count = 0
 
-for _ in range(20):
-    print(next(progression), end=' ')
+for item in progression:
+    if count == 20:
+        break
+    count += 1
+    print(item, end=' ')
 
 # TEST_6:
 progression = GeometricProgression(100, 10)
+count = 0
 
-for _ in range(20):
-    print(next(progression), end=' ')
+for item in progression:
+    if count == 20:
+        break
+    count += 1
+    print(item, end=' ')
 
