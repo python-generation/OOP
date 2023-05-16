@@ -88,3 +88,19 @@ for item in digits:
     print(sum(item))
 print(sum.calls)
 
+# TEST_6:
+@CountCalls
+def add(a, b):
+    return a + b
+
+@CountCalls
+def mul(a, b):
+    return a * b
+
+print(add(1, 2))
+print(add(3, 4))
+print(mul(5, 6))
+
+print(add.calls)
+print(mul.calls)
+
