@@ -88,3 +88,14 @@ print(plus_matrix is matrix)
 print(minus_matrix is matrix)
 print(invert_matrix is matrix)
 
+# TEST_9:
+matrix = Matrix(2, 3, 1)
+
+plus_matrix = +matrix
+minus_matrix = -matrix
+invert_matrix = ~matrix
+
+print(plus_matrix.cols, plus_matrix.rows)
+print(minus_matrix.cols, minus_matrix.rows)
+print(invert_matrix.cols, invert_matrix.rows)
+
