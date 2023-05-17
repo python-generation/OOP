@@ -61,3 +61,8 @@ t = Time(40, 80)
 print(t.__add__([]))
 print(t.__iadd__('bee'))
 
+# TEST_8:
+t = Time(22, 0)
+t += Time(3, 0)
+print(t)
+
