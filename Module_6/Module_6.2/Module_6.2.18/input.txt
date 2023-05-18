@@ -109,3 +109,9 @@ print(mutablestring)
 mutablestring[-2:] = 'geek'
 print(mutablestring)
 
+# TEST_14:
+mutablestring = MutableString('beegeek')
+
+del mutablestring[1:3]
+print(mutablestring)
+
