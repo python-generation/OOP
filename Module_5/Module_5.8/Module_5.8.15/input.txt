@@ -60,3 +60,22 @@ try:
 except AttributeError as e:
     print(e)
 
+# TEST_9:
+user = ProtectedObject(login='PG_kamiya', _password='alreadybanned')
+
+del user.login
+
+try:
+    print(user.login)
+except AttributeError:
+    print('Атрибут отсутствует')
+
+# TEST_10:
+user = ProtectedObject(login='PG_kamiya', _password='alreadybanned')
+
+user.login = 'Kamiya'
+print(user.login)
+
+user.nickname = 'PG'
+print(user.nickname)
+
