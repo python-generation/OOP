@@ -15,6 +15,31 @@ next(loop_tracker)
 print(loop_tracker.accesses)
 
 # TEST_3:
+loop_tracker = LoopTracker([1, 2, 3])
+print(loop_tracker.first)
+
+print(next(loop_tracker))
+print(loop_tracker.first)
+
+print(next(loop_tracker))
+print(loop_tracker.first)
+
+print(next(loop_tracker))
+print(loop_tracker.first)
+
+# TEST_4:
+loop_tracker = LoopTracker([1, 2, 3])
+
+print(next(loop_tracker))
+print(loop_tracker.last)
+
+print(next(loop_tracker))
+print(loop_tracker.last)
+
+print(next(loop_tracker))
+print(loop_tracker.last)
+
+# TEST_5:
 loop_tracker = LoopTracker([1, 2])
 
 print(loop_tracker.empty_accesses)
@@ -29,7 +54,7 @@ for _ in range(5):
         
 print(loop_tracker.empty_accesses)
 
-# TEST_4:
+# TEST_6:
 loop_tracker = LoopTracker([1, 2])
 
 print(loop_tracker.is_empty())
@@ -38,13 +63,13 @@ print(loop_tracker.is_empty())
 next(loop_tracker)
 print(loop_tracker.is_empty())
 
-# TEST_5:
+# TEST_7:
 loop_tracker = LoopTracker([1, 2, 3])
 
 print(loop_tracker.first)
 print(next(loop_tracker))
 
-# TEST_6:
+# TEST_8:
 loop_tracker = LoopTracker([])
 
 try:
@@ -52,7 +77,7 @@ try:
 except AttributeError as e:
     print(e)
 
-# TEST_7:
+# TEST_9:
 loop_tracker = LoopTracker([1, 2, 3])
 
 print(next(loop_tracker))
@@ -60,7 +85,7 @@ print(loop_tracker.last)
 print(next(loop_tracker))
 print(loop_tracker.last)
 
-# TEST_8:
+# TEST_10:
 loop_tracker = LoopTracker([1, 2, 3])
 
 try:
@@ -68,7 +93,7 @@ try:
 except AttributeError as e:
     print(e)
 
-# TEST_9:
+# TEST_11:
 loop_tracker = LoopTracker(range(1_000))
 
 for _ in range(100_000):
