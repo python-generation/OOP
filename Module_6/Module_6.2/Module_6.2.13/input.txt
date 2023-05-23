@@ -45,3 +45,9 @@ print(data)
 print(len(sequencezip))
 print(list(sequencezip))
 
+# TEST_8:
+data = {'bee': 'bee', 'geek': 'geek'}
+sequencezip = SequenceZip(data)
+print(sequencezip[0])
+print(list(sequencezip))
+

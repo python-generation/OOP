@@ -97,3 +97,8 @@ row = Row(a=16, b=100, country='Jamaica')
 print(row.__eq__(1))
 print(row.__ne__(1.1))
 
+# TEST_9:
+row1 = Row(a=1, b=2, c=3)
+row2 = Row(a=3, b=2, c=1)
+print(row1 == row2)
+

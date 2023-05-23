@@ -9,7 +9,10 @@ class Point:
         self.color = color
 
 point = Point(1, 2, color='green')
+print(point)
 
+point.x = 10
+point.y = 20
 print(point)
 
 # TEST_2:
