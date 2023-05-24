@@ -102,3 +102,14 @@ for _ in range(100_000):
 print(loop_tracker.accesses)
 print(loop_tracker.empty_accesses)
 
+# TEST_12:
+loop_tracker = LoopTracker(dict.fromkeys(range(100)))
+
+print(next(loop_tracker))
+print(next(loop_tracker))
+print(next(loop_tracker))
+print(loop_tracker.accesses)
+print(loop_tracker.first)
+print(loop_tracker.last)
+print(loop_tracker.is_empty())
+
