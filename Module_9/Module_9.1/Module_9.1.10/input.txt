@@ -10,8 +10,6 @@ cell = game.board[0][0]
 
 print(cell.row)
 print(cell.col)
-print(cell.mine)
-print(cell.open)
 print(0 <= cell.neighbours <= 3)
 
 # TEST_2:

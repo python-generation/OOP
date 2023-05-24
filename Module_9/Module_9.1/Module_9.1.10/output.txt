@@ -6,8 +6,6 @@
 40
 0
 0
-False
-False
 True
 
 # TEST_2:
