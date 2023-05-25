@@ -77,3 +77,21 @@ f1.close()
 with WriteSpy(f1, f2, to_close=True) as combined:
     print(combined.writable())
 
+# TEST_8:
+f1 = open('file1.txt', mode='w')
+f2 = open('file2.txt', mode='w')
+
+with WriteSpy(f1, f2, to_close=True) as combined:
+    pass
+
+print(combined.closed())
+
+# TEST_9:
+f1 = open('file1.txt', mode='w')
+f2 = open('file2.txt', mode='w')
+
+with WriteSpy(f1, f2) as combined:
+    pass
+
+print(combined.closed())
+

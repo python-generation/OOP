@@ -55,3 +55,15 @@ for item in data:
 print(len(numbers))
 print(numbers[1000], numbers[2000], numbers[3000])
 
+# TEST_6:
+data = [1, 2, 3, 4, 5]
+cycliclist = CyclicList(data)
+data.extend([6, 7, 8, 9, 10])
+
+count = 0
+for item in cycliclist:
+    if count == 10:
+        break
+    print(item, end=' ')
+    count += 1
+
