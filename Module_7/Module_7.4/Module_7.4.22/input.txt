@@ -43,6 +43,3 @@ birthdaydict = BirthdayDict()
 for name, birth_date in zip(names, cycle(birth_dates)):
     birthdaydict[name] = birth_date
 
-# TEST_4:
-
-
