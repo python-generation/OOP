@@ -23,3 +23,7 @@ None
 'Mask'
 <class 'KeyError'>
 
+# TEST_7:
+<class 'AttributeError'>
+None
+

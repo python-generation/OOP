@@ -50,3 +50,12 @@ with Suppress(KeyError) as context:
 print(context.exception)
 print(type(context.exception))
 
+# TEST_7:
+with Suppress(ValueError) as context:
+    try:
+        print('Несуществующий метод у словаря –>', {}.new())
+    except AttributeError as e:
+        print(type(e))
+
+print(context.exception)
+
