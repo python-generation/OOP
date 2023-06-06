@@ -192,3 +192,14 @@ try:
 except ValueError as e:
     print(e)
 
+# TEST_16:
+class Student:
+    age = Number(18, 99)
+
+
+student = Student()
+try:
+    print(student.age)
+except AttributeError as e:
+    print(e)
+
