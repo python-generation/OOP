@@ -59,3 +59,12 @@ with Suppress(ValueError) as context:
 
 print(context.exception)
 
+# TEST_8:
+try:
+    with Suppress(ValueError) as context:
+        number = list(123)
+except TypeError:
+    pass
+
+print(context.exception)
+
