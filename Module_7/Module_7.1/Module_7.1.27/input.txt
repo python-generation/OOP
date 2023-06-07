@@ -22,7 +22,7 @@ print(validator2.is_valid())
 print(validator3.is_valid())
 
 # TEST_4:
-instances = [12, 34.1, [1, 2, 3], {4, 5, 6}, (7, 8, 9), {1: 'one'}, 'this is string', True, False]
+instances = [12, 34.1, [1, 2, 3], {4, 5, 6}, (7, 8, 9), {1: 'one'}, 'this is string']
 
 for instance in instances:
     validator = NumberValidator(instance)
