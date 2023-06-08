@@ -5,6 +5,7 @@
 
 # TEST_2:
 <class '__main__.C'>
+<class '__main__.B'>
 
 # TEST_3:
 3

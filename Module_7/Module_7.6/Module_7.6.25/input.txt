@@ -29,6 +29,7 @@ class D(B, C):
     pass
     
 print(MROHelper.class_by_index(D, 2))
+print(MROHelper.class_by_index(B))
 
 # TEST_3:
 class A:
