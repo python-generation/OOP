@@ -49,3 +49,12 @@ words.extend(['Гуев', 'Харисов', 'Светкин'])
 print(words)
 print(wordplay.words)
 
+# TEST_9:
+wordplay = Wordplay(['a', 'arthur', 'timur', 'bee', 'geek', 'python', 'stepik'])
+
+print(wordplay.words)
+wordplay.add_word('stepik')
+wordplay.add_word('bee')
+wordplay.add_word('geek')
+print(wordplay.words)
+

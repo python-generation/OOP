@@ -23,6 +23,9 @@ high_score_table.update(6)
 high_score_table.update(1)
 print(high_score_table.scores)
 
+high_score_table.reset()
+print(high_score_table.scores)
+
 # TEST_3:
 high_score_table = HighScoreTable(3)
 

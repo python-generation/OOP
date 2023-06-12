@@ -73,3 +73,10 @@ pif
 0
 5
 
+# TEST_7:
+pif
+1
+0
+pif
+paf
+

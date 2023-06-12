@@ -94,3 +94,13 @@ gun1.shots_reset()
 print(gun1.shots_count())
 print(gun2.shots_count())
 
+# TEST_7:
+gun = Gun()
+
+gun.shoot()
+print(gun.shots_count())
+gun.shots_reset()
+print(gun.shots_count())
+gun.shoot()
+gun.shoot()
+
