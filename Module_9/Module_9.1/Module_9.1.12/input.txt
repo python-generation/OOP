@@ -88,3 +88,23 @@ obj = obj.recover_state(1)
 
 print(obj.n_states())
 
+# TEST_5:
+obj = Selfie()
+
+obj.x = 1
+obj.y = 2
+
+print(obj.x)
+print(obj.y)
+
+obj.x = 100
+obj.y = 100
+
+obj.save_state()
+print(obj.x)
+print(obj.y)
+
+obj = obj.recover_state(7)
+print(obj.x)
+print(obj.y)
+
