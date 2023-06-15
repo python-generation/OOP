@@ -48,3 +48,13 @@ skipiterator = SkipIterator(iter(data), 4)
 
 print(*skipiterator)
 
+# TEST_10:
+skipiterator = SkipIterator(range(1000), 7)
+
+for _ in range(25):
+    next(skipiterator)
+
+print(next(skipiterator))
+print(next(skipiterator))
+print(next(skipiterator))
+
