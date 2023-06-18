@@ -23,3 +23,6 @@ mul
 multiplication
 12
 
+# TEST_7:
+<class '__main__.takes_numbers'>
+

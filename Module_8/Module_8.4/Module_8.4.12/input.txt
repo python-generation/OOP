@@ -62,3 +62,6 @@ print(mul.__name__)
 print(mul.__doc__)
 print(mul(3, 4))
 
+# TEST_7:
+print(takes_numbers)
+

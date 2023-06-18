@@ -79,3 +79,21 @@ print(user.login)
 user.nickname = 'PG'
 print(user.nickname)
 
+# TEST_11:
+user = ProtectedObject(login='PG_kamiya', _password='alreadybanned')
+
+try:
+    print(user._secret)
+except AttributeError as e:
+    print(e)
+
+try:
+    user._secret = 'PG'
+except AttributeError as e:
+    print(e)
+
+try:
+    del user._secret
+except Exception as e:
+    print(e)
+
