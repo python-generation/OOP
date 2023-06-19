@@ -102,3 +102,10 @@ row1 = Row(a=1, b=2, c=3)
 row2 = Row(a=3, b=2, c=1)
 print(row1 == row2)
 
+# TEST_10:
+row1 = Row(a=1, b=2, c=3)
+row2 = Row(b=1, a=2, c=3)
+
+print(row1 == row2)
+print(hash(row1) == hash(row2))
+
