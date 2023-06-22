@@ -35,3 +35,14 @@ for c in (0, -1):
         cell = game.board[r][c]
         print(0 <= cell.neighbours <= 5, type(cell))
 
+# TEST_5:
+n, m = 8, 10
+game = Game(n, m, 15)
+total = 0
+
+for r in range(n):
+    for c in range(m):
+        total += game.board[r][c].mine
+
+print(total == game.mines)
+

@@ -16,6 +16,8 @@ class Student:
 student = Student()
 
 print(student.score)
+student.score = 0
+print(student.score)
 
 # TEST_3:
 class Student:
