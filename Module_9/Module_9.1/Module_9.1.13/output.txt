@@ -17,3 +17,11 @@ object oriented programming
 object oriented programming
 python
 
+# TEST_5:
+1 1 1
+2 2 2
+
+# TEST_6:
+1 1 1
+2 2 2
+

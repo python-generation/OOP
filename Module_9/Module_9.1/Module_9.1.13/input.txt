@@ -41,3 +41,19 @@ print(multikeydict['lesson'])
 del multikeydict['lesson']
 print(multikeydict['lesson'])
 
+# TEST_5:
+mkey = MultiKeyDict(x=1)
+mkey.alias('x', 'y')
+mkey.alias('x', 'z')
+print(mkey['x'], mkey['y'], mkey['z'])
+mkey['x'] += 1
+print(mkey['x'], mkey['y'], mkey['z'])
+
+# TEST_6:
+mkey = MultiKeyDict(x=1)
+mkey.alias('x', 'y')
+mkey.alias('x', 'z')
+print(mkey['x'], mkey['y'], mkey['z'])
+mkey['y'] += 1
+print(mkey['x'], mkey['y'], mkey['z'])
+
