@@ -36,13 +36,18 @@ for c in (0, -1):
         print(0 <= cell.neighbours <= 5, type(cell))
 
 # TEST_5:
-n, m = 8, 10
-game = Game(n, m, 15)
-total = 0
+n, m = 10, 8
+game = Game(n, m, 14)
+total_mines = 0
 
 for r in range(n):
     for c in range(m):
-        total += game.board[r][c].mine
+        if not game.board[r][c].mine:
+            print(get_neighbours_count(r, c, game) == game.board[r][c].neighbours)
+        total_mines += game.board[r][c].mine
 
-print(total == game.mines)
+
+print(total_mines == game.mines)
+print(total_mines)
+print(game.mines)
 

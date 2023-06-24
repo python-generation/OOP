@@ -50,3 +50,17 @@ for f in files:
         print(file)
         print(error)
 
+# TEST_6:
+with open('Couplet.txt', 'w') as file:
+    file.write('Так уносились мы мечтой\n')
+    file.write('К началу жизни молодой')
+
+with safe_open('Couplet.txt') as file:
+    file, error = file
+    print(error)
+    print(file.read())
+
+    print(file.closed)
+
+print(file.closed)
+

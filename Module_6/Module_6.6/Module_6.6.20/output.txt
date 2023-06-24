@@ -62,3 +62,10 @@ None
 None
 [Errno 2] No such file or directory: 'file20.txt'
 
+# TEST_6:
+None
+Так уносились мы мечтой
+К началу жизни молодой
+False
+True
+
