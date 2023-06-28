@@ -5,8 +5,6 @@
 
 # TEST_2:
 10
-__init__
-cat init
 
 # TEST_3:
 10000

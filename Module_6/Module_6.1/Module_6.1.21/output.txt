@@ -63,3 +63,8 @@ True
 2
 False
 
+# TEST_13:
+<class 'AttributeError'>
+<class 'AttributeError'>
+<class 'AttributeError'>
+

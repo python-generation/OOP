@@ -113,3 +113,21 @@ print(loop_tracker.first)
 print(loop_tracker.last)
 print(loop_tracker.is_empty())
 
+# TEST_13:
+loop_tracker = LoopTracker([1, 2, 3])
+
+try:
+    loop_tracker.accesses = 1
+except AttributeError as e:
+    print(type(e))
+
+try:
+    loop_tracker.first = 1
+except AttributeError as e:
+    print(type(e))
+
+try:
+    loop_tracker.last = 1
+except AttributeError as e:
+    print(type(e))
+

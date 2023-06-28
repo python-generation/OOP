@@ -1,10 +1,11 @@
 # INPUT DATA:
 
 # TEST_1:
-superint = SuperInt(17)
+superint1 = SuperInt(17)
+superint2 = SuperInt(-17)
 
-print(superint.repeat())
-print(superint.repeat(3))
+print(superint1.repeat())
+print(superint2.repeat(3))
 
 # TEST_2:
 superint1 = SuperInt(17)
