@@ -132,3 +132,8 @@ False
 NotImplemented
 NotImplemented
 
+# TEST_8:
+<class 'AttributeError'>
+<class 'AttributeError'>
+<class 'AttributeError'>
+

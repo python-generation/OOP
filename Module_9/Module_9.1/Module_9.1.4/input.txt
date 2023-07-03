@@ -52,3 +52,9 @@ for item in progression:
     count += 1
     print(item, end=' ')
 
+# TEST_7:
+progression = GeometricProgression(2, 2)
+
+for _ in range(20):
+    print(next(progression), end=' ')
+

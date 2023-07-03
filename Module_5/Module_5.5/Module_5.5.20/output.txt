@@ -129,3 +129,7 @@ NotImplemented
 # TEST_8:
 01:00
 
+# TEST_9:
+18:10
+18:10
+

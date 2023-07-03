@@ -78,3 +78,18 @@ for method in myclass_attrs:
     except KeyError:
         print('метод отсутствует')
 
+# TEST_6:
+@snake_case()
+class MyClass:
+    def _FirstMethod(self):
+        return 1
+
+    def _superSecondMethod(self):
+        return 2
+
+
+obj = MyClass()
+
+print(obj._first_method())
+print(obj._super_second_method())
+

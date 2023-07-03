@@ -87,3 +87,21 @@ coloredpoint = ColoredPoint(85, 100, 'PeachPuff')
 print(coloredpoint.__eq__(1))
 print(coloredpoint.__ne__(1.1))
 
+# TEST_8:
+coloredpoint = ColoredPoint(1, 2, 'yellow')
+
+try:
+    coloredpoint.x = 2
+except AttributeError as e:
+    print(type(e))
+
+try:
+    coloredpoint.y = 3
+except AttributeError as e:
+    print(type(e))
+
+try:
+    coloredpoint.color = 'black'
+except AttributeError as e:
+    print(type(e))
+

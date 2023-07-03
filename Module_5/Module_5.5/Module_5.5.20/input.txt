@@ -66,3 +66,11 @@ t = Time(22, 0)
 t += Time(3, 0)
 print(t)
 
+# TEST_9:
+t1 = Time(15, 50)
+t2 = Time(2, 20)
+print(t1 + t2)
+
+t1 += Time(2, 20)
+print(t1)
+
