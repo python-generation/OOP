@@ -61,6 +61,6 @@ for knight in knights:
     for horizontal in 'abcdefg':
         for vertical in range(1, 9):
             if knight.can_move(horizontal, vertical):
-                print(f'King({knight.horizontal}{knight.vertical})', f'{horizontal}{vertical}',
+                print(f'Knight({knight.horizontal}{knight.vertical})', f'{horizontal}{vertical}',
                       knight.can_move(horizontal, vertical))
 
