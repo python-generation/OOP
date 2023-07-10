@@ -60,7 +60,7 @@ domains = ['nikitin..biz', '.org', 'katren.', 'kubanskaja.edu.', '.', 'i.p.com',
 
 for d in domains:
     try:
-        domain = Domain.from_email(d)
+        domain = Domain(d)
     except DomainException as e:
         print(e)
 
