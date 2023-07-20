@@ -25,7 +25,7 @@ leftparagraph.add('Именинницы у нас')
 leftparagraph.end()
 
 leftparagraph.add('Между тем дитя крылато')
-leftparagraph.add('Вас приветствуя, друзья')
+leftparagraph.add('Вас приветствуя друзья')
 leftparagraph.add('Втайне думает когда-то')
 leftparagraph.add('Именинник буду я')
 leftparagraph.end()
