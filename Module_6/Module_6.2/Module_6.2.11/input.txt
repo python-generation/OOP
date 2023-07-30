@@ -46,3 +46,10 @@ for ind in indexes:
     array[ind] = 'Мне больно видеть белый свет, мне лучше в полной темноте'
     print(array[ind])
 
+# TEST_6:
+array = SparseArray('Тут ничего нет')
+
+array[1000] = 1000
+print(array[999])
+print(array[1000])
+
