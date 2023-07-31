@@ -68,3 +68,13 @@ print(multikeydict2['z'])
 multikeydict1['a'] = 4
 print(multikeydict1['a'])
 
+# TEST_8:
+multikeydict = MultiKeyDict(x=100)
+
+multikeydict.alias('x', 'z')
+multikeydict.alias('x', 't')
+del multikeydict['x']
+multikeydict['z'] += 1
+print(multikeydict['z'])
+print(multikeydict['t'])
+
