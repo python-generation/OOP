@@ -97,10 +97,10 @@ FoodInfo.__round__ = lambda instance: FoodInfo(
 food1 = FoodInfo(1000, 2000, 3000)
 for p, f, c in pfc:
     food2 = FoodInfo(p, f, c)
-    add = food1 + food2
-    mul = food1 * p
-    truediv = food1 // c
-    print(round(add), round(mul), round(truediv))
+    add_food = food1 + food2
+    mul_food = food1 * p
+    truediv_food = food1 // c
+    print(round(add_food), round(mul_food), round(truediv_food))
 
 # TEST_8:
 food = FoodInfo(10, 20, 30)
