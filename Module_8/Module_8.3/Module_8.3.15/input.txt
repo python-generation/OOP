@@ -18,15 +18,6 @@ if OrderStatus.SHIPPING_COMPLETE in order_status:
     print('Доставка завершена!')
 
 # TEST_2:
-from enum import Flag, auto
-
-
-class OrderStatus(Flag):
-    ORDER_PLACED = auto()
-    PAYMENT_RECEIVED = auto()
-    SHIPPING_COMPLETE = auto()
-
-
 print(OrderStatus.ORDER_PLACED.value)
 print(OrderStatus.PAYMENT_RECEIVED.value)
 print(OrderStatus.SHIPPING_COMPLETE.value)
