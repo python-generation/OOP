@@ -75,11 +75,16 @@ for p, f, c in pfc:
     print(food / 10)
 
 # TEST_6:
-food = FoodInfo(10, 20, 30)
-print(food.__add__([]))
-print(food.__mul__(()))
-print(food.__truediv__({}))
-print(food.__floordiv__(set()))
+food1 = FoodInfo(10, 20, 30)
+food2 = FoodInfo(10, 20, 30)
+
+not_supported = [food2, [], {}, set(), '', frozenset(), ()]
+
+for item in not_supported:
+    print(food1.__add__(item))
+    print(food1.__floordiv__(item))
+    print(food1.__mul__(item))
+    print(food1.__truediv__(item))
 
 # TEST_7:
 pfc = [(751.26, 778.77, 947.51), (597.41, 508.5, 532.96), (800.55, 617.5, 525.14), (741.99, 785.53, 664.71),

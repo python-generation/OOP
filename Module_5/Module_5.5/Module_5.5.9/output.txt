@@ -224,6 +224,30 @@ FoodInfo(99.0, 198.0, 297.0)
 FoodInfo(55.0, 110.0, 165.0)
 
 # TEST_6:
+FoodInfo(20, 40, 60)
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
+NotImplemented
 NotImplemented
 NotImplemented
 NotImplemented
