@@ -12,6 +12,7 @@ print(deck)
 print(deck.deal())
 print(deck.deal())
 print(deck.deal())
+print(type(deck.deal()))
 print(deck)
 
 # TEST_3:
