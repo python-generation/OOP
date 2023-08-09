@@ -65,3 +65,11 @@ print(mul(3, 4))
 # TEST_7:
 print(takes_numbers)
 
+# TEST_8:
+@takes_numbers
+def mul(a, b=2):
+    return a * b
+
+
+print(mul(1, b=2))
+

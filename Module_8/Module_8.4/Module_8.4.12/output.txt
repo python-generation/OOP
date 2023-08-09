@@ -26,3 +26,6 @@ multiplication
 # TEST_7:
 <class '__main__.takes_numbers'>
 
+# TEST_8:
+2
+
