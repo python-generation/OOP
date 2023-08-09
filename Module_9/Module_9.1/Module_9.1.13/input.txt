@@ -20,6 +20,11 @@ multikeydict.alias('x', 'z')
 del multikeydict['x']
 print(multikeydict['z'])
 
+try:
+    print(multikeydict['x'])
+except KeyError:
+    print('Ключ отстутствует')
+
 # TEST_3:
 multikeydict = MultiKeyDict(x=100, y=[10, 20])
 
