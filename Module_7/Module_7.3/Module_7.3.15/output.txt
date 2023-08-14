@@ -5,7 +5,6 @@ True
 True
 True
 False
-False
 
 # TEST_2:
 False
@@ -41,4 +40,8 @@ NotImplemented
 NotImplemented
 NotImplemented
 NotImplemented
+
+# TEST_7:
+True
+False
 
