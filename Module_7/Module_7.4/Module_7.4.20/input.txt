@@ -70,3 +70,10 @@ try:
 except TypeError as e:
     print(e)
 
+# TEST_10:
+n = NumberList([1, 2, 3])
+
+try:
+    n[1] = '5'
+except TypeError as e:
+    print(e)
