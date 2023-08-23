@@ -111,8 +111,3 @@ cards notwithstanding. Dutch spelling rules dictate that when used in combinatio
 capitalized: "Guido van Rossum". But when my last name is used alone to refer to me, it is capitalized, for example:
 "As usual, Van Rossum was right."
 
-# TEST_5:
-Butiful is better than ugly.
-uiu sbte hnul.
-uiu sbte hnul
-
