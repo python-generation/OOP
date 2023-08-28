@@ -52,3 +52,14 @@ mutablestring[209] = 'A'
 mutablestring[210] = 'N'
 print(mutablestring)
 
+# TEST_5:
+text = 'Beautiful is better than ugly.'
+
+mutablestring = MutableString(text)
+
+del mutablestring[9]
+print(mutablestring)
+
+del mutablestring[-6]
+print(mutablestring)
+
