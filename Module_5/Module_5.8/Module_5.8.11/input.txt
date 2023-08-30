@@ -39,3 +39,8 @@ for name in names:
         person = DefaultObject(default=unknown, name=name)
     print(person.name, person.surname)
 
+# TEST_4:
+god = DefaultObject(name='Kratos', mythology='greek')
+print('name' in god.__dict__)
+print('mythology' in god.__dict__)
+
