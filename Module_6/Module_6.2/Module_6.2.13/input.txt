@@ -37,17 +37,15 @@ print(len(sequencezip))
 print(list(sequencezip))
 
 # TEST_7:
-data = {'bee': 'bee', 'geek': 'geek'}
+data1 = [1, 2, 3, 4, 5]
+data2 = 'abcde'
 
-sequencezip = SequenceZip(data)
-data['python'] = 'python'
-print(data)
+sequencezip = SequenceZip(data1, data2)
+data1.extend([6, 7, 8, 9, 10])
+data2 += 'fghij'
+
+print(data1)
+print(data2)
 print(len(sequencezip))
-print(list(sequencezip))
-
-# TEST_8:
-data = {'bee': 'bee', 'geek': 'geek'}
-sequencezip = SequenceZip(data)
-print(sequencezip[0])
 print(list(sequencezip))
 

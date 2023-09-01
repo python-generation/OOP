@@ -26,11 +26,8 @@
 []
 
 # TEST_7:
-{'bee': 'bee', 'geek': 'geek', 'python': 'python'}
-2
-[('bee',), ('geek',)]
-
-# TEST_8:
-('bee',)
-[('bee',), ('geek',)]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+abcdefghij
+5
+[(1, 'a'), (2, 'b'), (3, 'c'), (4, 'd'), (5, 'e')]
 
