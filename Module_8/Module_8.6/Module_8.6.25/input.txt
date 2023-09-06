@@ -30,3 +30,17 @@ print(musicalbum.year)
 musicalbum = MusicAlbum('Король и Шут', 'КиШ', 'Хоррор-панк', 1997)
 print(musicalbum)
 
+# TEST_6:
+musicalbum1 = MusicAlbum('Calendar', 'Motorama', 'Post-punk', 2012)
+musicalbum2 = MusicAlbum('Calendar', 'Motorama', 'New Wave, Indie Rock', 2013)
+
+print(musicalbum1 == musicalbum2)
+print(musicalbum1 != musicalbum2)
+
+# TEST_7:
+musicalbum1 = MusicAlbum('Calendar', 'Motorama', 'Post-punk', 2012)
+musicalbum2 = MusicAlbum('Poverty', 'Motorama', 'New Wave, Indie Rock', 2012)
+
+print(musicalbum1 == musicalbum2)
+print(musicalbum1 != musicalbum2)
+

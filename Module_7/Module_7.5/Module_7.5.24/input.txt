@@ -65,3 +65,7 @@ bitarray = BitArray([1, 0, 1, 1])
 print(bitarray.__or__(1))
 print(bitarray.__and__(1.1))
 
+# TEST_7:
+bitarray = BitArray()
+print(bitarray)
+

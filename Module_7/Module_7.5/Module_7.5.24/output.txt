@@ -33,3 +33,6 @@ True
 NotImplemented
 NotImplemented
 
+# TEST_7:
+[]
+

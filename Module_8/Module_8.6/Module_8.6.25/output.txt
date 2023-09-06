@@ -19,3 +19,11 @@ Error
 # TEST_5:
 MusicAlbum(title='Король и Шут', artist='КиШ')
 
+# TEST_6:
+False
+True
+
+# TEST_7:
+False
+True
+
