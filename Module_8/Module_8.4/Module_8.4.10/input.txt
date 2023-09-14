@@ -61,10 +61,10 @@ except ZeroDivisionError:
 
 # TEST_8:
 @reverse_args
-def operation(a, b, value=10):
-    return a // b - value
+def operation(a, b, value1=10, value2=30):
+    return a // b - value1 + value2
 
-print(operation(70, 70, value=70))
+print(operation(140, 70, value1=50, value2=100))
 
 # TEST_9:
 print(reverse_args)
