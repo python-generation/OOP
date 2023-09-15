@@ -128,3 +128,9 @@ print(student.age)
 for i in range(3):
     print(Student.age.get_version(student, i + 1))
 
+# TEST_9:
+class Student:
+    age = Versioned()
+
+print(Student.age.__class__)
+

@@ -84,3 +84,13 @@ try:
 except AttributeError as e:
     print(e)
 
+# TEST_8:
+class MagicPoint:
+    x = RandomNumber(1, 5)
+    y = RandomNumber(1, 5)
+    z = RandomNumber(1, 5)
+
+print(MagicPoint.x.__class__)
+print(MagicPoint.y.__class__)
+print(MagicPoint.z.__class__)
+

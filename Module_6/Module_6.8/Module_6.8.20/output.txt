@@ -90,3 +90,6 @@
 19
 20
 
+# TEST_9:
+<class '__main__.Versioned'>
+

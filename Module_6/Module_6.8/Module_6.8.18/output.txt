@@ -21,3 +21,6 @@ Mary
 Некорректное значение
 1.2 3.4
 
+# TEST_6:
+<class '__main__.TypeChecked'>
+

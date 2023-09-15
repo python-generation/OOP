@@ -67,3 +67,9 @@ for x, y in pairs:
     except TypeError as e:
         print(e)
 
+# TEST_6:
+class Student:
+    name = TypeChecked(str)
+
+print(Student.name.__class__)
+

@@ -112,3 +112,9 @@ try:
 except MaxCallsException as e:
     print(e)
 
+# TEST_7:
+class Student:
+    name = LimitedTakes(3)
+
+print(Student.name.__class__)
+

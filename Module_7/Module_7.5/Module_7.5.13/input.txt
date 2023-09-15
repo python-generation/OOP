@@ -203,3 +203,9 @@ try:
 except AttributeError as e:
     print(e)
 
+# TEST_17:
+class Student:
+    age = Number(18, 99)
+
+print(Student.age.__class__)
+

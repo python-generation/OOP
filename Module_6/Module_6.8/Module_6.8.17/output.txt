@@ -31,3 +31,6 @@ Gwen
 Stacy
 Превышено количество доступных обращений
 
+# TEST_7:
+<class '__main__.LimitedTakes'>
+

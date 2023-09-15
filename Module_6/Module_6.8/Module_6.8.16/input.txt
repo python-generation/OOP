@@ -67,3 +67,9 @@ for item in not_supported:
     except ValueError as e:
         print(e)
 
+# TEST_7:
+class Student:
+    score = NonNegativeInteger('score')
+
+print(Student.score.__class__)
+

@@ -24,3 +24,6 @@
 Некорректное значение
 Некорректное значение
 
+# TEST_7:
+<class '__main__.NonNegativeInteger'>
+

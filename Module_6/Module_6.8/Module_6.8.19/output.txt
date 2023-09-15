@@ -95,3 +95,8 @@ True
 # TEST_7:
 Изменение невозможно
 
+# TEST_8:
+<class '__main__.RandomNumber'>
+<class '__main__.RandomNumber'>
+<class '__main__.RandomNumber'>
+
