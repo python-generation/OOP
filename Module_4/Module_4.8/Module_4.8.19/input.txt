@@ -51,3 +51,12 @@ for day in range(10):
     true_age = current_age(birthday, today)
     print(birthinfo.age == true_age)
 
+# TEST_7:
+birth_dates = ['20200918', '2020-0918', '202009-18', ' 2020-09-18 ', '2020-9-18']
+
+for birth_date in birth_dates:
+    try:
+        birthinfo1 = BirthInfo(birth_date)
+    except TypeError as e:
+        print(e)
+
