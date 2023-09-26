@@ -515,76 +515,112 @@ King(f8) g8 True
 King(g1) f1 True
 King(g1) f2 True
 King(g1) g2 True
+King(g1) h1 True
+King(g1) h2 True
 ********************
 King(g2) f1 True
 King(g2) f2 True
 King(g2) f3 True
 King(g2) g1 True
 King(g2) g3 True
+King(g2) h1 True
+King(g2) h2 True
+King(g2) h3 True
 ********************
 King(g3) f2 True
 King(g3) f3 True
 King(g3) f4 True
 King(g3) g2 True
 King(g3) g4 True
+King(g3) h2 True
+King(g3) h3 True
+King(g3) h4 True
 ********************
 King(g4) f3 True
 King(g4) f4 True
 King(g4) f5 True
 King(g4) g3 True
 King(g4) g5 True
+King(g4) h3 True
+King(g4) h4 True
+King(g4) h5 True
 ********************
 King(g5) f4 True
 King(g5) f5 True
 King(g5) f6 True
 King(g5) g4 True
 King(g5) g6 True
+King(g5) h4 True
+King(g5) h5 True
+King(g5) h6 True
 ********************
 King(g6) f5 True
 King(g6) f6 True
 King(g6) f7 True
 King(g6) g5 True
 King(g6) g7 True
+King(g6) h5 True
+King(g6) h6 True
+King(g6) h7 True
 ********************
 King(g7) f6 True
 King(g7) f7 True
 King(g7) f8 True
 King(g7) g6 True
 King(g7) g8 True
+King(g7) h6 True
+King(g7) h7 True
+King(g7) h8 True
 ********************
 King(g8) f7 True
 King(g8) f8 True
 King(g8) g7 True
+King(g8) h7 True
+King(g8) h8 True
 ********************
 King(h1) g1 True
 King(h1) g2 True
+King(h1) h2 True
 ********************
 King(h2) g1 True
 King(h2) g2 True
 King(h2) g3 True
+King(h2) h1 True
+King(h2) h3 True
 ********************
 King(h3) g2 True
 King(h3) g3 True
 King(h3) g4 True
+King(h3) h2 True
+King(h3) h4 True
 ********************
 King(h4) g3 True
 King(h4) g4 True
 King(h4) g5 True
+King(h4) h3 True
+King(h4) h5 True
 ********************
 King(h5) g4 True
 King(h5) g5 True
 King(h5) g6 True
+King(h5) h4 True
+King(h5) h6 True
 ********************
 King(h6) g5 True
 King(h6) g6 True
 King(h6) g7 True
+King(h6) h5 True
+King(h6) h7 True
 ********************
 King(h7) g6 True
 King(h7) g7 True
 King(h7) g8 True
+King(h7) h6 True
+King(h7) h8 True
 ********************
 King(h8) g7 True
 King(h8) g8 True
+King(h8) h7 True
 
 # TEST_8:
 ********************
@@ -851,11 +887,14 @@ Knight(e8) g7 True
 Knight(f1) d2 True
 Knight(f1) e3 True
 Knight(f1) g3 True
+Knight(f1) h2 True
 ********************
 Knight(f2) d1 True
 Knight(f2) d3 True
 Knight(f2) e4 True
 Knight(f2) g4 True
+Knight(f2) h1 True
+Knight(f2) h3 True
 ********************
 Knight(f3) d2 True
 Knight(f3) d4 True
@@ -863,6 +902,8 @@ Knight(f3) e1 True
 Knight(f3) e5 True
 Knight(f3) g1 True
 Knight(f3) g5 True
+Knight(f3) h2 True
+Knight(f3) h4 True
 ********************
 Knight(f4) d3 True
 Knight(f4) d5 True
@@ -870,6 +911,8 @@ Knight(f4) e2 True
 Knight(f4) e6 True
 Knight(f4) g2 True
 Knight(f4) g6 True
+Knight(f4) h3 True
+Knight(f4) h5 True
 ********************
 Knight(f5) d4 True
 Knight(f5) d6 True
@@ -877,6 +920,8 @@ Knight(f5) e3 True
 Knight(f5) e7 True
 Knight(f5) g3 True
 Knight(f5) g7 True
+Knight(f5) h4 True
+Knight(f5) h6 True
 ********************
 Knight(f6) d5 True
 Knight(f6) d7 True
@@ -884,49 +929,66 @@ Knight(f6) e4 True
 Knight(f6) e8 True
 Knight(f6) g4 True
 Knight(f6) g8 True
+Knight(f6) h5 True
+Knight(f6) h7 True
 ********************
 Knight(f7) d6 True
 Knight(f7) d8 True
 Knight(f7) e5 True
 Knight(f7) g5 True
+Knight(f7) h6 True
+Knight(f7) h8 True
 ********************
 Knight(f8) d7 True
 Knight(f8) e6 True
 Knight(f8) g6 True
+Knight(f8) h7 True
 ********************
 Knight(g1) e2 True
 Knight(g1) f3 True
+Knight(g1) h3 True
 ********************
 Knight(g2) e1 True
 Knight(g2) e3 True
 Knight(g2) f4 True
+Knight(g2) h4 True
 ********************
 Knight(g3) e2 True
 Knight(g3) e4 True
 Knight(g3) f1 True
 Knight(g3) f5 True
+Knight(g3) h1 True
+Knight(g3) h5 True
 ********************
 Knight(g4) e3 True
 Knight(g4) e5 True
 Knight(g4) f2 True
 Knight(g4) f6 True
+Knight(g4) h2 True
+Knight(g4) h6 True
 ********************
 Knight(g5) e4 True
 Knight(g5) e6 True
 Knight(g5) f3 True
 Knight(g5) f7 True
+Knight(g5) h3 True
+Knight(g5) h7 True
 ********************
 Knight(g6) e5 True
 Knight(g6) e7 True
 Knight(g6) f4 True
 Knight(g6) f8 True
+Knight(g6) h4 True
+Knight(g6) h8 True
 ********************
 Knight(g7) e6 True
 Knight(g7) e8 True
 Knight(g7) f5 True
+Knight(g7) h5 True
 ********************
 Knight(g8) e7 True
 Knight(g8) f6 True
+Knight(g8) h6 True
 ********************
 Knight(h1) f2 True
 Knight(h1) g3 True

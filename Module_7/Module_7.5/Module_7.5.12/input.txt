@@ -47,7 +47,7 @@ kings = [King(h, v) for h in 'abcdefgh' for v in range(1, 9)]
 
 for king in kings:
     print('*' * 20)
-    for horizontal in 'abcdefg':
+    for horizontal in 'abcdefgh':
         for vertical in range(1, 9):
             if king.can_move(horizontal, vertical):
                 print(f'King({king.horizontal}{king.vertical})', f'{horizontal}{vertical}',
@@ -58,7 +58,7 @@ knights = [Knight(h, v) for h in 'abcdefgh' for v in range(1, 9)]
 
 for knight in knights:
     print('*' * 20)
-    for horizontal in 'abcdefg':
+    for horizontal in 'abcdefgh':
         for vertical in range(1, 9):
             if knight.can_move(horizontal, vertical):
                 print(f'Knight({knight.horizontal}{knight.vertical})', f'{horizontal}{vertical}',
