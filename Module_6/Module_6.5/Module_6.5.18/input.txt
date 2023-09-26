@@ -122,3 +122,20 @@ with tree:
 
 print(tree.structure())
 
+# TEST_8:
+tree1 = TreeBuilder()
+tree2 = TreeBuilder()
+
+tree1.add('1st')
+
+with tree1:
+    tree1.add('2nd')
+    with tree1:
+        tree1.add('3rd')
+    tree1.add('4th')
+    with tree1:
+        pass
+
+print(tree1.structure())
+print(tree2.structure())
+
