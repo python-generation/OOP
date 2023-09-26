@@ -115,3 +115,8 @@ ao.ru
 Недопустимый домен, url или email
 Недопустимый домен, url или email
 
+# TEST_10:
+<class '__main__.Domain'>
+<class '__main__.Domain'>
+<class '__main__.Domain'>
+

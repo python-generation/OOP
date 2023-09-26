@@ -85,3 +85,12 @@ for url in urls:
     except DomainException as e:
         print(e)
 
+# TEST_10:
+domain1 = Domain('pygen.ru')                       # непосредственно на основе домена
+domain2 = Domain.from_url('https://pygen.ru')      # на основе url-адреса
+domain3 = Domain.from_email('support@pygen.ru')    # на основе адреса электронной почты
+
+print(type(domain1))
+print(type(domain2))
+print(type(domain3))
+
