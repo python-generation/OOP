@@ -8,20 +8,20 @@ with open('undertale.txt') as file:
     print(file.read())
 
 # TEST_2:
-with safe_write('undertale.txt') as file:
+with safe_write('under_tale.txt') as file:
     file.write('Тень от руин нависает над вами, наполняя вас решительностью\n')
     
-with safe_write('undertale.txt') as file:
+with safe_write('under_tale.txt') as file:
     print('Под весёлый шорох листвы вы наполняетесь решительностью', file=file)
     raise ValueError
 
-with open('undertale.txt') as file:
+with open('under_tale.txt') as file:
     print(file.read())
 
 # TEST_3:
 with safe_write('poem.txt') as file:
     print('''Я кашлянул в звенящей тишине,
-И от шального эха стало жутко…, 
+И от шального эха стало жутко…,
 Расскажет ли утятам обо мне,
 под утро мной испуганная утка?''', file=file)
 
