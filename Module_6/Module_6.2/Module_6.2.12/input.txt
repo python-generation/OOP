@@ -67,3 +67,12 @@ for item in cycliclist:
     print(item, end=' ')
     count += 1
 
+# TEST_7:
+cyclic_list = CyclicList()
+cyclic_list.append(1)
+
+for index, elem in enumerate(cyclic_list):
+    if index > 6:
+        break
+    print(elem, end=' ')
+
