@@ -7,7 +7,7 @@ print(issubclass(AirVehicle, Vehicle))
 
 # TEST_2:
 print(issubclass(Car, LandVehicle))
-print(issubclass(Motocycle, LandVehicle))
+print(issubclass(Motorcycle, LandVehicle))
 print(issubclass(Bicycle, LandVehicle))
 
 # TEST_3:
@@ -16,18 +16,18 @@ print(issubclass(Jet, AirVehicle))
 
 # TEST_4:
 print(issubclass(Car, Vehicle))
-print(issubclass(Motocycle, Vehicle))
+print(issubclass(Motorcycle, Vehicle))
 print(issubclass(Bicycle, Vehicle))
 print(issubclass(Propeller, AirVehicle))
 print(issubclass(Jet, AirVehicle))
 
 # TEST_5:
 print(issubclass(Car, WaterVehicle))
-print(issubclass(Motocycle, WaterVehicle))
+print(issubclass(Motorcycle, WaterVehicle))
 print(issubclass(Bicycle, WaterVehicle))
 
 print(issubclass(Car, AirVehicle))
-print(issubclass(Motocycle, AirVehicle))
+print(issubclass(Motorcycle, AirVehicle))
 print(issubclass(Bicycle, AirVehicle))
 
 # TEST_6:
