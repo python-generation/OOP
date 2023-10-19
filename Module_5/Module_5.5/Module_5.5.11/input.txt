@@ -59,3 +59,19 @@ print(superstring.__truediv__({}))
 print(superstring.__lshift__(set()))
 print(superstring.__rshift__('geek'))
 
+# TEST_9:
+s1 = SuperString('bee')
+s2 = SuperString('geek')
+
+new_s1 = s1 << 1
+new_s2 = s2 >> 1
+new_s3 = s1 + s2
+new_s4 = s1 * 2
+new_s5 = s2 / 2
+
+print(new_s1, type(new_s1))
+print(new_s2, type(new_s2))
+print(new_s3, type(new_s3))
+print(new_s4, type(new_s4))
+print(new_s5, type(new_s5))
+
