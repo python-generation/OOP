@@ -32,3 +32,7 @@ shopping_cart.remove('Banana')
 print(shopping_cart)
 print(shopping_cart.total())
 
+# TEST_5:
+shopping_cart = ShoppingCart()
+print(shopping_cart)
+
