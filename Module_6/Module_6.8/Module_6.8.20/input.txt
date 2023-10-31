@@ -99,7 +99,7 @@ student2.age = 32
 print(student1.age)
 print(student2.age)
 Student.age.set_version(student1, 1)
-Student.age.set_version(student2, 1)
+Student.age.set_version(student2, 2)
 print(student1.age)
 print(student2.age)
 
