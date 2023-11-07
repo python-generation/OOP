@@ -17,12 +17,6 @@ for elem in progression:
     print(elem, end=' ')
 
 # TEST_3:
-progression = ArithmeticProgression(0, -1)
-
-for _ in range(20):
-    print(next(progression), end=' ')
-
-# TEST_4:
 progression = GeometricProgression(4, -2)
 count = 0
 
@@ -32,7 +26,7 @@ for item in progression:
     count += 1
     print(item, end=' ')
 
-# TEST_5:
+# TEST_4:
 progression = ArithmeticProgression(100, -10)
 count = 0
 
@@ -42,7 +36,7 @@ for item in progression:
     count += 1
     print(item, end=' ')
 
-# TEST_6:
+# TEST_5:
 progression = GeometricProgression(100, 10)
 count = 0
 
@@ -51,10 +45,4 @@ for item in progression:
         break
     count += 1
     print(item, end=' ')
-
-# TEST_7:
-progression = GeometricProgression(2, 2)
-
-for _ in range(20):
-    print(next(progression), end=' ')
 
