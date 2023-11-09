@@ -44,3 +44,10 @@ cases = ['assert_equal', 'tear_down', 'assert_raises_regex', 'assert_almost_equa
 for case in cases:
     print(CaseHelper.to_upper_camel(case))
 
+# TEST_9:
+obj = CaseHelper()
+print(type(obj.is_snake))
+print(type(obj.is_upper_camel))
+print(type(obj.to_snake))
+print(type(obj.to_upper_camel))
+
