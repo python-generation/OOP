@@ -32,7 +32,7 @@ def is_positive(num):
 print((is_even & is_positive)(4))             # True; равнозначно is_even(4) and is_positive(4)
 print((is_even & is_positive)(3))             # False; равнозначно is_even(3) and is_positive(3)
 print((is_even | is_positive)(3))             # True; равнозначно is_even(3) or is_positive(3)
-print((~is_even & is_positive)(3))            # True; равнозначно not is_even(4) and is_positive(4)
+print((~is_even & is_positive)(3))            # True; равнозначно not is_even(3) and is_positive(3)
 
 # TEST_3:
 @predicate
