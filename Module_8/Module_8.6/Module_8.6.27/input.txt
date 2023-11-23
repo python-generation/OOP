@@ -33,6 +33,14 @@ team1 = FootballTeam('PSG')
 team2 = FootballTeam('PSG')
 team3 = FootballTeam('Arsenal')
 
+player1 = FootballPlayer('Jude', 'Bellingham', 120000000)
+player2 = FootballPlayer('Vinicius', 'Junior', 110000000)
+player3 = FootballPlayer('Kylian', 'Mbappe', 180000000)
+
+team1.add_players(player1)
+team2.add_players(player2)
+team3.add_players(player3)
+
 print(team1 == team2)
 print(team1 != team2)
 print(team1 == team3)
