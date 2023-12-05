@@ -72,3 +72,9 @@ for string in strings:
 print(is_decimal('-0001'))
 print(is_decimal('0001'))
 
+# TEST_24:
+print(is_decimal('0.99.'))
+print(is_decimal('-0.99.'))
+print(is_decimal('.99.'))
+print(is_decimal('-.99.'))
+
