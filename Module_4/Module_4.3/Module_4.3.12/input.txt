@@ -20,7 +20,7 @@ print(texthandler.get_longest_words())
 texthandler = TextHandler()
 
 texthandler.add_words('The world will hold my trial for your sins')
-texthandler.add_words('Never meant to see the sky, never meant to live')
+texthandler.add_words('Never meant to see the sky never meant to live')
 
 print(texthandler.get_shortest_words())
 print(texthandler.get_longest_words())
