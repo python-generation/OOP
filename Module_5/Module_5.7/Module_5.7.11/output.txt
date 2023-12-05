@@ -127,3 +127,6 @@ True
 False
 False
 
+# TEST_6:
+55.94°C
+

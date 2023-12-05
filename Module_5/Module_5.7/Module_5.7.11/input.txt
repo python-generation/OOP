@@ -46,3 +46,7 @@ for item in data:
     t = Temperature(item)
     print(bool(t))
 
+# TEST_6:
+t = Temperature.from_fahrenheit(132.7)
+print(t)
+
