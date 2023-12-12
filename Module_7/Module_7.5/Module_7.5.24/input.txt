@@ -69,3 +69,20 @@ print(bitarray.__and__(1.1))
 bitarray = BitArray()
 print(bitarray)
 
+# TEST_8:
+data1 = [0, 1, 1, 0, 0, 1]
+data2 = [1, 1, 1, 1, 1]
+
+bitarray1 = BitArray(data1)
+bitarray2 = BitArray(data2)
+
+try:
+    print(bitarray1 | bitarray2)
+except TypeError:
+    print('Списки должны быть равной длины')
+
+try:
+    print(bitarray1 & bitarray2)
+except TypeError:
+    print('Списки должны быть равной длины')
+
