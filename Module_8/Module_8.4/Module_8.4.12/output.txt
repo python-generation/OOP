@@ -29,3 +29,6 @@ multiplication
 # TEST_8:
 2
 
+# TEST_9:
+2
+

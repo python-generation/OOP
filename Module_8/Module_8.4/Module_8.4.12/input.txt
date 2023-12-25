@@ -73,3 +73,10 @@ def mul(a, b=2):
 
 print(mul(1, b=2))
 
+# TEST_9:
+@takes_numbers
+def mul(a, b):
+    return a * b
+
+print(mul(a=1, b=2))
+
