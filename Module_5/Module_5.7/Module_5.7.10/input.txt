@@ -41,3 +41,11 @@ for x, y in coordinates:
     print(f'bool = {bool(vector)};', f'int = {int(vector)};', f'float = {float(vector)};', f'complex = {complex(vector)}')
     print()
 
+# TEST_5:
+vector = Vector(3, -4)
+
+print(vector)
+print(int(vector))
+print(float(vector))
+print(complex(vector))
+
