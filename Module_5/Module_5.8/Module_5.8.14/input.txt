@@ -8,7 +8,7 @@ print(videogame.name)
 print(videogame.developer)
 
 # TEST_2:
-videogame = Const(name='Dicso Elysium')
+videogame = Const(name='Disco Elysium')
 
 try:
     videogame.name = 'Half-Life: Alyx'
