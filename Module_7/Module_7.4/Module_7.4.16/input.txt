@@ -53,3 +53,9 @@ defaultlist = DefaultList(digits, default='empty result')
 for index in indexes:
     print(defaultlist[index])
 
+# TEST_7:
+defaultlist = DefaultList([1, 2, 3])
+print(defaultlist[-1])
+print(defaultlist[-2])
+print(defaultlist[-3])
+

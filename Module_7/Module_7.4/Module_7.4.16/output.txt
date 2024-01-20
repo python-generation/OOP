@@ -128,3 +128,8 @@ empty result
 empty result
 empty result
 
+# TEST_7:
+3
+2
+1
+
