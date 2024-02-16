@@ -38,3 +38,10 @@ print(person.attrs_num)
 person.job = 'Programmer'
 print(person.attrs_num)
 
+# TEST_6:
+music_group = AttrsNumberObject(name='Silent Poets', genre='acid jazz')
+
+print(music_group.attrs_num)
+music_group.genre = 'jazz'
+print(music_group.attrs_num)
+
