@@ -33,6 +33,7 @@ class MagicPoint:
 magicpoint = MagicPoint()
 value = magicpoint.x
 
+print(magicpoint.x in [0, 1, 2, 3, 4, 5])
 print(magicpoint.x == value)
 print(magicpoint.x == value)
 print(magicpoint.x == value)
