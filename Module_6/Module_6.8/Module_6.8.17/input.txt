@@ -118,3 +118,15 @@ class Student:
 
 print(Student.name.__class__)
 
+# TEST_8:
+class Student:
+    name = LimitedTakes(3)
+
+student = Student()
+student.name = 'Gwen'
+
+print(student.name)
+print(student.name)
+student.name = 'Mary'
+print(student.name)
+

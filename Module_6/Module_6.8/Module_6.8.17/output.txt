@@ -34,3 +34,8 @@ Stacy
 # TEST_7:
 <class '__main__.LimitedTakes'>
 
+# TEST_8:
+Gwen
+Gwen
+Mary
+

@@ -14,7 +14,6 @@ False
 True
 True
 True
-True
 
 # TEST_4:
 Изменение невозможно
