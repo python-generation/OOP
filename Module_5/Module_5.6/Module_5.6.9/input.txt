@@ -15,6 +15,7 @@ try:
     print(calculator(10, 0, '/'))
 except ValueError as e:
     print(e)
+    print(type(e))
 
 # TEST_3:
 calculator = Calculator()
