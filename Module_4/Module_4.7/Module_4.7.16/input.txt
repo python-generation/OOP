@@ -21,13 +21,13 @@ print(CaseHelper.to_upper_camel('beegeek'))
 print(CaseHelper.to_upper_camel('bee_geek'))
 
 # TEST_5:
-cases = ['assert_equal', 'tear_down', '__init__', 'assertEqual', 'setUp', 'tearDown', 'run', 'exit', 'setup']
+cases = ['assert_equal', 'tear_down', '__init__', 'assertEqual', 'setUp', 'tearDown', 'run', 'exit', 'setup', 'its_wednesday_my_dudes']
 
 for case in cases:
     print(CaseHelper.is_snake(case))
 
 # TEST_6:
-cases = ['assert_equal', 'tear_down', '__init__', 'assertEqual', 'setUp', 'tearDown', 'run', 'exit', 'setup', 'AssertEqual', 'SetUp']
+cases = ['assert_equal', 'tear_down', '__init__', 'assertEqual', 'setUp', 'tearDown', 'run', 'exit', 'setup', 'AssertEqual', 'SetUp', 'ItsWednesdayMyDudes']
 
 for case in cases:
     print(CaseHelper.is_upper_camel(case))
