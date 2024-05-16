@@ -120,3 +120,11 @@ print(conference.total())
 print(conference.longest_lecture())
 print(conference.longest_break())
 
+# TEST_13:
+conference = Conference()
+
+conference.add(Lecture('Жизнь после ChatGPT', '10:00', '02:00'))
+print(conference.total())
+print(conference.longest_lecture())
+print(conference.longest_break())
+
