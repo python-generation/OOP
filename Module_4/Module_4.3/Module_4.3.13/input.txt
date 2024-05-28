@@ -50,6 +50,7 @@ priorities = [4, 1, 2, 5, 2, 5, 5, 3, 3, 3, 4]
 for t, p in zip(todos, priorities):
     todo.add(t, p)
 
+print(todo.things)
 print(todo.get_by_priority(3))
 print(todo.get_low_priority())
 print(todo.get_high_priority())
