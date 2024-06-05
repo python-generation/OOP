@@ -68,15 +68,10 @@ class MyClass:
         return 2
 
 
-obj = MyClass()
-
 myclass_attrs = ['FirstMethod', 'superSecondMethod']
 
 for method in myclass_attrs:
-    try:
-        print(obj.__dict__[method])
-    except KeyError:
-        print('метод отсутствует')
+    print(getattr(MyClass, method, 'метод отсутствует'))
 
 # TEST_6:
 @snake_case()
