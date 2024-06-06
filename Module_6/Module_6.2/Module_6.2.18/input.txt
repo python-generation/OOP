@@ -115,3 +115,17 @@ mutablestring = MutableString('beegeek')
 del mutablestring[1:3]
 print(mutablestring)
 
+# TEST_15:
+mutablestring1 = MutableString('bee')
+mutablestring2 = MutableString('geek')
+
+concat = mutablestring1 + mutablestring2
+slicing = mutablestring1[1:2]
+plus_indexing = mutablestring2[1]
+minus_indexing = mutablestring2[-1]
+
+print(type(concat))
+print(type(slicing))
+print(type(plus_indexing))
+print(type(minus_indexing))
+

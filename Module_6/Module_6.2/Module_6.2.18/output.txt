@@ -56,3 +56,9 @@ beegeegeek
 # TEST_14:
 bgeek
 
+# TEST_15:
+<class '__main__.MutableString'>
+<class '__main__.MutableString'>
+<class '__main__.MutableString'>
+<class '__main__.MutableString'>
+
