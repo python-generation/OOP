@@ -60,3 +60,43 @@ for birth_date in birth_dates:
     except TypeError as e:
         print(e)
 
+# TEST_8:
+birth_dates = [
+    [2020],
+    (2020,),
+    [2020, 1],
+    [2020, 1, '1'],
+    (2020, 1),
+    (2020, 1, '1'),
+    [2020, 1, 1, 1],
+    (2020, 1, 1, 1),
+    [2020, '1', '1'],
+    [2020, '1', 1],
+]
+
+for birth_date in birth_dates:
+    try:
+        birthinfo = BirthInfo(birth_date)
+    except TypeError as e:
+        print(e)
+
+# TEST_9:
+birth_dates = [
+    ['2020', 1, 1],
+    ['2020', '1', '1'],
+    (2020, '1', '1'),
+    ('2020', '1', '1'),
+    (2020, '1', 1),
+    ('2020', 1, 1),
+    [2020, 1, 32],
+    [2020, 13, 1],
+    (2020, 1, 32),
+    (2020, 13, 1)
+]
+
+for birth_date in birth_dates:
+    try:
+        birthinfo = BirthInfo(birth_date)
+    except TypeError as e:
+        print(e)
+
