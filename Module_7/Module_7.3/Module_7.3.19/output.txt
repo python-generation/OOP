@@ -23,3 +23,13 @@
 # TEST_5:
 (1, 2, 3)
 
+# TEST_6:
+unsupported operand type(s) for +: 'AdvancedTuple' and 'int'
+unsupported operand type(s) for +: 'AdvancedTuple' and 'float'
+unsupported operand type(s) for +: 'AdvancedTuple' and 'NoneType'
+
+# TEST_7:
+unsupported operand type(s) for +=: 'AdvancedTuple' and 'int'
+unsupported operand type(s) for +=: 'AdvancedTuple' and 'float'
+unsupported operand type(s) for +=: 'AdvancedTuple' and 'NoneType'
+

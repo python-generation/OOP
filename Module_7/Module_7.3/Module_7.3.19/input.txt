@@ -39,3 +39,25 @@ advancedtuple = AdvancedTuple([1, 2, 3])
 advancedtuple += []
 print(advancedtuple)
 
+# TEST_6:
+advancedtuple = AdvancedTuple([1, 2, 3])
+
+not_supported = [1, 1.0, None]
+
+for item in not_supported:
+    try:
+        advancedtuple = advancedtuple + item
+    except TypeError as e:
+        print(e)
+
+# TEST_7:
+advancedtuple = AdvancedTuple([1, 2, 3])
+
+not_supported = [1, 1.0, None]
+
+for item in not_supported:
+    try:
+        advancedtuple += item
+    except TypeError as e:
+        print(e)
+
