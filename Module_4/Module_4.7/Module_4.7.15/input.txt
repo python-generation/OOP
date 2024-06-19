@@ -17,7 +17,7 @@ print(StrExtension.remove_vowels('Success is the ability to go from failure to f
 print(StrExtension.remove_vowels('Success is the ability to go from failure to failure without losing your enthusiasm.'.upper()))
 
 # TEST_5:
-print(StrExtension.leave_alpha('beegeek!\"#$%&\'()*+, -./:;<=>?@[\]^_`{|}~BEEGEEK'))
+print(StrExtension.leave_alpha(r'beegeek!\"#$%&\'()*+, -./:;<=>?@[\]^_`{|}~BEEGEEK'))
 print(StrExtension.leave_alpha('beegeek0123456789BEEGEEK'))
 
 # TEST_6:
