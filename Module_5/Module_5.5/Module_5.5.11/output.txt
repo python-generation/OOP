@@ -160,3 +160,13 @@ beegeek <class '__main__.SuperString'>
 beebee <class '__main__.SuperString'>
 ge <class '__main__.SuperString'>
 
+# TEST_10:
+<class '__main__.SuperString'>
+<class '__main__.SuperString'>
+<class '__main__.SuperString'>
+<class '__main__.SuperString'>
+<class '__main__.SuperString'>
+<class '__main__.SuperString'>
+<class '__main__.SuperString'>
+<class '__main__.SuperString'>
+

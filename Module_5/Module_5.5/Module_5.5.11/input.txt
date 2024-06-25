@@ -75,3 +75,16 @@ print(new_s3, type(new_s3))
 print(new_s4, type(new_s4))
 print(new_s5, type(new_s5))
 
+# TEST_10:
+s1 = SuperString('bee')
+s2 = SuperString('geek')
+
+print(type(s1 + s2))
+print(type(s1 * 5))
+print(type(5 * s2))
+print(type(s1 / 2))
+print(type(s1 << 1))
+print(type(s2 >> 1))
+print(type(s1 << 3))
+print(type(s2 >> 4))
+
