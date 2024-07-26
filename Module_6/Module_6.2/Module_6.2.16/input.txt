@@ -1,74 +1,106 @@
 # INPUT DATA:
 
 # TEST_1:
-permadict = PermaDict({'name': 'Timur', 'city': 'Moscow'})
+historydict = HistoryDict({'ducks': 99, 'cats': 1})
 
-print(permadict['name'])
-print(len(permadict))
+print(historydict['ducks'])
+print(historydict['cats'])
+print(len(historydict))
 
 # TEST_2:
-permadict = PermaDict({'name': 'Timur', 'city': 'Moscow', 'age': 30})
+historydict = HistoryDict({'ducks': 99, 'cats': 1})
 
-print(*permadict)
-print(*permadict.keys())
-print(*permadict.values())
-print(*permadict.items())
+print(*historydict)
+print(*historydict.keys())
+print(*historydict.values())
+print(*historydict.items())
 
 # TEST_3:
-permadict = PermaDict()
+historydict = HistoryDict({'ducks': 99, 'cats': 1})
 
-permadict['name'] = 'Timur'
-permadict['age'] = 30
-del permadict['name']
-print(permadict['age'])
-print(len(permadict))
+historydict['ducks'] = 100
+print(historydict.history('ducks'))
+print(historydict.history('cats'))
+print(historydict.history('dogs'))
 
 # TEST_4:
-permadict = PermaDict({'name': 'Timur', 'city': 'Moscow'})
+historydict = HistoryDict({'ducks': 99, 'cats': 1})
 
-try:
-    permadict['name'] = 'Arthur'
-except KeyError as e:
-    print(e)
+print(historydict.all_history())
+historydict['ducks'] = 100
+historydict['ducks'] = 101
+historydict['cats'] = 2
+print(historydict.all_history())
 
 # TEST_5:
+historydict = HistoryDict({'ducks': 99, 'cats': 1})
+
+historydict['dogs'] = 1
+print(len(historydict))
+del historydict['ducks']
+del historydict['cats']
+print(len(historydict))
+
+# TEST_6:
+d = {'name': 'Иннокентий Елисеевич Архипов', 'age': 34, 'year': 1989}
+historydict = HistoryDict(d)
+
+names = ['Регина Ефимовна Костина', 'Мина Викторович Лаврентьев', 'Голубева Юлия Робертовна',
+         'Чернова Варвара Максимовна', 'Юдин Матвей Иосипович', 'Степанов Мечислав Ерофеевич',
+         'Абрамов Амос Августович', 'Ольга Егоровна Константинова', 'Хохлов Ираклий Ефимьевич',
+         'Нестеров Никон Ермилович', 'Третьякова София Юльевна', 'Кудряшова Нина Юльевна', 'Казакова Раиса Феликсовна',
+         'Александрова Надежда Николаевна', 'Никон Давыдович Васильев', 'Пахом Ильясович Морозов',
+         'Дмитрий Тихонович Панов', 'Лебедева Галина Валериевна', 'Кузьмина Анастасия Викторовна',
+         'Севастьян Жанович Якушев']
+
+ages = [37, 20, 31, 21, 38, 24, 31, 24, 37, 20, 22, 39, 25, 21, 28, 28, 30, 30, 36, 23]
+
+years = [1986, 2003, 1992, 2002, 1985, 1999, 1992, 1999, 1986, 2003, 2001, 1984, 1998, 2002, 1995, 1995, 1993, 1993,
+         1987, 2000]
+
+for name, age, year in zip(names, ages, years):
+    historydict['name'] = name
+    historydict['age'] = age
+    historydict['year'] = year
+
+print(*historydict.items())
+print(historydict.history('name'))
+print(historydict.history('age'))
+print(historydict.history('year'))
+
+# TEST_7:
+historydict = HistoryDict()
+print('Keys:', *historydict.keys())
+print('Values:', *historydict.values())
+print('Items:', *historydict.items())
+print('History(key=1):', historydict.history(1))
+print('History(key=1):', historydict.history(1))
+print('All history:', historydict.all_history())
+
+# TEST_8:
+historydict = HistoryDict({'name': 'Irenica', 'country': 'Russia', 'level': 'junior', })
+
+print(historydict.all_history())
+
+historydict['country'] = 'Italy'
+historydict['level'] = 'middle'
+historydict['level'] = 'senior'
+
+print(historydict.all_history())
+
+del historydict['level']
+
+print(historydict.all_history())
+
+historydict['level'] = 'God'
+
+print(historydict.all_history())
+
+# TEST_9:
 d = dict.fromkeys(range(100), None)
-attrdict = PermaDict(d)
+attrdict = HistoryDict(d)
 print(*attrdict)
 
 d[100] = None
 print(*attrdict)
-
-# TEST_6:
-d = {'Ерофей Всеволодович Сидоров': '13.05.1985', 'Семенов Андрон Денисович': '24.03.1988',
-     'Петухова Лукия Максимовна': '15.06.1993', 'Лидия Георгиевна Фадеева': '25.12.1980',
-     'Федотова Надежда Юрьевна': '04.06.1992', 'Харитонов Варфоломей Марсович': '14.06.1994',
-     'Глафира Феликсовна Фомина': '29.08.1984', 'Пелагея Николаевна Брагина': '01.04.1986',
-     'Никита Ильясович Макаров': '29.08.1992', 'Лихачева Майя Алексеевна': '12.11.1991',
-     'Виноградова Нина Олеговна': '07.08.1992', 'Артемьева Кира Валентиновна': '11.04.1997',
-     'Василиса Федоровна Уварова': '03.05.1981', 'Денисов Варфоломей Устинович': '17.04.1990',
-     'Тихонова Клавдия Филипповна': '18.11.1988', 'Зимина Любовь Викторовна': '23.06.1983',
-     'Кудряшов Викторин Фомич': '27.06.1997', 'Юлия Вениаминовна Ефимова': '20.10.1987',
-     'Никандр Валерианович Мельников': '10.02.1985', 'Устинова Лидия Артемовна': '30.06.1992'}
-
-permadict = PermaDict(d)
-
-for key in permadict.keys():
-    print(key, end='; ')
-
-print('\n')
-
-for value in permadict.values():
-    print(value, end='; ')
-
-print('\n')
-
-for item in permadict.items():
-    print(item, end='; ')
-
-# TEST_7:
-permadict = PermaDict()
-print('Keys:', *permadict.keys())
-print('Values:', *permadict.values())
-print('Items:', *permadict.items())
 
