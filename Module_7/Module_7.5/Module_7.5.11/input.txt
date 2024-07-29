@@ -30,3 +30,8 @@ print(harmonic.get_correct_expert_votes())
 print(round(harmonic.get_average(), 2))
 print(round(harmonic.get_average(False), 2))
 
+# TEST_4:
+print(issubclass(Average, Middle))
+print(issubclass(Median, Middle))
+print(issubclass(Harmonic, Middle))
+

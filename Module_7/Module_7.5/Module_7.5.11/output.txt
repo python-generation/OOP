@@ -18,3 +18,8 @@
 65.46
 77.92
 
+# TEST_4:
+True
+True
+True
+
