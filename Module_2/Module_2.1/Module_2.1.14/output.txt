@@ -22,19 +22,19 @@ False
 False
 
 # TEST_8:
-False
+True
 
 # TEST_9:
 True
 
 # TEST_10:
-True
-
-# TEST_11:
 False
 
-# TEST_12:
+# TEST_11:
 True
+
+# TEST_12:
+False
 
 # TEST_13:
 False
@@ -58,25 +58,22 @@ False
 False
 
 # TEST_20:
-False
+True
 
 # TEST_21:
-True
+False
 
 # TEST_22:
 False
 
 # TEST_23:
-False
+True
 
 # TEST_24:
 True
+True
 
 # TEST_25:
-True
-True
-
-# TEST_26:
 True
 False
 True
