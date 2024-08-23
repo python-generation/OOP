@@ -12,7 +12,7 @@ with safe_write('under_tale.txt') as file:
     file.write('Тень от руин нависает над вами, наполняя вас решительностью\n')
     
 with safe_write('under_tale.txt') as file:
-    print('Под весёлый шорох листвы вы наполняетесь решительностью', file=file)
+    print('Под весёлый шорох листвы вы наполняетесь решительностью', file=file, flush=True)
     raise ValueError
 
 with open('under_tale.txt') as file:
