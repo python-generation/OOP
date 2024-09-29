@@ -49,3 +49,18 @@ gun = Gun()
 
 print(gun)
 
+# TEST_5:
+@auto_repr(args=['x', 'y'], kwargs=['color'])
+class Point:
+    def __init__(self, x, y, color):
+        self.x = x
+        self.y = y
+        self.color = color
+
+point = Point(1, 2, color='green')
+print(repr(point))
+
+point.x = 10
+point.y = 20
+print(repr(point))
+
