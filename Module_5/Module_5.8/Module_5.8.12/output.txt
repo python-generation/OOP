@@ -318,3 +318,9 @@ Michael Carroll jwarren@example.com 34
 Jacob Lopez juliegarcia@example.com 40
 Vanessa Blackwell gordonadrienne@example.com 38
 
+# TEST_6:
+x 1
+y 2
+z 5
+color black
+
