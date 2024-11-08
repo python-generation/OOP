@@ -93,3 +93,9 @@
 # TEST_9:
 <class '__main__.Versioned'>
 
+# TEST_10:
+18
+19
+20
+21
+

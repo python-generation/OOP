@@ -134,3 +134,20 @@ class Student:
 
 print(Student.age.__class__)
 
+# TEST_10:
+class Student:
+    age = Versioned()
+    
+student = Student()
+
+student.age = 18
+student.age = 19
+Student.age.set_version(student, 1)
+student.age = 20
+student.age = 21
+
+print(Student.age.get_version(student, 1))
+print(Student.age.get_version(student, 2))
+print(Student.age.get_version(student, 3))
+print(Student.age.get_version(student, 4))
+
