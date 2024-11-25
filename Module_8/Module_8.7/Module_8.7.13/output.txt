@@ -1,0 +1,26 @@
+# OUTPUT DATA:
+
+# TEST_1:
+Empty({})
+
+# TEST_2:
+Movie({'title': 'Interstellar', '_director': 'Christopher Nolan', '_Movie__rating': 8.7})
+Movie({'title': 'Interstellar', '_director': 'Christopher Nolan', '_Movie__rating': 8.7})
+
+# TEST_3:
+Book({'title': 'The Hobbit', 'author': 'J.R.R. Tolkien', 'publication_year': 1937, 'genre': 'Fantasy', 'pages': 310, 'language': 'English', ...})
+
+# TEST_4:
+Private({'_Private__attr1': None, '_Private__attr2': None})
+Private({'_Private__attr1': None, '_Private__attr2': None})
+
+# TEST_5:
+AlmostEmpty({'_AlmostEmpty__attribute': None, 'attribute_0': None, '_attribute_0': None, 'attribute_1': None, '_attribute_1': None, 'attribute_2': None, ...})
+AlmostEmpty({'_AlmostEmpty__attribute': None, 'attribute_0': None, '_attribute_0': None, 'attribute_1': None, '_attribute_1': None, 'attribute_2': None, ...})
+
+# TEST_6:
+MyClass({})
+MyClass({'a': 1, 'b': 2, 'c': 3})
+MyClass({'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5, 'f': 6})
+MyClass({'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5, 'f': 6, ...})
+

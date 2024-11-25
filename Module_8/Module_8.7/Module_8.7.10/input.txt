@@ -1,0 +1,44 @@
+# INPUT DATA:
+
+# TEST_1:
+class Empty(JsonSerializableMixin):
+    pass
+
+obj = Empty()
+print(obj.to_json())
+
+# TEST_2:
+class Triangle(JsonSerializableMixin):
+    def __init__(self, a, b, c):
+        self.a = a 
+        self.b = b 
+        self.c = c
+
+triangle = Triangle(3, 5, 4)
+print(triangle.to_json())
+
+# TEST_3:
+class Country(JsonSerializableMixin):
+    def __init__(self, name, capital, phone_code):
+        self.name = name
+        self.capital = capital
+        self.phone_code = phone_code
+
+country = Country('Russia', 'Moscow', 7)
+result = json.loads(country.to_json())
+dct = {'name': 'Russia', 'capital': 'Moscow', 'phone_code': 7}
+print(isinstance(result, dict))
+print(result == dct)
+
+# TEST_4:
+class Everything(JsonSerializableMixin):
+    def __init__(self):
+        self.a = True 
+        self.b = False
+        self.c = [1, True, False, None]
+        self.d = (1, True, False, None)
+        self.e = {False: True, 1: None}
+
+everything = Everything()
+print(everything.to_json())
+

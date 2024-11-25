@@ -1,0 +1,72 @@
+# INPUT DATA:
+
+# TEST_1:
+class Empty(ToStringMixin):
+    pass
+
+obj = Empty()
+print(obj)
+
+# TEST_2:
+class Movie(ToStringMixin):
+    def __init__(self, title, director, rating):
+        self.title = title
+        self._director = director
+        self.__rating = rating
+
+movie = Movie('Interstellar', 'Christopher Nolan', 8.7)
+print(str(movie))
+print(repr(movie))
+
+# TEST_3:
+class Book(ToStringMixin):
+    def __init__(self, title, author, publication_year, genre, pages, language, publisher):
+        self.title = title            
+        self.author = author         
+        self.publication_year = publication_year 
+        self.genre = genre            
+        self.pages = pages            
+        self.language = language 
+        self.publisher = publisher            
+
+book = Book('The Hobbit', 'J.R.R. Tolkien', 1937, 'Fantasy', 310, 'English', 'George Allen & Unwin')
+print(book)
+
+# TEST_4:
+class Private(ToStringMixin):
+    def __init__(self):
+        self.__attr1 = None 
+        self.__attr2 = None 
+
+private = Private()
+print(str(private))
+print(repr(private))
+
+# TEST_5:
+class AlmostEmpty(ToStringMixin):
+    def __init__(self):
+        self.__attribute = None
+
+obj = AlmostEmpty()
+
+for i in range(10):
+    obj.__dict__[f'attribute_{i}'] = None
+    obj.__dict__[f'_attribute_{i}'] = None
+
+print(str(obj))
+print(repr(obj))
+
+# TEST_6:
+class MyClass(ToStringMixin):
+    def __init__(self, **kwargs):
+        self.__dict__.update(kwargs)
+
+obj1 = MyClass()   
+obj2 = MyClass(a=1, b=2, c=3)
+obj3 = MyClass(a=1, b=2, c=3, d=4, e=5, f=6)
+obj4 = MyClass(a=1, b=2, c=3, d=4, e=5, f=6, g=7)
+print(obj1)
+print(obj2)
+print(obj3)
+print(obj4)
+

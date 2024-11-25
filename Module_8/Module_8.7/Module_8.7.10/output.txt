@@ -1,0 +1,15 @@
+# OUTPUT DATA:
+
+# TEST_1:
+{}
+
+# TEST_2:
+{"a": 3, "b": 5, "c": 4}
+
+# TEST_3:
+True
+True
+
+# TEST_4:
+{"a": true, "b": false, "c": [1, true, false, null], "d": [1, true, false, null], "e": {"false": true, "1": null}}
+
