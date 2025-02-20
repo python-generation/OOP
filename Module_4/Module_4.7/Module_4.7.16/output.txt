@@ -26,14 +26,12 @@ True
 False
 False
 False
-False
 True
 True
 True
 True
 
 # TEST_6:
-False
 False
 False
 False
