@@ -115,3 +115,6 @@ capitalized: "Guido van Rossum". But when my last name is used alone to refer to
 Beautifulis better than ugly.
 Beautifulis better thanugly.
 
+# TEST_6:
+Beegee
+

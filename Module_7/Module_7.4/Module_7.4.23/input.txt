@@ -63,3 +63,9 @@ print(mutablestring)
 del mutablestring[-6]
 print(mutablestring)
 
+# TEST_6:
+mutablestring = MutableString('Beegeek')
+del mutablestring[-1]
+
+print(mutablestring)
+
