@@ -35,3 +35,6 @@ print(issubclass(Average, Middle))
 print(issubclass(Median, Middle))
 print(issubclass(Harmonic, Middle))
 
+# TEST_5:
+print(type(Middle))
+
