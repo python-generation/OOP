@@ -70,6 +70,24 @@ print(polynom.coefficients)
 print(polynom.view)
 
 # TEST_9:
+polynom = QuadraticPolynomial(500, -601, 101)
+
+print(polynom.a, polynom.b, polynom.c)
+print(polynom.x1)
+print(polynom.x2)
+print(polynom.coefficients)
+print(polynom.view)
+
+print()
+
+polynom.a, polynom.b, polynom.c = (-1000, 1202, -202)
+print(polynom.a, polynom.b, polynom.c)
+print(polynom.x1)
+print(polynom.x2)
+print(polynom.coefficients)
+print(polynom.view)
+
+# TEST_10:
 polynom = QuadraticPolynomial(1, 2, -3)
 
 polynom.coefficients = (5, 3, 1)
