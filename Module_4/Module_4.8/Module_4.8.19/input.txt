@@ -21,10 +21,12 @@ print(birthinfo.age == true_age)
 birthinfo1 = BirthInfo('2020-09-18')
 birthinfo2 = BirthInfo(date(2010, 10, 10))
 birthinfo3 = BirthInfo([2016, 1, 1])
+birthinfo4 = BirthInfo((2018, 5, 3))
 
 print(type(birthinfo1.birth_date))
 print(type(birthinfo2.birth_date))
 print(type(birthinfo3.birth_date))
+print(type(birthinfo4.birth_date))
 
 # TEST_4:
 birthday = date(2023, 3, 6)

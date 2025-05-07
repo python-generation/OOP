@@ -12,6 +12,7 @@ True
 <class 'datetime.date'>
 <class 'datetime.date'>
 <class 'datetime.date'>
+<class 'datetime.date'>
 
 # TEST_4:
 True
