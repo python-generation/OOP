@@ -1,131 +1,51 @@
 # INPUT DATA:
 
 # TEST_1:
-mutablestring = MutableString('beegeek')
+sequencezip = SequenceZip('ABC', ['bee', 'geek', 'python'], [1, 2, 3])
 
-print(*mutablestring)
-print(str(mutablestring))
-print(repr(mutablestring))
+print(list(sequencezip))
+print(tuple(sequencezip))
 
 # TEST_2:
-mutablestring = MutableString('Beegeek')
+sequencezip = SequenceZip('ABC', ['bee', 'geek', 'python'], [1, 2, 3])
 
-mutablestring.lower()
-print(mutablestring)
-mutablestring.upper()
-print(mutablestring)
+print(len(sequencezip))
+print(sequencezip[1])
+print(sequencezip[2])
 
 # TEST_3:
-mutablestring1 = MutableString('bee')
-mutablestring2 = MutableString('geek')
-
-print(mutablestring1 + mutablestring2)
-print(mutablestring2 + mutablestring1)
+print(len(SequenceZip([1, 2, 3, 4])))
+print(len(SequenceZip(range(5), [1, 2, 3, 4])))
+print(len(SequenceZip(range(5), [1, 2, 4], 'data')))
 
 # TEST_4:
-mutablestring = MutableString('beegeek')
+x, y, z = [1, 2, 3], [4, 5, 6], [7, 8, 9]
+sequencezip = SequenceZip(x, y, z)
 
-print(mutablestring)
-mutablestring[0] = 'B'
-mutablestring[-4] = 'G'
-print(mutablestring)
+print(sequencezip[2])
+x[-1], z[-1] = z[-1], x[-1]
+print(sequencezip[2])
 
 # TEST_5:
-mutablestring = MutableString('beegeek')
-
-s1 = mutablestring[2:]
-s2 = mutablestring[:5]
-s3 = mutablestring[2:5:2]
-
-print(s1, type(s1))
-print(s2, type(s2))
-print(s3, type(s3))
+many_large_sequences = [range(100000) for _ in range(100)]
+sequencezip = SequenceZip(*many_large_sequences)
+print(sequencezip[99999])
 
 # TEST_6:
-mutablestring = MutableString('Ada Wong')
-id1 = id(mutablestring)
-
-mutablestring.upper()
-id2 = id(mutablestring)
-
-print(id1 == id2)
+sequencezip = SequenceZip()
+print(len(sequencezip))
+print(list(sequencezip))
 
 # TEST_7:
-string = '''For a long time it was a mystery to me how something very expensive and technologically advanced could be 
-so useless. And I soon realized that a computer is a stupid machine that has the ability to do incredibly smart things, 
-while programmers are smart people who have a talent for doing incredibly stupid things. In short, 
-they found each other.
-Bill Bryson'''
+data1 = [1, 2, 3, 4, 5]
+data2 = 'abcde'
 
-mutablestring1 = MutableString(string)
-mutablestring2 = mutablestring1[20:45]
+sequencezip = SequenceZip(data1, data2)
+data1.extend([6, 7, 8, 9, 10])
+data2 += 'fghij'
 
-print(mutablestring1 is mutablestring2)
-
-# TEST_8:
-string = '''Sometimes it's better to stay home on Monday than to spend the whole week debugging code written on Monday.
-Christopher Thompson'''
-mutablestring = MutableString(string)
-
-print(mutablestring[30], mutablestring[3], mutablestring[66], mutablestring[66], mutablestring[1], sep='')
-
-# TEST_9:
-string = '''Many of you are familiar with the virtues of being a programmer. There are only three of them, 
-and of course this is: laziness, impatience and pride. Larry Wall'''
-mutablestring = MutableString(string)
-
-print(mutablestring[20])
-print(mutablestring[-30])
-print(mutablestring[:11])
-print(mutablestring[16:])
-print(mutablestring[4::10])
-print(mutablestring[::-10])
-
-# TEST_10:
-string1 = MutableString('Разбежавшись')
-string2 = MutableString('прыгну')
-string3 = MutableString('со скалы')
-
-array = [string1, string2, string3]
-print(array)
-
-# TEST_11:
-mutablestring = MutableString()
-print(repr(mutablestring))
-
-# TEST_12:
-mutablestring = MutableString('beegeek')
-
-del mutablestring[2:5]
-del mutablestring[1:5:2]
-print(mutablestring)
-
-# TEST_13:
-mutablestring = MutableString('beegeek')
-
-mutablestring[-1] = 'ee'
-print(mutablestring)
-
-mutablestring[-2:] = 'geek'
-print(mutablestring)
-
-# TEST_14:
-mutablestring = MutableString('beegeek')
-
-del mutablestring[1:3]
-print(mutablestring)
-
-# TEST_15:
-mutablestring1 = MutableString('bee')
-mutablestring2 = MutableString('geek')
-
-concat = mutablestring1 + mutablestring2
-slicing = mutablestring1[1:2]
-plus_indexing = mutablestring2[1]
-minus_indexing = mutablestring2[-1]
-
-print(type(concat))
-print(type(slicing))
-print(type(plus_indexing))
-print(type(minus_indexing))
+print(data1)
+print(data2)
+print(len(sequencezip))
+print(list(sequencezip))
 

@@ -1,64 +1,33 @@
 # OUTPUT DATA:
 
 # TEST_1:
-b e e g e e k
-beegeek
-MutableString('beegeek')
+[('A', 'bee', 1), ('B', 'geek', 2), ('C', 'python', 3)]
+(('A', 'bee', 1), ('B', 'geek', 2), ('C', 'python', 3))
 
 # TEST_2:
-beegeek
-BEEGEEK
+3
+('B', 'geek', 2)
+('C', 'python', 3)
 
 # TEST_3:
-beegeek
-geekbee
+4
+4
+3
 
 # TEST_4:
-beegeek
-BeeGeek
+(3, 6, 9)
+(3, 6, 9)
 
 # TEST_5:
-egeek <class '__main__.MutableString'>
-beege <class '__main__.MutableString'>
-ee <class '__main__.MutableString'>
+(99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999)
 
 # TEST_6:
-True
+0
+[]
 
 # TEST_7:
-False
-
-# TEST_8:
-hello
-
-# TEST_9:
-l
-p
-Many of you
-familiar with the virtues of being a programmer. There are only three of them, 
-and of course this is: laziness, impatience and pride. Larry Wall
- e v r  e o eipr
-l amatoht m stluM
-
-# TEST_10:
-[MutableString('Разбежавшись'), MutableString('прыгну'), MutableString('со скалы')]
-
-# TEST_11:
-MutableString('')
-
-# TEST_12:
-be
-
-# TEST_13:
-beegeeee
-beegeegeek
-
-# TEST_14:
-bgeek
-
-# TEST_15:
-<class '__main__.MutableString'>
-<class '__main__.MutableString'>
-<class '__main__.MutableString'>
-<class '__main__.MutableString'>
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+abcdefghij
+5
+[(1, 'a'), (2, 'b'), (3, 'c'), (4, 'd'), (5, 'e')]
 
