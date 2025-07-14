@@ -33,3 +33,8 @@ True
 NotImplemented
 NotImplemented
 
+# TEST_8:
+True
+False
+False
+
