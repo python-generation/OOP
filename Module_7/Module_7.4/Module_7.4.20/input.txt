@@ -78,3 +78,14 @@ try:
 except TypeError as e:
     print(e)
 
+# TEST_11:
+numberlist = NumberList([1, 2, 3])
+numberlist += [4, 5, 6]
+print(numberlist)
+
+# TEST_12:
+numberlist = NumberList([1, 2, 3])
+new_numberlist = numberlist + [4, 5, 6]
+print(new_numberlist)
+print(type(new_numberlist))
+
