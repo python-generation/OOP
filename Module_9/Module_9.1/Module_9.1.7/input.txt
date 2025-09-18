@@ -312,3 +312,9 @@ for page in pages:
     pagination.go_to_page(page)
     print(pagination.get_visible_items())
 
+# TEST_14:
+alphabet = list("abcdefghijklmnopqrstuvwx")
+pagination = Pagination(alphabet, 4)
+pagination.last_page()
+print(pagination.get_visible_items())
+
