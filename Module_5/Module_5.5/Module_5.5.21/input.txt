@@ -1,79 +1,97 @@
 # INPUT DATA:
 
 # TEST_1:
-queue = Queue(1, 2)
-queue.add(3)
-queue.add(4, 5)
+path = Path('home', 'user', 'docs')
 
-print(queue)
-print(queue.pop())
-print(queue)
+print(str(path))
+print(repr(path))
 
 # TEST_2:
-queue1 = Queue(1, 2, 3)
-queue2 = Queue(1, 2)
+path = Path(Path('home'), 'user', Path('docs'))
 
-print(queue1 == queue2)
-queue2.add(3)
-print(queue1 == queue2)
+print(path)
 
 # TEST_3:
-queue1 = Queue(1, 2, 3)
-queue2 = Queue(4, 5)
+path = Path('home', 'user') / Path('docs')
 
-print(queue1 + queue2)
+print(path)
 
 # TEST_4:
-queue1 = Queue(1, 2, 3)
-queue2 = Queue(4, 5)
+path1 = Path('home')
+path2 = Path('user/docs')
+path3 = path1 / path2
 
-queue1 += queue2
-
-print(queue1)
+print(path1)
+print(path2)
+print(path3)
 
 # TEST_5:
-queue = Queue(1, 2, 3, 4, 5)
+path = Path('home')
+path /= 'user'
 
-print(queue >> 3)
+print(path)
 
 # TEST_6:
-queue = Queue(1, 2, 3, 4, 5)
-id1 = id(queue)
-print(queue)
+path1 = Path('home') / Path('user')
+path2 = Path('docs')
+path1 /= path2
 
-queue += Queue(6, 7, 8, 9, 10)
-id2 = id(queue)
-
-print(queue)
-print(id1 == id2)
-
-queue = queue + Queue(11, 12, 13, 14, 15)
-id3 = id(queue)
-
-print(queue)
-print(id1 == id3)
+print(path1)
 
 # TEST_7:
-queue = Queue(*'beegeek')
-for i in range(9):
-    print(f'Queue >> {i} =', queue >> i)
+path = Path('home')
+
+print(path.__truediv__(2))
+print(path.__itruediv__(5))
 
 # TEST_8:
-queue = Queue(1)
-item = queue.pop()
-print(item)
-print(queue.pop())
+path1 = Path('home')
+path2 = Path('user/docs', Path('books/book.pdf'))
+path3 = path1 / path2
+
+print(path3)
 
 # TEST_9:
-q1 = Queue(1, 2)
-q2 = Queue(1, 2)
+path = Path('home/user', Path('docs'))
+path /= Path('book.pdf')
 
-print(q1 == q2)
-print(q1 != q2)
+print(path)
 
 # TEST_10:
-queue = Queue(1, 2, 3)
-print(queue.__add__([]))
-print(queue.__iadd__('bee'))
-print(queue.__rshift__('geek'))
+print(Path('home') / Path('user') / Path('docs') / Path('book.pdf'))
+
+# TEST_11:
+path1 = Path('home', 'user')
+path2 = Path('projects', 'python')
+path3 = Path('docs', '2025')
+path4 = Path('book.pdf')
+
+
+path_a = path1 / path2
+print(path_a)
+
+path_b = path_a / path3
+print(path_b)
+
+path_c = path_b / path4
+print(path_c)
+
+path_d = Path('var', 'log') / 'system'
+print(path_d)
+
+path_d /= Path('kernel')
+print(path_d)
+
+combined = Path('tmp', 'files') / '2025' / Path('reports/omg') / 'report.pdf'
+print(combined)
+
+seq_path = Path('home', 'user')
+seq_path /= Path('downloads', 'photos')
+print(seq_path)
+
+seq_path /= 'vacation'
+print(seq_path)
+
+seq_path /= Path('2025', 'summer', 'trip.jpg')
+print(seq_path)
 

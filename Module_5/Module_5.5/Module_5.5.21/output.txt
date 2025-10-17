@@ -1,51 +1,47 @@
 # OUTPUT DATA:
 
 # TEST_1:
-1 -> 2 -> 3 -> 4 -> 5
-1
-2 -> 3 -> 4 -> 5
+home/user/docs
+Path('home/user/docs')
 
 # TEST_2:
-False
-True
+home/user/docs
 
 # TEST_3:
-1 -> 2 -> 3 -> 4 -> 5
+home/user/docs
 
 # TEST_4:
-1 -> 2 -> 3 -> 4 -> 5
+home
+user/docs
+home/user/docs
 
 # TEST_5:
-4 -> 5
+home/user
 
 # TEST_6:
-1 -> 2 -> 3 -> 4 -> 5
-1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10
-True
-1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10 -> 11 -> 12 -> 13 -> 14 -> 15
-False
+home/user/docs
 
 # TEST_7:
-Queue >> 0 = b -> e -> e -> g -> e -> e -> k
-Queue >> 1 = e -> e -> g -> e -> e -> k
-Queue >> 2 = e -> g -> e -> e -> k
-Queue >> 3 = g -> e -> e -> k
-Queue >> 4 = e -> e -> k
-Queue >> 5 = e -> k
-Queue >> 6 = k
-Queue >> 7 = 
-Queue >> 8 = 
+NotImplemented
+NotImplemented
 
 # TEST_8:
-1
-None
+home/user/docs/books/book.pdf
 
 # TEST_9:
-True
-False
+home/user/docs/book.pdf
 
 # TEST_10:
-NotImplemented
-NotImplemented
-NotImplemented
+home/user/docs/book.pdf
+
+# TEST_11:
+home/user/projects/python
+home/user/projects/python/docs/2025
+home/user/projects/python/docs/2025/book.pdf
+var/log/system
+var/log/system/kernel
+tmp/files/2025/reports/omg/report.pdf
+home/user/downloads/photos
+home/user/downloads/photos/vacation
+home/user/downloads/photos/vacation/2025/summer/trip.jpg
 
