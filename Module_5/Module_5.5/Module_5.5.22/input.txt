@@ -1,0 +1,79 @@
+# INPUT DATA:
+
+# TEST_1:
+queue = Queue(1, 2)
+queue.add(3)
+queue.add(4, 5)
+
+print(queue)
+print(queue.pop())
+print(queue)
+
+# TEST_2:
+queue1 = Queue(1, 2, 3)
+queue2 = Queue(1, 2)
+
+print(queue1 == queue2)
+queue2.add(3)
+print(queue1 == queue2)
+
+# TEST_3:
+queue1 = Queue(1, 2, 3)
+queue2 = Queue(4, 5)
+
+print(queue1 + queue2)
+
+# TEST_4:
+queue1 = Queue(1, 2, 3)
+queue2 = Queue(4, 5)
+
+queue1 += queue2
+
+print(queue1)
+
+# TEST_5:
+queue = Queue(1, 2, 3, 4, 5)
+
+print(queue >> 3)
+
+# TEST_6:
+queue = Queue(1, 2, 3, 4, 5)
+id1 = id(queue)
+print(queue)
+
+queue += Queue(6, 7, 8, 9, 10)
+id2 = id(queue)
+
+print(queue)
+print(id1 == id2)
+
+queue = queue + Queue(11, 12, 13, 14, 15)
+id3 = id(queue)
+
+print(queue)
+print(id1 == id3)
+
+# TEST_7:
+queue = Queue(*'beegeek')
+for i in range(9):
+    print(f'Queue >> {i} =', queue >> i)
+
+# TEST_8:
+queue = Queue(1)
+item = queue.pop()
+print(item)
+print(queue.pop())
+
+# TEST_9:
+q1 = Queue(1, 2)
+q2 = Queue(1, 2)
+
+print(q1 == q2)
+print(q1 != q2)
+
+# TEST_10:
+queue = Queue(1, 2, 3)
+print(queue.__add__([]))
+print(queue.__iadd__('bee'))
+print(queue.__rshift__('geek'))
+
