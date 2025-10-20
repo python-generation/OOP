@@ -65,3 +65,8 @@ strings = [ReversibleString('social'), ReversibleString('history'), ReversibleSt
 for string in strings:
     print(-string)
 
+# TEST_7:
+string = ReversibleString('python')
+
+print(string is -string)
+
