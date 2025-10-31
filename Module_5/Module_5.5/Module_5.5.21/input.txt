@@ -95,3 +95,12 @@ print(seq_path)
 seq_path /= Path('2025', 'summer', 'trip.jpg')
 print(seq_path)
 
+# TEST_12:
+path = Path('home')
+id1 = id(path)
+
+path /= 'user'
+id2 = id(path)
+
+print(id1 == id2)
+

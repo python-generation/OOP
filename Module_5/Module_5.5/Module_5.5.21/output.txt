@@ -45,3 +45,6 @@ home/user/downloads/photos
 home/user/downloads/photos/vacation
 home/user/downloads/photos/vacation/2025/summer/trip.jpg
 
+# TEST_12:
+True
+
