@@ -1,82 +1,48 @@
 # INPUT DATA:
 
 # TEST_1:
-timer = AdvancedTimer()
-
-print(timer.runs)
-print(timer.last_run)
-print(timer.min)
-print(timer.max)
+with HtmlTag('body') as _:
+    with HtmlTag('h1') as header:
+        header.print('Поколение Python')
+    with HtmlTag('p') as section:
+        section.print('Cерия курсов по языку программирования Python от команды BEEGEEK')
 
 # TEST_2:
-from time import sleep
-
-timer = AdvancedTimer()
-
-with timer:
-    sleep(1.5)
-print(round(timer.last_run, 1))
-
-with timer:
-    sleep(0.7)
-print(round(timer.last_run, 1))
-
-with timer:
-    sleep(1)
-print(round(timer.last_run, 1))
+with HtmlTag('body') as _:
+    with HtmlTag('h1', True) as header:
+        header.print('Поколение Python')
+    with HtmlTag('p', True) as section:
+        section.print('Cерия курсов по языку программирования Python от команды BEEGEEK')
 
 # TEST_3:
-from time import sleep
-
-timer = AdvancedTimer()
-
-with timer:
-    sleep(1.5)
-
-with timer:
-    sleep(0.7)
-
-with timer:
-    sleep(1)
-
-print([round(runtime, 1) for runtime in timer.runs])
-print(round(timer.min, 1))
-print(round(timer.max, 1))
+with HtmlTag('body') as _:
+    with HtmlTag('h1', True) as header:
+        header.print('Здесь есть что-то интересное')
+    with HtmlTag('a', True) as section:
+        section.print('https://stepik.org/media/attachments/course/98974/watch_me.mp4')
 
 # TEST_4:
-import time
+with HtmlTag('div') as _:
+    with HtmlTag('p') as paragraph:
+        with HtmlTag('strong', True) as strong:
+            strong.print('Notice:')
+        paragraph.print('Your browser is ancient')
 
-
-def func1():
-    time.sleep(1.3)
-    return
-
-
-def func2():
-    time.sleep(1.7)
-    return
-
-
-def func3():
-    time.sleep(1.1)
-    return
-
-
-def func4():
-    time.sleep(0.3)
-    return
-
-
-timer = AdvancedTimer()
-
-funcs = [func2, func1, func4, func3]
-
-for func in funcs:
-    with timer:
-        func()
-
-print([round(runtime, 1) for runtime in timer.runs])
-print(round(timer.last_run, 1))
-print(round(timer.min, 1))
-print(round(timer.max, 1))
+# TEST_5:
+with HtmlTag('table') as _:
+    with HtmlTag('tr') as paragraph:
+        with HtmlTag('th', True) as field:
+            field.print('текст заголовка')
+        with HtmlTag('td') as data:
+            with HtmlTag('ul'):
+                with HtmlTag('li', True) as marked_list:
+                    marked_list.print('данные')
+                with HtmlTag('li', True) as marked_list:
+                    marked_list.print('данные')
+                with HtmlTag('li', True) as marked_list:
+                    marked_list.print('данные')
+                with HtmlTag('li', True) as marked_list:
+                    marked_list.print('данные')
+                with HtmlTag('li', True) as marked_list:
+                    marked_list.print('данные')
 

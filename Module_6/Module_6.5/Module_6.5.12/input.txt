@@ -1,97 +1,87 @@
 # INPUT DATA:
 
 # TEST_1:
-f1 = open('file1.txt', mode='w')
-f2 = open('file2.txt', mode='w')
+numbers = [1, 2, 3, 4, 5]
 
-with WriteSpy(f1, f2, to_close=True) as combined:
-    combined.write('You shall seal the blinding light that plagues their dreams\n')
-    combined.write('You are the Vessel\n')
-    combined.write('You are the Hollow Knight')
+with Atomic(numbers) as atomic:
+    atomic.append(6)
+    atomic[2] = 0
+    del atomic[1]
 
-print(f1.closed, f2.closed)
-
-with open('file1.txt') as file1, open('file2.txt') as file2:
-    print(file1.read())
-    print(file2.read())
+print(numbers)
 
 # TEST_2:
-f1 = open('file1.txt', mode='w')
-f2 = open('file2.txt', mode='w')
+numbers = [1, 2, 3, 4, 5]
 
-with WriteSpy(f1, f2, to_close=True) as combined:
-    print(combined.writable())
-    
-f1 = open('file1.txt')
-f2 = open('file2.txt')
+with Atomic(numbers) as atomic:
+    atomic.append(6)
+    atomic[2] = 0
+    del atomic[100]           # обращение по несуществующему индексу
 
-with WriteSpy(f1, f2, to_close=True) as combined:
-    print(combined.writable())
+print(numbers)
 
 # TEST_3:
-f1 = open('file1.txt', mode='w')
-f2 = open('file2.txt', mode='w')
+matrix = [[1, 2], [3, 4]]
 
-with WriteSpy(f1, f2, to_close=True) as combined:
-    print(combined.closed())
-    f1.close()
-    print(combined.closed())
-    f2.close()
-    print(combined.closed())
+with Atomic(matrix) as atomic:
+    atomic[1].append(0)       # изменение вложенной структуры
+    atomic.append([5, 6])
+    del atomic[100]           # обращение по несуществующему индексу
+
+print(matrix)
 
 # TEST_4:
-f1 = open('file1.txt', mode='w')
-f2 = open('file2.txt', mode='w')
+matrix = [[1, 2], [3, 4]]
 
-with WriteSpy(f1, f2, to_close=False) as combined:
-    print(f1.closed, f2.closed)
-    combined.close()
-    print(f1.closed, f2.closed)
+with Atomic(matrix, True) as atomic:
+    atomic[1].append(0)       # изменение вложенной структуры
+    atomic.append([5, 6])
+    del atomic[100]           # обращение по несуществующему индексу
+
+print(matrix)
 
 # TEST_5:
-f1 = open('file1.txt', mode='r')
-f2 = open('file2.txt', mode='w')
+numbers = {1, 2, 3, 4, 5}
 
-try:
-    with WriteSpy(f1, f2, to_close=True) as combined:
-        combined.write('No cost too great')
-except ValueError as error:
-    print(error)
+with Atomic(numbers) as atomic:
+    atomic.add(6)
+    atomic.append(7)           # добавление элемента с помощью несуществующего метода
+
+print(sorted(numbers))
+
+with Atomic(numbers) as atomic:
+    atomic.add(6)
+
+print(sorted(numbers))
 
 # TEST_6:
-f1 = open('file1.txt', mode='w')
-f2 = open('file2.txt', mode='w')
-f1.close()
+data = {'firstname': 'Alyson', 'lastname': 'Hannigan', 'birthday': {'day': 24, 'month': 'March', 'year': 1974}}
 
-try:
-    with WriteSpy(f1, f2, to_close=True) as combined:
-        combined.write('No cost too great')
-except ValueError as error:
-    print(error)
+with Atomic(data, True) as atomic:          # deep = True
+    atomic['birthday']['month'] = 'April'   # изменение вложенной структуры
+    print(atomic['name'])                   # обращение по несуществующему ключу
+
+print(data)
+
+with Atomic(data) as atomic:                # deep = False
+    atomic['birthday']['month'] = 'April'   # изменение вложенной структуры
+    print(atomic['name'])                   # обращение по несуществующему ключу
+
+print(data)
 
 # TEST_7:
-f1 = open('file1.txt', mode='w')
-f2 = open('file2.txt', mode='w')
-f1.close()
+data = {'a': 100, 'z': 333, 'b': 200, 'c': 300, 'd': 45, 'e': 98, 't': 76, 'q': 34, 'f': 90, 'm': 230}
 
-with WriteSpy(f1, f2, to_close=True) as combined:
-    print(combined.writable())
+with Atomic(data) as atomic:
+    atomic['e'] += 2   # изменение структуры
+
+print(data)
 
 # TEST_8:
-f1 = open('file1.txt', mode='w')
-f2 = open('file2.txt', mode='w')
+matrix = [[1, 2], [3, 4]]
 
-with WriteSpy(f1, f2, to_close=True) as combined:
-    pass
+with Atomic(matrix, True) as atomic:
+    atomic[1].append(0)
 
-print(combined.closed())
-
-# TEST_9:
-f1 = open('file1.txt', mode='w')
-f2 = open('file2.txt', mode='w')
-
-with WriteSpy(f1, f2) as combined:
-    pass
-
-print(combined.closed())
+print(matrix)
 

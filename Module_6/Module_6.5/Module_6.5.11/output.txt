@@ -1,32 +1,39 @@
 # OUTPUT DATA:
 
 # TEST_1:
-Завершение программы
+True True
+You shall seal the blinding light that plagues their dreams
+You are the Vessel
+You are the Hollow Knight
+You shall seal the blinding light that plagues their dreams
+You are the Vessel
+You are the Hollow Knight
 
 # TEST_2:
-invalid literal for int() with base 10: 'я число'
-<class 'ValueError'>
+True
+False
 
 # TEST_3:
-All success!
-None
+False
+False
+True
 
 # TEST_4:
-None
+False False
+True True
 
 # TEST_5:
-99
-
-<class 'StopIteration'>
+Файл закрыт или недоступен для записи
 
 # TEST_6:
-'Mask'
-<class 'KeyError'>
+Файл закрыт или недоступен для записи
 
 # TEST_7:
-<class 'AttributeError'>
-None
+False
 
 # TEST_8:
-None
+True
+
+# TEST_9:
+False
 

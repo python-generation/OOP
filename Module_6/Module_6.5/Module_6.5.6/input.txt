@@ -1,30 +1,31 @@
 # INPUT DATA:
 
 # TEST_1:
-with Greeter('Кейв'):
-    print('...')
+output = open('output.txt', 'w', encoding='utf-8')
+
+with Closer(output) as file:
+    print(file.closed)
+    
+print(file.closed)
 
 # TEST_2:
-with Greeter('Кейв') as greeter:
-    print(greeter.name)
+with Closer(5) as i:
+    i += 1
+    
+print(i)
 
 # TEST_3:
-with Greeter('Матильда') as greeter:
-    pass
+from zipfile import ZipFile
+
+zip_file = ZipFile('test.zip', 'w')
+
+with Closer(zip_file) as zf:
+    print(zf)
 
 # TEST_4:
-with Greeter('Михаил Г.') as greeter:
-    print(
-        '\nКак бессонница в час ночной\n'
-        'Меняет, нелюдимая, облик твой,\n'
-        'Чьих невольница ты идей?\n'
-        'Зачем тебе охотиться на людей?\n'
-    )
+unclosable = [3.14, 'Elon', {'Ч': 'LXXIV'}, [1, 2, 3], (4, 5, 6), True, False]
 
-# TEST_5:
-with Greeter('Gvido') as greeter:
-    try:
-        print(greeter.age)
-    except AttributeError as e:
-        print(f'Атрибут "{e.name}" отсутствует')
+for item in unclosable:
+    with Closer(item) as zf:
+        print(item)
 

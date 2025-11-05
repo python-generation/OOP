@@ -1,39 +1,28 @@
 # OUTPUT DATA:
 
 # TEST_1:
-True True
-You shall seal the blinding light that plagues their dreams
-You are the Vessel
-You are the Hollow Knight
-You shall seal the blinding light that plagues their dreams
-You are the Vessel
-You are the Hollow Knight
+[1, 0, 4, 5, 6]
 
 # TEST_2:
-True
-False
+[1, 2, 3, 4, 5]
 
 # TEST_3:
-False
-False
-True
+[[1, 2], [3, 4, 0]]
 
 # TEST_4:
-False False
-True True
+[[1, 2], [3, 4]]
 
 # TEST_5:
-Файл закрыт или недоступен для записи
+[1, 2, 3, 4, 5]
+[1, 2, 3, 4, 5, 6]
 
 # TEST_6:
-Файл закрыт или недоступен для записи
+{'firstname': 'Alyson', 'lastname': 'Hannigan', 'birthday': {'day': 24, 'month': 'March', 'year': 1974}}
+{'firstname': 'Alyson', 'lastname': 'Hannigan', 'birthday': {'day': 24, 'month': 'April', 'year': 1974}}
 
 # TEST_7:
-False
+{'a': 100, 'z': 333, 'b': 200, 'c': 300, 'd': 45, 'e': 100, 't': 76, 'q': 34, 'f': 90, 'm': 230}
 
 # TEST_8:
-True
-
-# TEST_9:
-False
+[[1, 2], [3, 4, 0]]
 

@@ -1,48 +1,31 @@
 # OUTPUT DATA:
 
 # TEST_1:
-<body>
-  <h1>
-    Поколение Python
-  </h1>
-  <p>
-    Cерия курсов по языку программирования Python от команды BEEGEEK
-  </p>
-</body>
+[]
+['1st']
+['1st', ['2nd', ['3rd'], '4th']]
 
 # TEST_2:
-<body>
-  <h1>Поколение Python</h1>
-  <p>Cерия курсов по языку программирования Python от команды BEEGEEK</p>
-</body>
+['1st', ['2nd', ['3rd', ['4th', ['5th']]]], '6th']
 
 # TEST_3:
-<body>
-  <h1>Здесь есть что-то интересное</h1>
-  <a>https://stepik.org/media/attachments/course/98974/watch_me.mp4</a>
-</body>
+[[1, 2, [3, [4]], [5]]]
 
 # TEST_4:
-<div>
-  <p>
-    <strong>Notice:</strong>
-    Your browser is ancient
-  </p>
-</div>
+[[1, [2, 3]]]
 
 # TEST_5:
-<table>
-  <tr>
-    <th>текст заголовка</th>
-    <td>
-      <ul>
-        <li>данные</li>
-        <li>данные</li>
-        <li>данные</li>
-        <li>данные</li>
-        <li>данные</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+[0]
+[0, [1, [2, 3, [4]]]]
+[0, [1, [2, 3, [4]]], [5, [6], [7, [8]]]]
+
+# TEST_6:
+['root', ['first child', 'second child', ['grandchild'], 'bastard', 'another bastard']]
+
+# TEST_7:
+['1st', [[[['5th']]]]]
+
+# TEST_8:
+['1st', ['2nd', ['3rd'], '4th']]
+[]
 

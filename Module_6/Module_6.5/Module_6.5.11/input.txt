@@ -1,70 +1,97 @@
 # INPUT DATA:
 
 # TEST_1:
-with Suppress(NameError):
-    print('Этой переменной не существует -->', variable)
-    
-print('Завершение программы')
+f1 = open('file1.txt', mode='w')
+f2 = open('file2.txt', mode='w')
+
+with WriteSpy(f1, f2, to_close=True) as combined:
+    combined.write('You shall seal the blinding light that plagues their dreams\n')
+    combined.write('You are the Vessel\n')
+    combined.write('You are the Hollow Knight')
+
+print(f1.closed, f2.closed)
+
+with open('file1.txt') as file1, open('file2.txt') as file2:
+    print(file1.read())
+    print(file2.read())
 
 # TEST_2:
-with Suppress(TypeError, ValueError) as context:
-    number = int('я число')
+f1 = open('file1.txt', mode='w')
+f2 = open('file2.txt', mode='w')
 
-print(context.exception)
-print(type(context.exception))
+with WriteSpy(f1, f2, to_close=True) as combined:
+    print(combined.writable())
+    
+f1 = open('file1.txt')
+f2 = open('file2.txt')
+
+with WriteSpy(f1, f2, to_close=True) as combined:
+    print(combined.writable())
 
 # TEST_3:
-with Suppress() as context:
-    print('All success!')
+f1 = open('file1.txt', mode='w')
+f2 = open('file2.txt', mode='w')
 
-print(context.exception)
+with WriteSpy(f1, f2, to_close=True) as combined:
+    print(combined.closed())
+    f1.close()
+    print(combined.closed())
+    f2.close()
+    print(combined.closed())
 
 # TEST_4:
-with Suppress(ValueError) as context:
-    try:
-        number = list(123)
-    except TypeError:
-        pass
+f1 = open('file1.txt', mode='w')
+f2 = open('file2.txt', mode='w')
 
-print(context.exception)
+with WriteSpy(f1, f2, to_close=False) as combined:
+    print(f1.closed, f2.closed)
+    combined.close()
+    print(f1.closed, f2.closed)
 
 # TEST_5:
-iterable = iter(range(100))
+f1 = open('file1.txt', mode='r')
+f2 = open('file2.txt', mode='w')
 
-with Suppress(StopIteration) as context:
-    for _ in range(99):
-        next(iterable)
-    print(next(iterable))
-    print(next(iterable))
-
-
-print(context.exception)
-print(type(context.exception))
+try:
+    with WriteSpy(f1, f2, to_close=True) as combined:
+        combined.write('No cost too great')
+except ValueError as error:
+    print(error)
 
 # TEST_6:
-d = {'Gvido': 67, 'Gates': 67, 'Zuckerberg': 38}
-with Suppress(KeyError) as context:
-    print(d['Mask'])
+f1 = open('file1.txt', mode='w')
+f2 = open('file2.txt', mode='w')
+f1.close()
 
-
-print(context.exception)
-print(type(context.exception))
+try:
+    with WriteSpy(f1, f2, to_close=True) as combined:
+        combined.write('No cost too great')
+except ValueError as error:
+    print(error)
 
 # TEST_7:
-with Suppress(ValueError) as context:
-    try:
-        print('Несуществующий метод у словаря –>', {}.new())
-    except AttributeError as e:
-        print(type(e))
+f1 = open('file1.txt', mode='w')
+f2 = open('file2.txt', mode='w')
+f1.close()
 
-print(context.exception)
+with WriteSpy(f1, f2, to_close=True) as combined:
+    print(combined.writable())
 
 # TEST_8:
-try:
-    with Suppress(ValueError) as context:
-        number = list(123)
-except TypeError:
+f1 = open('file1.txt', mode='w')
+f2 = open('file2.txt', mode='w')
+
+with WriteSpy(f1, f2, to_close=True) as combined:
     pass
 
-print(context.exception)
+print(combined.closed())
+
+# TEST_9:
+f1 = open('file1.txt', mode='w')
+f2 = open('file2.txt', mode='w')
+
+with WriteSpy(f1, f2) as combined:
+    pass
+
+print(combined.closed())
 
