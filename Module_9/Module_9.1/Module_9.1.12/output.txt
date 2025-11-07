@@ -1,38 +1,34 @@
 # OUTPUT DATA:
 
 # TEST_1:
-100
-101
-[10, 20, 30]
+True
+True
+True
+False
 
 # TEST_2:
-100
-Ключ отсутствует
+True
+False
+True
+True
 
 # TEST_3:
-[10, 20]
-[10, 20, 30]
+True
+False
+False
 
 # TEST_4:
-object oriented programming
-object oriented programming
-python
+True
+False
+True
 
 # TEST_5:
-1 1 1
-2 2 2
-
-# TEST_6:
-1 1 1
-2 2 2
-
-# TEST_7:
-1
-2
-3
-4
-
-# TEST_8:
-101
-101
+True
+True
+False
+True
+False
+True
+True
+True
 
