@@ -83,3 +83,58 @@ multikeydict['z'] += 1
 print(multikeydict['z'])
 print(multikeydict['t'])
 
+# TEST_9:
+multikeydict = MultiKeyDict(x=100, y=[10, 20])
+
+multikeydict.alias('x', 'y')
+print(multikeydict['y'])
+
+multikeydict['y'] = 200
+print(multikeydict['y'])
+
+# TEST_10:
+multikeydict = MultiKeyDict(x=100, y=200)
+
+multikeydict.alias('x', 'y')
+
+print(multikeydict['x'])
+print(multikeydict['y'])
+
+del multikeydict['x']
+
+try:
+    print(multikeydict['x'])
+except KeyError as e:
+    print(e)
+
+# TEST_11:
+multikeydict = MultiKeyDict(x=100, y=200, z=300)
+
+multikeydict.alias('x', 't')
+multikeydict.alias('y', 'q')
+
+print(len(multikeydict))
+
+del multikeydict['y']
+
+print(len(multikeydict))
+
+multikeydict.clear()
+
+print(len(multikeydict))
+
+# TEST_12:
+multikeydict = MultiKeyDict(x=100, y=200, z=300)
+
+multikeydict.alias('x', 't')
+multikeydict.alias('y', 'q')
+
+multikeydict.update({'t': 400, 'q': 500})
+
+print(multikeydict['x'], multikeydict['t'])
+print(multikeydict['y'], multikeydict['q'])
+print(len(multikeydict))
+
+multikeydict.update({'a': 600, 'b': 700})
+print(len(multikeydict))
+
