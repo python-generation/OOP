@@ -325,3 +325,6 @@ bool = True; int = 528; float = 528.569768337161; complex = (455+269j)
 5.0
 (3-4j)
 
+# TEST_6:
+True
+

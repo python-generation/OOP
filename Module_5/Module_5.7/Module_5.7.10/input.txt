@@ -49,3 +49,7 @@ print(int(vector))
 print(float(vector))
 print(complex(vector))
 
+# TEST_6:
+vector = Vector(-3, -5)
+print(bool(vector))
+
