@@ -23,12 +23,19 @@ print(obj.y)
 obj = Selfie()
 
 print(obj.n_states())
+
 obj.x = 0
 obj.save_state()
 obj.x = 1
 obj.save_state()
 obj.x = 2
 obj.save_state()
+
+print(obj.n_states())
+
+obj1 = obj.recover_state(1)
+
+print(obj1.n_states())
 print(obj.n_states())
 
 # TEST_3:
