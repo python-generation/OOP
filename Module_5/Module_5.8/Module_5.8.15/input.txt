@@ -97,3 +97,7 @@ try:
 except Exception as e:
     print(e)
 
+# TEST_12:
+user = ProtectedObject(user_name='PG_kamiya', _password='alreadybanned')
+print(user.user_name)
+
