@@ -18,6 +18,8 @@ triangle = Triangle(3, 5, 4)
 print(triangle.to_json())
 
 # TEST_3:
+import json
+
 class Country(JsonSerializableMixin):
     def __init__(self, name, capital, phone_code):
         self.name = name
