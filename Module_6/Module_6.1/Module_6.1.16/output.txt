@@ -31,3 +31,9 @@
 ('Erlich', 'senior')
 6
 
+# TEST_7:
+('Timur', 'junior')
+('Rustam', 'senior')
+('Tim', 'junior')
+('Gvido', 'senior')
+

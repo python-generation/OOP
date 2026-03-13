@@ -43,3 +43,16 @@ pied_piper.add_junior('Jared', 'Big Head')
 print(*pied_piper, sep='\n')
 print(len(list(pied_piper)))
 
+# TEST_7:
+beegeek = DevelopmentTeam()
+python = DevelopmentTeam()
+
+beegeek.add_junior('Timur')
+beegeek.add_senior('Rustam')
+
+python.add_junior('Tim')
+python.add_senior('Gvido')
+
+print(*beegeek, sep='\n')
+print(*python, sep='\n')
+
