@@ -42,6 +42,8 @@ NotImplemented
 NotImplemented
 
 # TEST_7:
+BeeGeek
+bee
 True
 False
 

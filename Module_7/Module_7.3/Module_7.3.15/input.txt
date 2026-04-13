@@ -74,6 +74,9 @@ print(s.__le__({1: 'one'}))
 s1 = FuzzyString('BeeGeek')
 s2 = FuzzyString('bee')
 
+print(s1)
+print(s2)
+
 print(s2 in s1)
 print(s1 in s2)
 
