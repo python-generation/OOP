@@ -85,3 +85,12 @@ with Atomic(matrix, True) as atomic:
 
 print(matrix)
 
+# TEST_9:
+numbers = {1, 2, 3, 4, 5}
+
+with Atomic(numbers) as atomic:
+    atomic.add(6)
+    atomic.discard(1)
+
+print(sorted(numbers))
+
