@@ -1,7 +1,7 @@
 # OUTPUT DATA:
 
 # TEST_1:
-Сreate a class Soda
+Create a class Soda
 Homework
 True
 

@@ -1,7 +1,7 @@
 # INPUT DATA:
 
 # TEST_1:
-titled = TitledText('Сreate a class Soda', 'Homework')
+titled = TitledText('Create a class Soda', 'Homework')
 
 print(titled)
 print(titled.title())
