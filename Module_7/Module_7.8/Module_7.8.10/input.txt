@@ -22,7 +22,7 @@ print(shopping_cart)
 print(shopping_cart.total())
 
 # TEST_4:
-shopping_cart = ShoppingCart([Item('Banana', 100), Item('Apple', 120), Item('Orange', 110), Item('Tomato', 180), Item('Cucumber', 150)])
+shopping_cart = ShoppingCart((Item('Banana', 100), Item('Apple', 120), Item('Orange', 110), Item('Tomato', 180), Item('Cucumber', 150)))
 
 shopping_cart.add(Item('Banana', 100))
 print(shopping_cart)
