@@ -30,3 +30,13 @@ Cucumber, 150$
 # TEST_5:
 
 
+# TEST_6:
+0
+
+# TEST_7:
+Flannel Shirt, 22$
+Flannel Shirt, 22$
+Flannel Shirt, 22$
+Flannel Shirt, 22$
+88
+

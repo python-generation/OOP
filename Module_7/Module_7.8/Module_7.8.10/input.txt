@@ -36,3 +36,40 @@ print(shopping_cart.total())
 shopping_cart = ShoppingCart()
 print(shopping_cart)
 
+# TEST_6:
+items = [
+    Item('Yoga Mat', 130),
+    Item('Yoga Mat', 130),
+    Item('Yoga Mat', 130),
+    Item('Yoga Mat', 130),
+    Item('Yoga Mat', 130),
+    Item('Yoga Mat', 130),
+]
+
+shopping_cart = ShoppingCart(items)
+
+shopping_cart.remove("Yoga Mat")
+
+print(shopping_cart.total())
+
+# TEST_7:
+items = [
+    Item('Yoga Mat', 130),
+    Item('Flannel Shirt', 22),
+    Item('Flannel Shirt', 22),
+    Item('Yoga Mat', 130),
+    Item('Yoga Mat', 130),
+    Item('Yoga Mat', 130),
+    Item('Yoga Mat', 130),
+    Item('Flannel Shirt', 22),
+    Item('Flannel Shirt', 22),
+    Item('Yoga Mat', 130),
+]
+
+shopping_cart = ShoppingCart(items)
+
+shopping_cart.remove("Yoga Mat")
+
+print(shopping_cart)
+print(shopping_cart.total())
+
