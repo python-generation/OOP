@@ -19,6 +19,8 @@ print(*historydict.items())
 historydict = HistoryDict({'ducks': 99, 'cats': 1})
 
 historydict['ducks'] = 100
+
+print(*historydict.values())
 print(historydict.history('ducks'))
 print(historydict.history('cats'))
 print(historydict.history('dogs'))
@@ -63,6 +65,7 @@ for name, age, year in zip(names, ages, years):
     historydict['age'] = age
     historydict['year'] = year
 
+print(*historydict.values())
 print(*historydict.items())
 print(historydict.history('name'))
 print(historydict.history('age'))
