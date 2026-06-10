@@ -120,3 +120,7 @@ ao.ru
 <class '__main__.Domain'>
 <class '__main__.Domain'>
 
+# TEST_11:
+Недопустимый домен, url или email
+Недопустимый домен, url или email
+

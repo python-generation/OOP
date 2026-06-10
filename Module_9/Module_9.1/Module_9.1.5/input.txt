@@ -94,3 +94,14 @@ print(type(domain1))
 print(type(domain2))
 print(type(domain3))
 
+# TEST_11:
+try:
+    domain1 = Domain.from_url('support@pygen.ru')
+except DomainException as e:
+    print(e)
+
+try:
+    domain2 = Domain.from_email('https://pygen.ru')
+except DomainException as e:
+    print(e)
+
