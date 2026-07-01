@@ -33,3 +33,16 @@ account = Account('gvido', 'van_rossum')
 print(hasattr(account, 'login'))
 print(hasattr(account, 'password'))
 
+# TEST_6:
+account = Account('timyr-guev', 'lovebeegeek')
+
+for value in account.__dict__.values():
+    if value in (hash_function('lovebeegeek'), 'timyr-guev'):
+        print(value)
+
+account.password = 'verylovebeegeek'
+
+for value in account.__dict__.values():
+    if value in (hash_function('verylovebeegeek'), 'timyr-guev'):
+        print(value)
+
