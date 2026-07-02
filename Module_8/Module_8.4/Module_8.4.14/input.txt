@@ -45,3 +45,36 @@ sum = exception_decorator(sum)
 
 print(sum(['199', '1', 187]))
 
+# TEST_7:
+@exception_decorator
+def getitem(seq, key):
+    return seq[key]
+
+print(getitem([1, 2, 3], 4))
+print(getitem({1: 'one'}, 2))
+
+# TEST_8:
+@exception_decorator
+def stop():
+    raise SystemError
+
+print(stop())
+
+# TEST_9:
+@exception_decorator
+def test(a, b):
+    assert a >= b
+
+print(test(1, 1))
+print(test(1, 2))
+print(test(1, '1'))
+
+# TEST_10:
+@exception_decorator
+def div(a, b):
+    return a / b
+
+print(div(1, 2))
+print(div(1, 4))
+print(div(1, 0))
+

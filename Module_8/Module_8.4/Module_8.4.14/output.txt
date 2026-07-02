@@ -21,3 +21,20 @@ sum args and kwargs
 # TEST_6:
 (None, <class 'TypeError'>)
 
+# TEST_7:
+(None, <class 'IndexError'>)
+(None, <class 'KeyError'>)
+
+# TEST_8:
+(None, <class 'SystemError'>)
+
+# TEST_9:
+(None, None)
+(None, <class 'AssertionError'>)
+(None, <class 'TypeError'>)
+
+# TEST_10:
+(0.5, None)
+(0.25, None)
+(None, <class 'ZeroDivisionError'>)
+
