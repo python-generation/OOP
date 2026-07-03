@@ -20,3 +20,6 @@ sum a and b
 # TEST_6:
 8
 
+# TEST_7:
+8
+
