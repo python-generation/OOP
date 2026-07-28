@@ -95,3 +95,16 @@ print(MagicPoint.x.__class__)
 print(MagicPoint.y.__class__)
 print(MagicPoint.z.__class__)
 
+# TEST_9:
+class CachedRandInt():
+    n = RandomNumber(1, 10 ** 6, True)
+
+
+x = CachedRandInt()
+y = CachedRandInt()
+z = CachedRandInt()
+
+print(x.n == y.n)
+print(x.n == z.n)
+print(y.n == z.n)
+
