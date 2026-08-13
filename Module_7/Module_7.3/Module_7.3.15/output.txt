@@ -47,3 +47,9 @@ bee
 True
 False
 
+# TEST_8:
+BeeGeek
+bee
+True
+False
+

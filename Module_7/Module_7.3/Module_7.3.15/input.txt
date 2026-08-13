@@ -80,3 +80,13 @@ print(s2)
 print(s2 in s1)
 print(s1 in s2)
 
+# TEST_8:
+s1 = FuzzyString('BeeGeek')
+s2 = 'bee'
+
+print(s1)
+print(s2)
+
+print(s2 in s1)
+print(s1 in s2)
+
