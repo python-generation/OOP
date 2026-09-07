@@ -1,0 +1,64 @@
+# INPUT DATA:
+
+# TEST_1:
+request = (
+    HttpRequestBuilder()
+    .set_url("https://example.com")
+    .set_method("POST")
+    .set_headers({"Content-Type": "application/json"})
+    .set_query_params({"page": 1})
+    .set_body('{"name": "Timur"}')
+    .set_timeout(5000)
+    .build()
+)
+
+print(request.url)
+print(request.method)
+print(request.headers)
+print(request.query_params)
+print(request.body)
+print(request.timeout)
+
+# TEST_2:
+try:
+    request = (
+        HttpRequestBuilder()
+        .set_method("POST")
+        .set_headers({"Content-Type": "application/json"})
+        .set_query_params({"page": 1})
+        .set_body('{"name": "Timur"}')
+        .set_timeout(5000)
+        .build()
+    )
+except ValueError as e:
+    print(repr(e))
+
+# TEST_3:
+request = (
+    HttpRequestBuilder()
+    .set_timeout(5000)
+    .set_method("POST")
+    .set_query_params({"page": 1})
+    .set_url("https://example.com")
+    .set_body('{"name": "Timur"}')
+    .set_headers({"Content-Type": "application/json"})
+    .build()
+)
+
+print(request.url)
+print(request.method)
+print(request.headers)
+print(request.query_params)
+print(request.body)
+print(request.timeout)
+
+# TEST_4:
+request = HttpRequestBuilder().set_url("http://example.com").build()
+
+print(request.url)
+print(request.method)
+print(request.headers)
+print(request.query_params)
+print(request.body)
+print(request.timeout)
+

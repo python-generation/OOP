@@ -1,0 +1,146 @@
+# INPUT DATA:
+
+# TEST_1:
+text = """name,surname
+Timur,Guev
+Artur,Harisov
+Valeriy,Svetkin"""
+
+with open("file.csv", "w", encoding="utf-8") as csv_file:
+    csv_file.write(text)
+
+csv_document = CSVDocument()
+adapter = CsvToJsonAdapter()
+print(adapter.get_data("file.csv"))
+
+# TEST_2:
+text = """name;grade
+Timur;100
+Artur;97
+Rustam;40
+Sveta;99"""
+
+with open("grades.csv", "w", encoding="utf-8") as csv_file:
+    csv_file.write(text)
+
+csv_document = CSVDocument()
+adapter = CsvToJsonAdapter(delimiter=';')
+print(adapter.get_data("grades.csv"))
+
+# TEST_3:
+text = '''movie,year,rating
+Machete,2010,72
+Marvin's Room,1996,80
+Raging Bull,1980,97
+This Boy's Life,1993,75
+Silver Linings Playbook,2012,92
+Taxi Driver,1976,99
+Jackie Brown,1997,87
+Shark Tale,2004,35
+Bang the Drum Slowly,1973,88
+Analyze That,2002,27
+Meet the Parents,2000,84
+Wag the Dog,1997,85
+The Big Wedding,2013,7
+Night and the City,1992,67
+Backdraft,1991,71
+The Untouchables,1987,80
+Cop Land,1997,72
+Thunderheart,1992,87
+Being Flynn,2012,51
+We're No Angels,1989,47
+Limitless,2011,70
+The Bag Man,2014,9
+The Good Shepherd,2006,54
+Jacknife,1989,64
+Righteous Kill,2008,19
+Mad Dog and Glory,1993,78
+Brazil,1985,98
+Mary Shelley's Frankenstein,1994,39
+Stone,2010,50
+Killer Elite,2011,25
+A Bronx Tale,1993,96
+Falling in Love,1984,60
+The Adventures of Rocky & Bullwinkle,2000,43
+Red Lights,2012,29
+The Score,2001,73
+New Year's Eve,2011,7
+Ronin,1998,68
+Midnight Run,1988,96
+Last Vegas,2013,46
+Born to Win,1971,40
+Angel Heart,1987,78
+City by the Sea,2002,48
+Cape Fear,1991,76
+Everybody's Fine,2009,46
+Goodfellas,1990,96
+15 Minutes,2001,33
+Mistress,1991,69
+Hide and Seek,2005,13
+The Intern,2015,61
+Awakenings,1990,88
+Joy,2015,60
+Mean Streets,1973,98
+The Deer Hunter,1978,93
+Great Expectations,1998,38
+True Confessions,1981,75
+The Mission,1986,65
+Killing Season,2013,11
+The King of Comedy,1983,90
+New York,1977,67
+Rent,2005,46
+Once Upon a Time in America,1984,89
+Meet the Fockers,2004,38
+Bloody Mama,1970,17
+The Last Tycoon,1976,41
+Grudge Match,2013,29
+Analyze This,1999,69
+The Bridge of San Luis Rey,2005,4
+Guilty by Suspicion,1991,65
+What Just Happened?,2008,51
+Heat,1995,86
+Godsend,2003,4
+Captain Shakespeare,2007,76
+Flawless,1999,43
+Stanley & Iris,1990,29
+Arthur and the Invisibles,2007,21
+Greetings,1968,86
+Little Fockers,2010,10
+Sleepers,1996,74
+Dirty Grandpa,2016,11
+Dear America: Letters Home From Vietnam,1987,100
+Casino,1995,80
+The Fan,1996,38
+Heist,2015,26
+Men of Honor,2000,41'''
+
+with open('deniro.csv', 'w') as file:
+    file.write(text)
+
+csv_document = CSVDocument()
+adapter = CsvToJsonAdapter(delimiter=',')
+print(adapter.get_data("deniro.csv"))
+
+# TEST_4:
+print(issubclass(CsvToJsonAdapter, Document))
+
+# TEST_5:
+text = '''adm_area;district;location;number_of_access_points
+Центральный административный округ;район Якиманка;город Москва, улица Серафимовича, дом 5/16;5
+Центральный административный округ;район Якиманка;город Москва, Болотная набережная, дом 11, строение 1;2
+Центральный административный округ;район Якиманка;город Москва, Болотная набережная, дом 3, строение 2;2
+Центральный административный округ;район Якиманка;город Москва, Болотная улица, дом 10;2
+Центральный административный округ;район Якиманка;город Москва, улица Серафимовича, дом 2, строение 2;2
+Центральный административный округ;район Якиманка;город Москва, улица Балчуг, дом 2;2
+Центральный административный округ;район Арбат;город Москва, Борисоглебский переулок, дом 12;2
+Центральный административный округ;Басманный район;город Москва, Боярский переулок, дом 4, строение 1;2
+Юго-Восточный административный округ;район Марьино;город Москва, Братиславская улица, дом 18, корпус 3;2
+Центральный административный округ;Пресненский район;город Москва, 2-я Брестская улица, дом 37, строение 1;3'''
+
+with open('wifi.csv', 'w') as file:
+    file.write(text)
+
+csv_document = CSVDocument()
+adapter = CsvToJsonAdapter(delimiter=';')
+print(adapter.get_data("wifi.csv"))
+

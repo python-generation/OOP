@@ -1,0 +1,17 @@
+# OUTPUT DATA:
+
+# TEST_1:
+4700
+[{'name': 'Худи', 'price': 2000}, {'name': 'Свитшот', 'price': 1500}, {'name': 'Значок', 'price': 200}, {'name': 'Коврик для мыши', 'price': 1000}]
+4710
+[{'name': 'Худи', 'price': 2000}, {'name': 'Свитшот', 'price': 1500}, {'name': 'Значок', 'price': 200}, {'name': 'Коврик для мыши', 'price': 1000}, {'name': 'Insurance', 'price': 10}]
+
+# TEST_2:
+4700
+3760.0
+
+# TEST_3:
+[{'name': 'Худи', 'price': 2000}, {'name': 'Свитшот', 'price': 1500}, {'name': 'Значок', 'price': 200}, {'name': 'Коврик для мыши', 'price': 1000}, {'name': 'Insurance', 'price': 10}]
+[{'name': 'Худи', 'price': 2000}, {'name': 'Свитшот', 'price': 1500}, {'name': 'Значок', 'price': 200}, {'name': 'Коврик для мыши', 'price': 1000}, {'name': 'Insurance', 'price': 10}]
+[{'name': 'Худи', 'price': 2000}, {'name': 'Свитшот', 'price': 1500}, {'name': 'Значок', 'price': 200}, {'name': 'Коврик для мыши', 'price': 1000}, {'name': 'Insurance', 'price': 10}]
+

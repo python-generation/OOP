@@ -1,0 +1,38 @@
+# INPUT DATA:
+
+# TEST_1:
+message = "Привет! Как твои дела?"
+handler.moderate(message)
+
+# TEST_2:
+message = "Ну ты, конечно, дурак"
+
+try:
+    handler.moderate(message)
+except ValueError as e:
+    print(repr(e))
+
+# TEST_3:
+message = 3.14159
+
+try:
+    handler.moderate(message)
+except TypeError as e:
+    print(repr(e))
+
+# TEST_4:
+message = "Что больше всего на свете волнует людей в интернете"
+
+try:
+    handler.moderate(message)
+except ValueError as e:
+    print(repr(e))
+
+# TEST_5:
+message = "Почему я идиот ? Почему я идиот ?"
+
+try:
+    handler.moderate(message)
+except ValueError as e:
+    print(repr(e))
+

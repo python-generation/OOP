@@ -1,0 +1,25 @@
+# INPUT DATA:
+
+# TEST_1:
+fahrenheit_sensor = FahrenheitSensor()
+adapter = FahrenheitSensorAdapter(fahrenheit_sensor)
+
+celsius = adapter.get_temperature(12)
+print(f"{celsius:.2f} °C")
+
+# TEST_2:
+fahrenheit_sensor = FahrenheitSensor()
+adapter = FahrenheitSensorAdapter(fahrenheit_sensor)
+
+print(f"{adapter.get_temperature(0):.2f} °C")
+
+# TEST_3:
+fahrenheit_sensor = FahrenheitSensor()
+adapter = FahrenheitSensorAdapter(fahrenheit_sensor)
+
+print(f"Температура в Фаренгейтах: {fahrenheit_sensor.read_fahrenheit(20):.2f} °F")
+print(f"Температура в Цельсиях: {adapter.get_temperature(20):.2f} °C")
+
+# TEST_4:
+print(issubclass(FahrenheitSensorAdapter, Sensor))
+

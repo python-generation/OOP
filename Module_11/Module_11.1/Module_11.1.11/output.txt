@@ -1,0 +1,31 @@
+# OUTPUT DATA:
+
+# TEST_1:
+None
+None
+Событие уровня WARNING
+Событие уровня ERROR
+Событие уровня CRITICAL
+
+# TEST_2:
+False
+
+Событие уровня WARNING
+Событие уровня ERROR
+Событие уровня CRITICAL
+
+None
+Событие уровня ERROR
+Событие уровня CRITICAL
+
+# TEST_3:
+True
+
+Событие уровня WARNING
+Событие уровня ERROR
+Событие уровня CRITICAL
+
+Событие уровня WARNING
+Событие уровня ERROR
+Событие уровня CRITICAL
+

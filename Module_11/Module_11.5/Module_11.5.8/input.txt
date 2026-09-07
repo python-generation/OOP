@@ -1,0 +1,36 @@
+# INPUT DATA:
+
+# TEST_1:
+text_view = RawTextView("Beegeek")
+print(text_view.render())
+
+text_view = BoldDecorator(text_view)
+print(text_view.render())
+
+# TEST_2:
+text_view = RawTextView("Beegeek")
+print(text_view.render())
+
+text_view = ItalicDecorator(text_view)
+print(text_view.render())
+
+# TEST_3:
+text_view = RawTextView("Beegeek")
+print(text_view.render())
+
+text_view = BoldDecorator(text_view)
+print(text_view.render())
+
+text_view = ItalicDecorator(text_view)
+print(text_view.render())
+
+# TEST_4:
+text_view = RawTextView("Beegeek")
+print(text_view.render())
+
+text_view = ItalicDecorator(text_view)
+print(text_view.render())
+
+text_view = BoldDecorator(text_view)
+print(text_view.render())
+

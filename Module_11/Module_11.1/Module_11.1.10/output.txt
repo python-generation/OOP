@@ -1,0 +1,8 @@
+# OUTPUT DATA:
+
+# TEST_1:
+False
+
+# TEST_2:
+True
+

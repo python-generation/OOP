@@ -1,0 +1,33 @@
+# OUTPUT DATA:
+
+# TEST_1:
+Email(
+    to='timyrik20@pygen.ru', 
+    subject='Созвон', 
+    cc=[], 
+    bcc=[], 
+    body='Давай завтра созвонимся часов в 10', 
+    priority='normal', 
+    attachments=[]
+)
+
+# TEST_2:
+Email(
+    to='timyrik20@pygen.ru', 
+    subject='Созвон', 
+    cc=['valera@pygen.ru', 'artur_young@pygen.ru', 'artur_old@pygen.ru'], 
+    bcc=['sveta@pygen.ru', 'soslan@pygen.ru'], 
+    body='Давай завтра созвонимся часов в 10', 
+    priority='high', 
+    attachments=['agenda.pdf']
+)
+
+# TEST_3:
+ValueError('Не указана тема письма')
+
+# TEST_4:
+ValueError('Не указан основной получатель письма')
+
+# TEST_5:
+ValueError('Не указан основной получатель письма')
+

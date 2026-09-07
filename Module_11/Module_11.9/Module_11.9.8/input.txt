@@ -1,0 +1,36 @@
+# INPUT DATA:
+
+# TEST_1:
+upper_formatter = UpperCaseFormatter()
+
+editor = TextEditor(upper_formatter)
+editor.publish("pygen students are very cool!")
+
+# TEST_2:
+upper_formatter = UpperCaseFormatter()
+title_formatter = TitleCaseFormatter()
+
+editor = TextEditor(upper_formatter)
+editor.set_formatter(title_formatter)
+editor.publish("pygen students are very cool!")
+
+# TEST_3:
+print(issubclass(UpperCaseFormatter, TextFormatter))
+print(issubclass(TitleCaseFormatter, TextFormatter))
+
+# TEST_4:
+upper_formatter = UpperCaseFormatter()
+title_formatter = TitleCaseFormatter()
+
+editor1 = TextEditor(upper_formatter)
+editor2 = TextEditor(title_formatter)
+
+editor1.publish('beegeek is awesome')
+editor2.publish('beegeek is awesome')
+
+editor1.set_formatter(title_formatter)
+editor2.set_formatter(upper_formatter)
+
+editor1.publish('beegeek is awesome')
+editor2.publish('beegeek is awesome')
+

@@ -1,0 +1,29 @@
+# OUTPUT DATA:
+
+# TEST_1:
+https://example.com
+POST
+{'Content-Type': 'application/json'}
+{'page': 1}
+{"name": "Timur"}
+5000
+
+# TEST_2:
+ValueError('Не указан URL запроса')
+
+# TEST_3:
+https://example.com
+POST
+{'Content-Type': 'application/json'}
+{'page': 1}
+{"name": "Timur"}
+5000
+
+# TEST_4:
+http://example.com
+GET
+{}
+{}
+None
+30000
+

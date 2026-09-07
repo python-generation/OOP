@@ -1,0 +1,61 @@
+# INPUT DATA:
+
+# TEST_1:
+payment = Payment(payment_type='cash', amount=500)
+print(handler.pay(payment))
+
+# TEST_2:
+payment = Payment(payment_type='card', amount=1000)
+print(handler.pay(payment))
+
+# TEST_3:
+payment = Payment(payment_type='card', amount=780)
+print(handler.pay(payment))
+
+# TEST_4:
+payment = Payment(payment_type='cash', amount=501)
+print(handler.pay(payment))
+
+payment = Payment(payment_type='cash', amount=499)
+print(handler.pay(payment))
+
+# TEST_5:
+payment = Payment(payment_type='card', amount=999)
+print(handler.pay(payment))
+
+payment = Payment(payment_type='card', amount=1001)
+print(handler.pay(payment))
+
+# TEST_6:
+payment = Payment(payment_type='card', amount=501)
+print(handler.pay(payment))
+
+payment = Payment(payment_type='card', amount=499)
+print(handler.pay(payment))
+
+payment = Payment(payment_type='cash', amount=999)
+print(handler.pay(payment))
+
+payment = Payment(payment_type='cash', amount=1001)
+print(handler.pay(payment))
+
+# TEST_7:
+print(issubclass(CashHandler, PayHandler))
+print(issubclass(CardHandler, PayHandler))
+
+# TEST_8:
+payment = Payment(payment_type='cash', amount=1800)
+print(handler.pay(payment))
+
+payment = Payment(payment_type='card', amount=1800)
+print(handler.pay(payment))
+
+payment = Payment(payment_type='cash', amount=150)
+print(handler.pay(payment))
+
+payment = Payment(payment_type='card', amount=180)
+print(handler.pay(payment))
+
+payment = Payment(payment_type='crypto', amount=1500)
+print(handler.pay(payment))
+

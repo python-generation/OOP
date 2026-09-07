@@ -1,0 +1,55 @@
+# INPUT DATA:
+
+# TEST_1:
+station = WeatherStation()
+print(station.temperature, station.humidity, station.pressure)
+
+station.set_measurements(25, 65, 768)
+print(station.temperature, station.humidity, station.pressure)
+
+# TEST_2:
+station = WeatherStation()
+condition_display = ConditionsDisplay()
+statistic_display = StatisticsDisplay()
+
+station.register_observer(condition_display)
+station.register_observer(statistic_display)
+
+station.set_measurements(25, 65, 768)
+
+print()
+
+station.set_measurements(23, 72, 749)
+
+# TEST_3:
+station = WeatherStation()
+condition_display = ConditionsDisplay()
+statistic_display = StatisticsDisplay()
+
+station.register_observer(condition_display)
+station.register_observer(statistic_display)
+
+station.set_measurements(25, 65, 768)
+
+station.remove_observer(condition_display)
+
+print()
+
+station.set_measurements(23, 72, 749)
+
+# TEST_4:
+station = WeatherStation()
+condition_display = ConditionsDisplay()
+statistic_display = StatisticsDisplay()
+
+station.register_observer(statistic_display)
+station.register_observer(condition_display)
+
+station.set_measurements(25, 65, 768)
+print()
+station.set_measurements(23, 72, 749)
+
+# TEST_5:
+print(issubclass(ConditionsDisplay, WeatherObserver))
+print(issubclass(StatisticsDisplay, WeatherObserver))
+

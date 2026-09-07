@@ -1,0 +1,48 @@
+# INPUT DATA:
+
+# TEST_1:
+email = (
+    EmailBuilder()
+    .set_to("timyrik20@pygen.ru")
+    .set_subject("Созвон")
+    .set_body("Давай завтра созвонимся часов в 10")
+    .build()
+)
+
+print(email)
+
+# TEST_2:
+email = (EmailBuilder()
+    .set_to("timyrik20@pygen.ru")
+    .set_subject("Созвон")
+    .set_cc(["valera@pygen.ru", "artur_young@pygen.ru"])
+    .set_cc(["artur_old@pygen.ru", "valera@pygen.ru"])
+    .set_bcc(["sveta@pygen.ru"])
+    .set_bcc(["sveta@pygen.ru", "soslan@pygen.ru"])
+    .set_attachment(['agenda.pdf'])
+    .set_body("Давай завтра созвонимся часов в 10")
+    .set_attachment(['agenda.pdf'])
+    .set_priority('high')
+    .build()
+         )
+
+print(email)
+
+# TEST_3:
+try:
+    email = EmailBuilder().set_to("timyrik20@pygen.ru").build()
+except ValueError as e:
+    print(repr(e))
+
+# TEST_4:
+try:
+    email = EmailBuilder().set_subject("Созвон").build()
+except ValueError as e:
+    print(repr(e))
+
+# TEST_5:
+try:
+    email = EmailBuilder().build()
+except ValueError as e:
+    print(repr(e))
+

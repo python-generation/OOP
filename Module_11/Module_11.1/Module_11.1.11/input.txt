@@ -1,0 +1,45 @@
+# INPUT DATA:
+
+# TEST_1:
+logger = Logger('bee', 'WARNING')
+
+print(logger.debug())
+print(logger.info())
+print(logger.warning())
+print(logger.error())
+print(logger.critical())
+
+# TEST_2:
+logger1 = Logger('bee', 'WARNING')
+logger2 = Logger('geek', 'ERROR')
+
+print(logger1 is logger2)
+print()
+
+print(logger1.warning())
+print(logger1.error())
+print(logger1.critical())
+
+print()
+
+print(logger2.warning())
+print(logger2.error())
+print(logger2.critical())
+
+# TEST_3:
+logger1 = Logger('bee', 'WARNING')
+logger2 = Logger('bee', 'ERROR')
+
+print(logger1 is logger2)
+print()
+
+print(logger1.warning())
+print(logger1.error())
+print(logger1.critical())
+
+print()
+
+print(logger2.warning())
+print(logger2.error())
+print(logger2.critical())
+

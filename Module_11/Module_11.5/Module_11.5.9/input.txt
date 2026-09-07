@@ -1,0 +1,41 @@
+# INPUT DATA:
+
+# TEST_1:
+order = SimpleOrder([
+    {"name": "Худи", "price": 2000},
+    {"name": "Свитшот", "price": 1500},
+    {"name": "Значок", "price": 200},
+    {"name": "Коврик для мыши", "price": 1000}
+])
+print(order.get_cost())
+print(order.get_items())
+
+order = InsuranceDecorator(order)
+print(order.get_cost())
+print(order.get_items())
+
+# TEST_2:
+order = SimpleOrder([
+    {"name": "Худи", "price": 2000},
+    {"name": "Свитшот", "price": 1500},
+    {"name": "Значок", "price": 200},
+    {"name": "Коврик для мыши", "price": 1000}
+])
+print(order.get_cost())
+
+order = DiscountDecorator(order, 20)
+print(order.get_cost())
+
+# TEST_3:
+order = SimpleOrder([
+    {"name": "Худи", "price": 2000},
+    {"name": "Свитшот", "price": 1500},
+    {"name": "Значок", "price": 200},
+    {"name": "Коврик для мыши", "price": 1000}
+])
+
+order = InsuranceDecorator(order)
+print(order.get_items())
+print(order.get_items())
+print(order.get_items())
+

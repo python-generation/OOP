@@ -1,0 +1,60 @@
+# INPUT DATA:
+
+# TEST_1:
+facade = OrderFacade()
+
+order = facade.place_order(
+    items=["Худи", "Значок"],
+    card_number="1234",
+    address="Москва, ул. Большая Серпуховская, д. 1",
+    name="Тимур"
+)
+
+print(order)
+
+# TEST_2:
+facade = OrderFacade()
+
+try:
+    order = facade.place_order(
+        items=["Худи", "Значок", "Клавиатура"],
+        card_number="1234",
+        address="Москва, ул. Большая Серпуховская, д. 1",
+        name="Тимур"
+    )
+except ValueError as e:
+    print(repr(e))
+
+# TEST_3:
+facade = OrderFacade()
+
+try:
+    order = facade.place_order(
+        items=["Худи", "Значок"],
+        card_number="0000",
+        address="Москва, ул. Большая Серпуховская, д. 1",
+        name="Тимур"
+    )
+except ValueError as e:
+    print(repr(e))
+
+# TEST_4:
+facade = OrderFacade()
+
+order1 = facade.place_order(
+    items=["Свитшот"],
+    card_number="1234",
+    address="Москва, ул. Большая Серпуховская, д. 1",
+    name="Тимур"
+)
+
+order2 = facade.place_order(
+    items=["Свитшот"],
+    card_number="8493",
+    address="Копейск, ул. Темника, д. 10",
+    name="Валерий"
+)
+
+print(order1)
+print(order2)
+

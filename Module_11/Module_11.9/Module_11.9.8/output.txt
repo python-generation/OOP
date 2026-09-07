@@ -1,0 +1,18 @@
+# OUTPUT DATA:
+
+# TEST_1:
+PYGEN STUDENTS ARE VERY COOL!
+
+# TEST_2:
+Pygen Students Are Very Cool!
+
+# TEST_3:
+True
+True
+
+# TEST_4:
+BEEGEEK IS AWESOME
+Beegeek Is Awesome
+Beegeek Is Awesome
+BEEGEEK IS AWESOME
+

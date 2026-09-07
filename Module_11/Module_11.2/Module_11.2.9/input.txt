@@ -1,0 +1,18 @@
+# INPUT DATA:
+
+# TEST_1:
+email_service = EmailNotificationService()
+email_service.send_notification('Привет, на связи Тимур из "Поколение Python"!')
+
+# TEST_2:
+sms_service = SMSNotificationService()
+sms_service.send_notification('На вашем тарифе осталось 100 бесплатных SMS-сообщений')
+
+# TEST_3:
+push_service = PushNotificationService()
+push_service.send_notification('У вас новое сообщение')
+
+# TEST_4:
+print(issubclass(NotificationService, ABC))
+print(hasattr(NotificationService, 'send_notification'))
+

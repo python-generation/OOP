@@ -1,0 +1,28 @@
+# INPUT DATA:
+
+# TEST_1:
+cirle_drawer = CircleDrawer()
+cirle_drawer.draw()
+
+# TEST_2:
+rectangle_drawer = RectangleDrawer()
+rectangle_drawer.draw()
+
+# TEST_3:
+triangle_drawer = TriangleDrawer()
+triangle_drawer.draw()
+
+# TEST_4:
+circle = CircleDrawer().create_shape()
+rectangle = RectangleDrawer().create_shape()
+triangle = TriangleDrawer().create_shape()
+
+print(circle.radius)
+print(rectangle.height, rectangle.width)
+print(triangle.base, triangle.height)
+
+# TEST_5:
+print(issubclass(ShapeDrawer, ABC))
+print(hasattr(ShapeDrawer, 'create_shape'))
+print(hasattr(ShapeDrawer, 'draw'))
+

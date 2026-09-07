@@ -1,0 +1,20 @@
+# OUTPUT DATA:
+
+# TEST_1:
+Beegeek
+<b>Beegeek</b>
+
+# TEST_2:
+Beegeek
+<i>Beegeek</i>
+
+# TEST_3:
+Beegeek
+<b>Beegeek</b>
+<i><b>Beegeek</b></i>
+
+# TEST_4:
+Beegeek
+<i>Beegeek</i>
+<b><i>Beegeek</i></b>
+

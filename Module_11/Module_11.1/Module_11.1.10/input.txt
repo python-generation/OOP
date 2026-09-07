@@ -1,0 +1,14 @@
+# INPUT DATA:
+
+# TEST_1:
+bee = Multiton('bee')
+geek = Multiton('geek')
+
+print(bee is geek)
+
+# TEST_2:
+bee1 = Multiton('bee')
+bee2 = Multiton('bee')
+
+print(bee1 is bee2)
+

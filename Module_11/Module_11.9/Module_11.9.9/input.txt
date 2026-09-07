@@ -1,0 +1,39 @@
+# INPUT DATA:
+
+# TEST_1:
+economy = EconomyRate()
+taxi = Taxi(economy)
+taxi.calculate(5, 10)
+
+# TEST_2:
+economy = EconomyRate()
+taxi = Taxi(economy)
+
+comfort = ComfortRate()
+taxi.set_rate(comfort)
+
+taxi.calculate(5, 10)
+
+# TEST_3:
+print(issubclass(EconomyRate, TaxiRate))
+print(issubclass(ComfortRate, TaxiRate))
+
+# TEST_4:
+economy = EconomyRate()
+comfort = ComfortRate()
+
+taxi1 = Taxi(economy)
+taxi2 = Taxi(comfort)
+
+taxi1.calculate(27, 40)
+taxi2.calculate(300, 180)
+
+taxi1.set_rate(comfort)
+taxi2.set_rate(economy)
+
+taxi1.calculate(50, 60)
+taxi1.calculate(1000, 780)
+
+# TEST_5:
+print(TaxiRate.base)
+

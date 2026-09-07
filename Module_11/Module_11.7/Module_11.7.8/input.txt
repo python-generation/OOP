@@ -1,0 +1,102 @@
+# INPUT DATA:
+
+# TEST_1:
+fitness = FitnessTracker()
+print(fitness.steps, fitness.active_minutes, fitness.calories)
+
+# TEST_2:
+fitness = FitnessTracker()
+display = LiveActivityDisplay()
+goal = GoalNotifier(10_000)
+
+fitness.register_observer(display)
+fitness.register_observer(goal)
+
+fitness.steps = 8932
+print()
+fitness.active_minutes = 62
+print()
+fitness.calories = 357
+
+# TEST_3:
+fitness = FitnessTracker()
+display = LiveActivityDisplay()
+goal = GoalNotifier(10_000)
+
+fitness.register_observer(display)
+fitness.register_observer(goal)
+
+fitness.steps = 8932
+print()
+fitness.steps += 1068
+print()
+fitness.steps += 472
+
+# TEST_4:
+fitness = FitnessTracker()
+display = LiveActivityDisplay()
+goal = GoalNotifier(5000)
+
+fitness.register_observer(goal)
+fitness.register_observer(display)
+
+fitness.steps = 4300
+print()
+
+fitness.remove_observer(goal)
+fitness.steps += 1800
+
+# TEST_5:
+print(issubclass(LiveActivityDisplay, FitnessObserver))
+print(issubclass(GoalNotifier, FitnessObserver))
+
+# TEST_6:
+fitness = FitnessTracker()
+display = LiveActivityDisplay()
+goal = GoalNotifier(10_000)
+
+fitness.register_observer(goal)
+fitness.register_observer(display)
+
+fitness.steps = 8932
+print()
+fitness.steps += 1783
+print()
+fitness.steps += 472
+print()
+fitness.steps += 111
+print()
+fitness.steps += 254
+
+# TEST_7:
+fitness = FitnessTracker()
+display = LiveActivityDisplay()
+goal = GoalNotifier(5000)
+
+fitness.register_observer(goal)
+fitness.register_observer(display)
+
+fitness.steps = 4999
+print()
+
+fitness.remove_observer(display)
+
+fitness.steps += 1
+fitness.active_minutes += 54
+fitness.calories += 134
+fitness.steps += 777
+
+# TEST_8:
+fitness = FitnessTracker()
+display = LiveActivityDisplay()
+goal = GoalNotifier(10_000)
+
+fitness.register_observer(goal)
+fitness.register_observer(display)
+
+fitness.steps = 8932
+print()
+fitness.calories = 316
+print()
+fitness.calories -= 23
+

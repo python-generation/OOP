@@ -1,0 +1,21 @@
+# INPUT DATA:
+
+# TEST_1:
+lights = SmartLightsSystem()
+thermostat = Thermostat()
+security = SecuritySystem()
+
+lights.on()
+lights.off()
+thermostat.set_temperature(25)
+security.arm()
+security.disarm()
+
+# TEST_2:
+home = SmartHomeFacade()
+home.arrive_home()
+
+# TEST_3:
+home = SmartHomeFacade()
+home.leave_home()
+
