@@ -9,11 +9,10 @@ paf
 
 # TEST_2:
 pif
-paf
-2
+1
 0
 pif
-1
+paf
 
 # TEST_3:
 pif
@@ -75,7 +74,8 @@ pif
 
 # TEST_7:
 pif
-1
+paf
+2
 0
 pif
 paf
