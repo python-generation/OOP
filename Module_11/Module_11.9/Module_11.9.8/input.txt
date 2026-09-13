@@ -8,7 +8,7 @@ editor.publish("pygen students are very cool!")
 
 # TEST_2:
 upper_formatter = UpperCaseFormatter()
-title_formatter = TitleCaseFormatter()
+title_formatter = TitleFormatter()
 
 editor = TextEditor(upper_formatter)
 editor.set_formatter(title_formatter)
@@ -16,11 +16,11 @@ editor.publish("pygen students are very cool!")
 
 # TEST_3:
 print(issubclass(UpperCaseFormatter, TextFormatter))
-print(issubclass(TitleCaseFormatter, TextFormatter))
+print(issubclass(TitleFormatter, TextFormatter))
 
 # TEST_4:
 upper_formatter = UpperCaseFormatter()
-title_formatter = TitleCaseFormatter()
+title_formatter = TitleFormatter()
 
 editor1 = TextEditor(upper_formatter)
 editor2 = TextEditor(title_formatter)
