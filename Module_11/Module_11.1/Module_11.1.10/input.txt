@@ -12,3 +12,21 @@ bee2 = Multiton('bee')
 
 print(bee1 is bee2)
 
+# TEST_3:
+class ReprMultiton(Multiton):
+    def __new__(cls, key):
+        instance = super().__new__(cls, key)
+        instance._key = key
+        return instance
+
+    def __repr__(self):
+        return f'ReprMultiton({self._key!r})'
+
+
+bee = ReprMultiton('bee')
+geek = ReprMultiton('geek')
+
+print(bee is geek)
+print(bee)
+print(geek)
+

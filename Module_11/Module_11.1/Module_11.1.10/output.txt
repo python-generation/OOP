@@ -6,3 +6,8 @@ False
 # TEST_2:
 True
 
+# TEST_3:
+False
+ReprMultiton('bee')
+ReprMultiton('geek')
+
