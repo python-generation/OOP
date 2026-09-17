@@ -9,7 +9,6 @@ Valeriy,Svetkin"""
 with open("file.csv", "w", encoding="utf-8") as csv_file:
     csv_file.write(text)
 
-csv_document = CSVDocument()
 adapter = CsvToJsonAdapter()
 print(adapter.get_data("file.csv"))
 
@@ -23,7 +22,6 @@ Sveta;99"""
 with open("grades.csv", "w", encoding="utf-8") as csv_file:
     csv_file.write(text)
 
-csv_document = CSVDocument()
 adapter = CsvToJsonAdapter(delimiter=';')
 print(adapter.get_data("grades.csv"))
 
@@ -117,7 +115,6 @@ Men of Honor,2000,41'''
 with open('deniro.csv', 'w') as file:
     file.write(text)
 
-csv_document = CSVDocument()
 adapter = CsvToJsonAdapter(delimiter=',')
 print(adapter.get_data("deniro.csv"))
 
@@ -140,7 +137,6 @@ text = '''adm_area;district;location;number_of_access_points
 with open('wifi.csv', 'w') as file:
     file.write(text)
 
-csv_document = CSVDocument()
 adapter = CsvToJsonAdapter(delimiter=';')
 print(adapter.get_data("wifi.csv"))
 
