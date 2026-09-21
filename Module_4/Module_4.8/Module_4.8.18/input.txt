@@ -28,3 +28,16 @@ for item in not_supported:
     except TypeError as e:
         print(e)
 
+# TEST_6:
+formatter = Formatter()
+formatter.format(10)
+formatter.format(3.14159)
+formatter.format(['bee', 'geek', 'pygen'])
+formatter.format(('bee', 'geek', 'pygen'))
+formatter.format({1: 'one', 2: 'two'})
+
+try:
+    formatter.format('All them years, Dutch, for this snake?')
+except TypeError as e:
+    print(repr(e))
+
