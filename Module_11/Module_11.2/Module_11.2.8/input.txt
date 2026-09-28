@@ -1,8 +1,8 @@
 # INPUT DATA:
 
 # TEST_1:
-cirle_drawer = CircleDrawer()
-cirle_drawer.draw()
+circle_drawer = CircleDrawer()
+circle_drawer.draw()
 
 # TEST_2:
 rectangle_drawer = RectangleDrawer()
