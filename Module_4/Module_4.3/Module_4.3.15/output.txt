@@ -22,12 +22,12 @@
 []
 
 # TEST_7:
-['Россум']
-['Россум', 'Гейтс', 'Бэкус', 'Кнут']
+['Turing', 'Backus']
+['Turing', 'Torvalds', 'van Rossum', 'Hamilton', 'Backus', 'Knuth']
 
 # TEST_8:
-['Лейбниц', 'Бэббидж', 'Нейман', 'Джобс', 'да_Винчи', 'Касперский', 'Гуев', 'Харисов', 'Светкин']
-['Лейбниц', 'Бэббидж', 'Нейман', 'Джобс', 'да_Винчи', 'Касперский']
+['Leibniz', 'Babbage', 'Neumann', 'Jobs', 'da Vinci', 'Kaspersky', 'Guev', 'Kharisov', 'Svetkin']
+['Leibniz', 'Babbage', 'Neumann', 'Jobs', 'da Vinci', 'Kaspersky']
 
 # TEST_9:
 ['a', 'arthur', 'timur', 'bee', 'geek', 'python', 'stepik']

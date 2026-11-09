@@ -36,16 +36,16 @@ wordplay = Wordplay()
 print(wordplay.words)
 
 # TEST_7:
-wordplay = Wordplay(['Тьюринг', 'Торвальдс', 'Россум', 'Гейтс', 'Гамильтон', 'Бэкус', 'Кнут'])
+wordplay = Wordplay(['Turing', 'Torvalds', 'Rossum', 'Gates', 'Hamilton', 'Backus', 'Knuth'])
 
 print(wordplay.words_with_length(6))
-print(wordplay.avoid('ь'))
+print(wordplay.avoid('e'))
 
 # TEST_8:
-words = ['Лейбниц', 'Бэббидж', 'Нейман', 'Джобс', 'да_Винчи', 'Касперский']
+words = ['Leibniz', 'Babbage', 'Neumann', 'Jobs', 'da Vinci', 'Kaspersky']
 wordplay = Wordplay(words)
 
-words.extend(['Гуев', 'Харисов', 'Светкин'])
+words.extend(['Guev', 'Kharisov', 'Svetkin'])
 print(words)
 print(wordplay.words)
 
