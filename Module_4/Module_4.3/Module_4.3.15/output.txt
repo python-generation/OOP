@@ -22,8 +22,8 @@
 []
 
 # TEST_7:
-['Turing', 'Backus']
-['Turing', 'Torvalds', 'van Rossum', 'Hamilton', 'Backus', 'Knuth']
+['Turing', 'Rossum', 'Backus']
+['Turing', 'Torvalds', 'Rossum', 'Hamilton', 'Backus', 'Knuth']
 
 # TEST_8:
 ['Leibniz', 'Babbage', 'Neumann', 'Jobs', 'da Vinci', 'Kaspersky', 'Guev', 'Kharisov', 'Svetkin']
